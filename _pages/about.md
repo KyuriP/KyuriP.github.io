@@ -20,7 +20,7 @@ social: true  # includes social icons at the bottom of the page
 I am a 2nd year Master's student in Methodology and Statistics for the Behavioural, Biomedical and Social Sciences <a href='https://www.uu.nl/masters/en/methodology-and-statistics-behavioural-biomedical-and-social-sciences'>(MSBSS)</a> at Utrehct University.
 Currently, I am working as a student assistant for the Human Data Science group <a href='https://hds.sites.uu.nl/'>(HDS)</a> at Utrehct University. As part of my thesis project, I am working on causal modeling (e.g., discovering cyclic causal models, causal discovery algorithms) together with Dr. <a href='https://oisinryan.org/'>Oisín Ryan</a>.
 
-I previously studied Psychological Methods at University of Amsterdam, where I first leanred about psychometrics, formal modeling of human cognition, and Bayesian modelling framework. For my thesis, I investigated the effects of integrating a slow-changing variable to a fast-changing symptom network on the network structure.
+I previously studied Psychological Methods at University of Amsterdam, where I first leanred about psychometrics, formal modeling of human cognition, and Bayesian modelling framework. For my thesis, I investigated the effects of integrating a slow-changing variable to a fast-changing symptom network on the network structure under the supervision of Prof. dr. <a href='https://dennyborsboom.com/'>Denny Borsboom</a>. and Dr. <a href='https://cvborkulo.com/'>Claudia van Borkulo</a>.
 
 Besides academic stuff, I love traveling, taking pictures, and walking/running/playing with my dogs. :dog:
 
