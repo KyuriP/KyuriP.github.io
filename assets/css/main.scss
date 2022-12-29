@@ -13,3 +13,10 @@ $max-content-width: {{ site.max_width }};
   "base",
   "distill"
 ;
+
+.profile {
+  // margin-right: 1.5rem;
+  margin-top: 1rem;
+  margin-bottom: 5rem;
+  width: 35%;
+}
