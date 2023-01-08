@@ -4,7 +4,7 @@
 
 title: Kyuri Park
 first_name: Kyuri
-middle_name: 
+middle_name: (Grace)
 last_name: Park
 email: kyurheep@gmail.com
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
@@ -19,7 +19,7 @@ icon: boris_donna.jpg  # the emoji used as the favicon (alternatively, provide i
 
 url: https://kyuripark.github.io # the base hostname & protocol for your site
 baseurl:  # the subpath of your site, e.g. /blog/
-last_updated: false # set to true if you want to display last updated in the footer
+last_updated: true # set to true if you want to display last updated in the footer
 impressum_path:  # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
 
 # -----------------------------------------------------------------------------
