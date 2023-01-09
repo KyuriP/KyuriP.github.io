@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Network Analysis course at University of Amsterdam has finished
+title: Finished Network Analysis course at University of Amsterdam
 date: 2022-12-22 16:11:00-0400
 inline: false
 ---

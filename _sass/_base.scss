@@ -7,6 +7,7 @@
 p, h1, h2, h3, h4, h5, h6, em, div, li, span, strong {
   font-family: 'Raleway', sans-serif;
   color: var(--global-text-color);
+  font-weight: 600;
 }
 
 hr {
@@ -110,8 +111,11 @@ blockquote {
   .address {
     margin-bottom: 3px;
     margin-top: 3px;
-    font-family: monospace;
-    font-size: 14px;
+    font-family: 'Raleway';
+    font-size: 16px;
+    text-align: center;
+    // font-family: monospace;
+    // font-size: 14px;
     p {
       display: inline-block;
       margin: 0;
@@ -265,12 +269,14 @@ blockquote {
   text-align: center;
   .contact-icons {
     font-size: 1.5rem;
-    margin-top: 50px;
+    // margin-top: 30px;
     a {
       i::before {
         color: var(--global-text-color);
         transition-property: all 0.2s ease-in-out;
-        margin-right: 20px;
+        margin-left: 22px;
+        margin-right: 22px;
+        // margin-right: 20px;
       }
       &:hover {
         i::before {
