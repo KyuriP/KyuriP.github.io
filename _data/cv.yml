@@ -6,7 +6,7 @@
     - name: Location
       value: Amsterdam, the Netherlands
     - name: Email
-      value: <a href="mailto:kpark@uu.nl">kpark@uu.nl</a>
+      value: <a href="mailto:k.park@uu.nl">kpark@uu.nl</a>
     - name: Languages
       value: English, Korean
 
@@ -41,6 +41,7 @@
       institution: Utrecht University
       year: 2021 - present
       description:
+        - Establish a more accessible approach (for empirical researchers) to evaluate the validity of imputation models by utilizing synthetic data sets.
         - Worked on establishing a procedure for exporting synthetic data based on real data at Statistics Netherlands (CBS).
         - Converted MATLAB code for Bayesian piecewise linear regression model for dynamic network construction to R code.
         - Together with Dr. Erik-Jan van Kestere, published an R package called <a href = https://github.com/sodascience/synthpop.extract>synthpop.extract</a>.
