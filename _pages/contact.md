@@ -10,10 +10,6 @@ nav_order: 5
 <form method="POST" action="https://formspree.io/f/mayzyzyz">
     <input type="email" name="email" placeholder="Your email">
     <input type="text" name="name" placeholder="Your name">
-    <label>
-    Your message:
-    <textarea name="message" placeholder="Your message" rows="5">
-    </textarea>
-    </label>
+    <textarea name="message" placeholder="Your message" rows="5"></textarea>
     <button type="submit">Send Message</button>
   </form>
