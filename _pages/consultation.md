@@ -13,7 +13,7 @@ I am generally interested in a broad range of topics related to statistics encom
 I am always open to discussing any statistical problems regarding data analysis, visualization, and model estimation & interpretation.
 <br>
 <br>
-If you have any trouble with your analysis and want to discuss, you can reach me at: <a href="mailto:k.park@uu.nl">k.park@uu.nl</a>.
+If you have any trouble with your analysis and want to discuss, you can reach me at: <a href="mailto:k.park@uu.nl" target="_blank">k.park@uu.nl</a>.
 </p>
 <img class="containerconsult__image">
 {% include figure.html path="assets/img/consultlogo.jpeg" title="header" class="img-fluid rounded z-depth-1" %}
