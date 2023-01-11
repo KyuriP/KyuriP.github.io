@@ -1,13 +1,15 @@
 ---
 layout: page
-title: submenus
+title: contact
 nav: true
 nav_order: 6
 dropdown: true
 children: 
-    - title: publications
-      permalink: /publications/
+    - title: consultation
+      permalink: /consultation/
     - title: divider
-    - title: projects
-      permalink: /projects/
+    - title: general
+      permalink: /contact/
 ---
+
+Hello!

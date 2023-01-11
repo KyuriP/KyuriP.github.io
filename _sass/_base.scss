@@ -45,6 +45,7 @@ a, table.table a {
 
 figure, img {
   max-width: 90vw;
+  text-align: center;
 }
 
 blockquote {
@@ -106,7 +107,7 @@ blockquote {
 .profile {
   margin-right: 1.5rem;
   width: 100%;
-  margin-bottom: 10px;
+  margin-bottom: 10rem;
 
   .address {
     margin-bottom: 3px;
@@ -129,7 +130,7 @@ blockquote {
 
 @media (min-width: 576px) {
   .profile {
-    width: 30%;
+    width: 35%;
     .address {
       p { display: block; }
     }
@@ -138,7 +139,7 @@ blockquote {
 
 .post-description {
   margin-bottom: 2rem;
-  font-size: 0.875rem;
+  font-size: 1rem;
   a {
     color: inherit;
     &:hover {
@@ -274,8 +275,8 @@ blockquote {
       i::before {
         color: var(--global-text-color);
         transition-property: all 0.2s ease-in-out;
-        margin-left: 22px;
-        margin-right: 22px;
+        margin-left: 10px;
+        margin-right: 10fpx;
         // margin-right: 20px;
       }
       &:hover {
@@ -618,6 +619,7 @@ footer.sticky-bottom {
 // Rouge Color Customization
 figure.highlight {
   margin: 0 0 1rem;
+  text-align: center
 }
 
 pre {

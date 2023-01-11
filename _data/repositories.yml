@@ -2,10 +2,10 @@ github_users:
   - KyuriP
 
 github_repos:
-  - alshedivat/al-folio
-  - twbs/bootstrap
-  - jekyll/jekyll
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - jpswalsh/academicons
-  - mathjax/MathJax
+  - sodascience/synthpop.extract
+  - KyuriP/Network-analysis
+  - KyuriP/Bayesian_network_matlab_to_R
+  - KyuriP/Bayesian-stat
+  - KyuriP/Shiny_chatdata
+  - KyuriP/Supervised-Learning-and-Visualization
+  - KyuriP/Psychometrics

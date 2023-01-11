@@ -2,7 +2,7 @@
 layout: post
 date: 2022-12-15 16:11:00-0400
 inline: false
-title: synthpop.extract package is now published
+title: synthpop.extract package is now published.
 ---
 
 With <a href="https://erikjanvankesteren.nl/">Erik-Jan</a>, I've worked on making a R package called `synthpop.extract`. It aims to help establishing a stable procedure for exporting synthetic datasets based on real data at Statistics Netherlands <a href="https://www.cbs.nl/en-gb">(CBS)</a>.
