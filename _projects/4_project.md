@@ -28,7 +28,7 @@ Maybe I will give it another go some day! :wink:
     </div>
 </div>
 <div class="caption">
- The very first attempt, a total failure! He says he doesn't like this! 
+ The very first attempt, a total failure! He says he doesn't like it! 
 </div>
 
 <div class="row" id="dog">
