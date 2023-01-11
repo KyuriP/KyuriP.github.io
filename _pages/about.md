@@ -6,7 +6,7 @@ subtitle: Master's student in Methodology and Statistics
 
 profile:
   align: left
-  image: kyuri2square.png
+  image: Kyuri2square.png
   image_circular: true # crops the image to make it circular
   address: >
     Statistican(ish) <span>&#183;</span>
