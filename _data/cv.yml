@@ -44,7 +44,7 @@
         - Establish a more accessible approach (for empirical researchers) to evaluate the validity of imputation models by utilizing synthetic data sets.
         - Worked on establishing a procedure for exporting synthetic data based on real data at Statistics Netherlands (CBS).
         - Converted MATLAB code for Bayesian piecewise linear regression model for dynamic network construction to R code.
-        - Together with Dr. Erik-Jan van Kestere, published an R package called <a href = https://github.com/sodascience/synthpop.extract>synthpop.extract</a>.
+        - Together with Dr. Erik-Jan van Kesteren, published an R package called <a href = https://github.com/sodascience/synthpop.extract>synthpop.extract</a>.
         - With Dr. Noémi Schuurman, coded qualitative data from empirical psychological network papers using NVivo.
         - Organize content-oriented meetings and Data Science Reading group meetings.
         - Created course meterials such as practical assignments for the Data Wrangling course.
