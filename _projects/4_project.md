@@ -2,7 +2,6 @@
 layout: page
 title: D.I.Y. dog clothes
 description: First attempt to make clothes for my dogs.
-img:
 importance: 3
 img: /assets/img/DIYdog.png
 category: fun
