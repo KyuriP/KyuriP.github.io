@@ -39,9 +39,10 @@
   contents:
     - title: Student Assistant, Research Assistant
       institution: Utrecht University
-      year: 2021 - present
+      year: 2021 - 2023
       description:
-        - Establish a more accessible approach (for empirical researchers) to evaluate the validity of imputation models by utilizing synthetic data sets.
+        - Enhanced the additional features of an R package <a href = https://github.com/emmekeaarts/mHMMbayes>mHMMbayes</a> (Multilevel Hidden Markov Models Using Bayesian Estimation) and create tutorials. 
+        - Established a more accessible approach (for empirical researchers) to evaluate the validity of imputation models by utilizing synthetic data sets.
         - Worked on establishing a procedure for exporting synthetic data based on real data at Statistics Netherlands (CBS).
         - Converted MATLAB code for Bayesian piecewise linear regression model for dynamic network construction to R code.
         - Together with Dr. Erik-Jan van Kesteren, published an R package called <a href = https://github.com/sodascience/synthpop.extract>synthpop.extract</a>.
