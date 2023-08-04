@@ -26,16 +26,14 @@ social: true  # includes social icons at the bottom of the page
 
 <p class = bio> 
 <h3>Bio</h3>
-I am a 2nd year Master's student in Methodology and Statistics for the Behavioural, Biomedical and Social Sciences <a href='https://www.uu.nl/masters/en/methodology-and-statistics-behavioural-biomedical-and-social-sciences'>(MSBSS)</a> at <a href='https://www.uu.nl'>Utrecht University</a>.
-Currently, I am working as a student assistant for the Human Data Science group <a href='https://hds.sites.uu.nl/'>(HDS)</a> at Utrecht University and as a research assistant of Dr. <a href = "https://www.gerkovink.com/">Gerko Vink</a> working on a project about synthetic data. As part of my thesis project, I am working on causal modeling (e.g., cyclic causal models, causal discovery algorithms) together with Dr. <a href='https://oisinryan.org/'>Oisín Ryan</a>.
+I am currently a PhD candidate at the <a href = 'https://uva.computationalscience.nl/'>Computational Science Lab</a> within the Informatics Institute at the <a href = 'https://ivi.uva.nl/research/computational-science-lab-csl.html'> University of Amsterdam </a>, where I am supervised by Dr. <a href = 'https://vvvasconcelos.github.io/'>Vítor V. Vasconcelos</a> and Dr. <a href = 'https://mhlees.com/'>Michael Lees</a>. My research focuses on building computational models of the mechanisms of psychopathology and their interconnected systems using system dynamics models (SDM). Also, I am particuarly interested in estimating (cyclic) causal models that can help substantiate and test putative causal mechanisms proposed by SDMs.
 <br>
 <br>
-I previously studied <a href = "https://psyres.uva.nl/content/research-groups/programme-group-psychological-methods/programme-group-psychological-methods.html?cb">Psychological Methods </a> at <a href = "https://www.uva.nl/en">University of Amsterdam</a>, where I first leanred about psychometrics, formal modeling of human cognition, and Bayesian modelling framework. For my thesis, I investigated the effects of integrating varaiables operating on different time scales into a single network model on network density, under the supervision of Prof. dr. <a href='https://dennyborsboom.com/'>Denny Borsboom</a>. and Dr. <a href='https://cvborkulo.com/'>Claudia van Borkulo</a>.
+I completed my Master's degree in Methodology and Statistics at <a href='https://www.uu.nl'>Utrecht University</a>, which involved working on causal modeling (i.e., estimating cyclic causal models using causal discovery algorithms) under the guidance of Dr. <a href='https://oisinryan.org/'>Oisín Ryan</a>. I previously studied <a href = "https://psyres.uva.nl/content/research-groups/programme-group-psychological-methods/programme-group-psychological-methods.html?cb">Psychological Methods </a> at <a href = "https://www.uva.nl/en">University of Amsterdam</a>, where I first leanred about psychometrics, formal modeling of human cognition, and Bayesian modelling framework. For my Bachelor's thesis, I investigated the integration of variables operating on different time scales into a single network model, specifically analyzing its impact on network density, under the supervision of Prof. Dr. <a href='https://dennyborsboom.com/'>Denny Borsboom</a> and Dr. <a href='https://cvborkulo.com/'>Claudia van Borkulo</a>.
 <br>
 <br>
 Besides academic stuff, I love having a good cup of coffee, traveling, taking photos, and walking in bos (forest) with my dogs. I'm not a professional photographer of course, but I love taking photos wherever I travel or just any random things in my everyday life. 
 </p>
-<br>
 <hr>
 
 
