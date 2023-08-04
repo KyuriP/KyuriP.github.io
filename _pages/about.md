@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Master's student in Methodology and Statistics 
+subtitle: PhD candidate at the Computational Science Lab
 
 profile:
   align: left
