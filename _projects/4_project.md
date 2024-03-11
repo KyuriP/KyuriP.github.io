@@ -5,6 +5,8 @@ description: First attempt to make clothes for my dogs.
 importance: 3
 img: /assets/img/DIYdog.png
 category: fun
+published: false
+
 ---
 
 Recently I cleaned out my closet and found a bunch I wouldn't wear.
