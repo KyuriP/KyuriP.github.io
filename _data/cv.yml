@@ -31,7 +31,7 @@
       institution: University of Houston
       year: 2017
       description:
-        - Exchange Student at Mount Royal University, Calgary, Alberta, Canada	
+        - Specialization in Finance Management and Accounting
         - GPA  3.94 / 4.00
 
 - title: Experience
@@ -122,9 +122,9 @@
         - Machine (deep) learning
 
 
-- title: Other Interests
-  type: list
-  contents:
-    - <u>Programming :</u> R is the main lanugage I use, but I also program in Python and MATLAB. Currently learning C++.
-    - <u>Travel :</u> My goal is to visit all 50 states! My next target is Hawaii! 
-    - <u>Taking Photos :</u> I don't have any fancy cameras, but I do like taking some random photos of the mundane moments in life. 
+# - title: Other Interests
+#   type: list
+#   contents:
+#     - <u>Programming :</u> R is the main lanugage I use, but I also program in Python and MATLAB. Currently learning C++.
+#     - <u>Travel :</u> My goal is to visit all 50 states! My next target is Hawaii! 
+#     - <u>Taking Photos :</u> I don't have any fancy cameras, but I do like taking some random photos of the mundane moments in life. 

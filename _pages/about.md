@@ -9,8 +9,8 @@ profile:
   image: Kyuri2square.png
   image_circular: true # crops the image to make it circular
   address: >
-    Statistican(ish) <span>&#183;</span>
-    Data scientist <span>&#183;</span> <br>
+    Fan of complex systems and dynamical models <span>&#183;</span>
+    with a love for networks and causal puzzles <span>&#183;</span> <br>
     ... currently in the Netherlands 
 # Coffee addict :coffee: <span>&#183;</span>
 # Dog mom :dog: <span>&#183;</span>
@@ -26,15 +26,15 @@ social: true  # includes social icons at the bottom of the page
 
 <p class = bio> 
 <h3>Bio</h3>
-I am currently a PhD candidate at the <a href = 'https://uva.computationalscience.nl/'>Computational Science Lab</a> within the Informatics Institute at the <a href = 'https://ivi.uva.nl/research/computational-science-lab-csl.html'> University of Amsterdam </a>, where I am supervised by Dr. <a href = 'https://vvvasconcelos.github.io/'>Vítor V. Vasconcelos</a> and Dr. <a href = 'https://mhlees.com/'>Michael Lees</a>. My research focuses on building computational models of the mechanisms of psychopathology and their interconnected systems using system dynamics models (SDM). Also, I am particuarly interested in estimating (cyclic) causal models that can help substantiate and test putative causal mechanisms proposed by SDMs.
+I am currently a PhD candidate at the <a href = 'https://uva.computationalscience.nl/'>Computational Science Lab</a> within the Informatics Institute at the <a href = 'https://ivi.uva.nl/research/computational-science-lab-csl.html'> University of Amsterdam </a>, where I am supervised by Dr. <a href = 'https://vvvasconcelos.github.io/'>Vítor V. Vasconcelos</a> and Dr. <a href = 'https://mhlees.com/'>Michael Lees</a>. My research focuses on computational modeling of complex dynamical systems, with an emphasis on (mental) health systems. I also have a strong interest in causality, particularly in estimating causal graphs.
 <br>
 <br>
-I completed my Master's degree in Methodology and Statistics at <a href='https://www.uu.nl'>Utrecht University</a>, which involved working on causal modeling (i.e., estimating cyclic causal models using causal discovery algorithms) under the guidance of Dr. <a href='https://oisinryan.org/'>Oisín Ryan</a>. I previously studied <a href = "https://psyres.uva.nl/content/research-groups/programme-group-psychological-methods/programme-group-psychological-methods.html?cb">Psychological Methods </a> at <a href = "https://www.uva.nl/en">University of Amsterdam</a>, where I first leanred about psychometrics, formal modeling of human cognition, and Bayesian modelling framework. For my Bachelor's thesis, I investigated the integration of variables operating on different time scales into a single network model, specifically analyzing its impact on network density, under the supervision of Prof. Dr. <a href='https://dennyborsboom.com/'>Denny Borsboom</a> and Dr. <a href='https://cvborkulo.com/'>Claudia van Borkulo</a>.
-<br>
-<br>
-Besides academic stuff, I love having a good cup of coffee, traveling, taking photos, and walking in bos (forest) with my dogs. I'm not a professional photographer of course, but I love taking photos wherever I travel or just any random things in my everyday life. 
+I completed my Master's in Methodology and Statistics at <a href='https://www.uu.nl'>Utrecht University</a>, where I worked on causal modeling, specifically estimating cyclic causal models using discovery algorithms, under Dr. <a href='https://oisinryan.org/'>Oisín Ryan</a>. Prior to that, I studied <a href='https://psyres.uva.nl/content/research-groups/programme-group-psychological-methods/programme-group-psychological-methods.html?cb'>Psychological Methods</a> at the <a href='https://www.uva.nl/en'>University of Amsterdam</a>, where I learned about psychometrics, formal modeling of cognition, and Bayesian modeling. For my Bachelor's thesis, I explored the integration of variables with different time scales into a single network model and its impact on network density, supervised by Prof. Dr. <a href='https://dennyborsboom.com/'>Denny Borsboom</a> and Dr. <a href='https://cvborkulo.com/'>Claudia van Borkulo</a>.
+<!-- <br>
+<br> -->
+<!-- When I’m not working, you’ll probably find me with a cup of coffee in hand, exploring new cafes around Amsterdam or snapping amateur photos of my dogs. I love wandering through national parks with them and checking out cute Dutch villages, especially during fruit-picking season. I’ll take a picture of just about anything—whether it’s a new travel spot or something random that catches my eye during the day!
 </p>
-<hr>
+<hr> -->
 
 
 

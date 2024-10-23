@@ -4,7 +4,7 @@ permalink: /repositories/
 title: repositories
 description: I try to make all possible projects public on GitHub.
 
-nav: true
+nav: false
 nav_order: 3
 published: true
 ---
