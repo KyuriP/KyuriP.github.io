@@ -37,16 +37,25 @@
 - title: Experience
   type: time_table
   contents:
+      - title: PhD, Teaching Assistant
+      institution: University of Amsterdam
+      year: 2023 - 2024
+      description:
+         - "Teaching Assistant for <em>'Complexity: Can it be Simplified?'</em>, an undergraduate elective on Complexity Science, including an honors track, taught by Dr. <a href='https://www.vvvasconcelos.net/'>Vítor V. Vasconcelos</a>."
+         - "Audited <em>'Modeling System Dynamics'</em>, a graduate-level course on System Dynamics for the MSc Information Studies, led by Dr. Debraj Roy."
+         - "Teaching Assistant for <em>'Causality'</em>, a graduate course covering topics such as causal graphs and potential outcomes, taught by Dr. <a href='https://saramagliacane.github.io/'>Sara Magliacane</a>."
+         - "Supervised the thesis project of Xinhai Li, a Master's student in the Computational Science program."
+
     - title: Student Assistant, Research Assistant
       institution: Utrecht University
       year: 2021 - 2023
       description:
         - Enhanced the additional features of an R package <a href = https://github.com/emmekeaarts/mHMMbayes>mHMMbayes</a> (Multilevel Hidden Markov Models Using Bayesian Estimation) and create tutorials. 
-        - Established a more accessible approach (for empirical researchers) to evaluate the validity of imputation models by utilizing synthetic data sets.
+        - Established a more accessible approach to evaluate the validity of imputation models by utilizing synthetic data sets.
         - Worked on establishing a procedure for exporting synthetic data based on real data at Statistics Netherlands (CBS).
         - Converted MATLAB code for Bayesian piecewise linear regression model for dynamic network construction to R code.
         - Together with Dr. Erik-Jan van Kesteren, published an R package called <a href = https://github.com/sodascience/synthpop.extract>synthpop.extract</a>.
-        - With Dr. Noémi Schuurman, coded qualitative data from empirical psychological network papers using NVivo.
+        - With Dr. Noémi Schuurman, coded qualitative data from psychological network papers using NVivo.
         - Organize content-oriented meetings and Data Science Reading group meetings.
         - Created course meterials such as practical assignments for the Data Wrangling course.
         - Helped Dr. Laura Boeschoten with organizing <a href="https://hds.sites.uu.nl/2022/01/15/data-donation-day/">Data Donation Day</a>.
@@ -63,7 +72,6 @@
       description:
         - Student assistant of Dr. Bastiaan Rutjens; worked on the “Meta-analysis on Science Skepticism” project.
         - Teaching assistant of Prof. dr. Han van der Mass for the "AI and Psychology" course.
-        - Teaching assistant of Dr. Maja Wrzesien for the Mindfulness course.
         - Organized major school events such as Bachelor’s Day and Orientation Day.
         - Managed UvA social media accounts and supported marketing activities.
         - Worked on creating tutorials for <a href= https://jasp-stats.org/> JASP </a>.
