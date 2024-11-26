@@ -118,12 +118,12 @@
   contents:
     - title: Network Analysis
       items: 
-        - Network theory (in Psychology)
+        - Network theory 
         - Psychometric network models 
-    - title: Causal Inference 
+    - title: Causality 
       items:
         - Graphical models
-        - Causal discovery methods
+        - Causal discovery 
     - title: Data Science
       items:
         - Behavioral data analysis
