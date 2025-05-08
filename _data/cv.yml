@@ -102,6 +102,12 @@
 - title: Scholorships and Honors 
   type: time_table
   contents:
+    - year: July 2025
+      items: Travel Award for IMPS 2025  
+        - 
+    - year: April 2025 
+      items: 
+        - Energy transition through the Lens of SDGs (ENLENS) research grant 2025   
     - year: 2021 - 2023
       items: 
         - Utrecht Excellence Scholarships, Utrecht University
@@ -116,6 +122,10 @@
 - title: Academic Interests
   type: nested_list
   contents:
+    - title: Complex Systems
+      items: 
+        - Dynamical systems modeling 
+        - Emergent Behavior
     - title: Network Analysis
       items: 
         - Network theory 
@@ -124,10 +134,7 @@
       items:
         - Graphical models
         - Causal discovery 
-    - title: Data Science
-      items:
-        - Behavioral data analysis
-        - Machine (deep) learning
+
 
 
 # - title: Other Interests
