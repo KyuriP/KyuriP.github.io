@@ -102,9 +102,13 @@
 - title: Scholorships and Honors 
   type: time_table
   contents:
+
+    - year: November 2025
+      items: 
+        - Bridge grant - yrCSS - Complex Systems Society
     - year: July 2025
-      items: Travel Award for IMPS 2025  
-        
+      items: 
+        - Travel Award for IMPS 2025     
     - year: April 2025 
       items: 
         - Energy transition through the Lens of SDGs (ENLENS) research grant 2025   
@@ -113,8 +117,7 @@
         - Utrecht Excellence Scholarships, Utrecht University
     - year: 2017
       items: 
-        - Scholarship Excellence Award (top honors), University of Houston    
-    
+        - Scholarship Excellence Award (top honors), University of Houston      
     - year: 2015 - 2017
       items: 
         - UH Academic Excellence Scholarship, University of Houston	       
