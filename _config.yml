@@ -144,6 +144,8 @@ news_limit: 5 # leave blank to include all the news in the `_news` folder
 # Jekyll settings
 # -----------------------------------------------------------------------------
 
+future: true
+
 # Markdown and syntax highlight
 markdown: kramdown
 highlighter: rouge
