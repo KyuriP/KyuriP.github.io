@@ -1,6 +1,6 @@
 ---
 layout: post
-date: 2022-12-15 16:11:00-0400
+date: 2026-06-09 16:11:00-0400
 inline: false
 title: SantaFe Summer School 2026
 ---
