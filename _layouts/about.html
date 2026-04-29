@@ -54,12 +54,10 @@ layout: default
             {{ content }}
           </div>
 
-          {% comment %}
           <!-- News -->
           {% if page.news -%}
             {%- include news.html %}
           {%- endif %}
-          {% endcomment %}
 
           {% if page.selected_papers -%}
             <!-- Selected papers -->
