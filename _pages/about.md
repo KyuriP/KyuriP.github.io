@@ -6,7 +6,7 @@ subtitle: PhD candidate at the Computational Science Lab
 
 profile:
   align: left
-  image: Kyuri2square.png
+  image: kyuri_profile.png
   image_circular: true # crops the image to make it circular
   address: >
     Fan of complex systems and dynamical models <span>&#183;</span>
