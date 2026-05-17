@@ -8,7 +8,7 @@
     - name: Email
       value: <a href="mailto:kyurheep@gmail.com">kyurheep@gmail.com</a>
     - name: Languages
-      value: English, Korean
+      value: English, Korean, Dutch
 
 - title: Education
   type: time_table
