@@ -1,8 +1,8 @@
 ---
 layout: post
-title: In Chicago for the Summer
-date: 2026-07-01 15:59:00-0500
+title: IMPS Conference in Seoul
+date: 2026-07-20 15:59:00-0500
 inline: false
 ---
 
-I’ll be around the Chicago area until the end of summer. Feel free to reach out if you’re nearby! :)
+I’m excited to attend the IMPS conference in Seoul and give a talk, with support from the IMPS travel grant.
