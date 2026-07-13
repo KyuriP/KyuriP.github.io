@@ -3,6 +3,8 @@ layout: post
 title: Visiting Stanford 
 date: 2026-03-07 15:59:00-0700
 inline: false
+published: false
+
 ---
 
 I’m visiting the Stanford Doerr School of Sustainability until the end of June. I’d love to connect with anyone around Stanford working on mental health, climate attitudes, social norms, causal inference, network analysis, or complex systems.
