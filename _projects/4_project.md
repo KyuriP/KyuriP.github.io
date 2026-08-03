@@ -1,4 +1,4 @@
-<!-- ---
+---
 layout: page
 title: D.I.Y. dog clothes
 description: First attempt to make clothes for my dogs.
@@ -9,7 +9,7 @@ category: fun
 
 Recently I cleaned out my closet and found a bunch I wouldn't wear.
 Then, I thought: "why don't I try making clothes for my dogs?" 
-I instantly looked up D.I.Y. dog clothes on the Internet, and followed the Wikihow "Easy and Fun DIY Dog Outfts"
+I instantly looked up D.I.Y. dog clothes on the Internet, and followed the Wikihow "Easy and Fun DIY Dog Outfits"
 Well....
 Now that I look back, I was being silly. 
 It was so much more difficult than it seemed. 
@@ -67,7 +67,3 @@ Maybe I will give it another go some day! :wink:
 <div class="caption">
     I will do better next time, guys!
 </div>
- -->
-
-
-

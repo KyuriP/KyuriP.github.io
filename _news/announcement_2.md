@@ -1,10 +1,10 @@
 ---
 layout: post
 date: 2026-06-09 16:11:00-0400
-inline: false
+inline: true
 title: SantaFe Summer School 2026
-published: false
+published: true
 
 ---
 
-Going to parcipate SFI summer school 2026!
+Going to participate in the SFI Complex Systems Summer School 2026!

@@ -72,7 +72,7 @@ github_username: KyuriP # your GitHub user name
 gitlab_username: # your GitLab user name
 twitter_username: Kyuri_Park0
 linkedin_username: #kyuri-park-482790176
-scholar_userid: # your Google Scholar ID
+scholar_userid: -dvS0hgAAAAJ # your Google Scholar ID
 orcid_id: 0000-0001-8502-2134
 medium_username: # your Medium username
 quora_username: # your Quora username
@@ -138,7 +138,7 @@ collections:
     permalink: /projects/:path/
 
 news_scrollable: false # adds a vertical scroll bar if there are more than 3 news items
-news_limit: 5 # leave blank to include all the news in the `_news` folder
+news_limit: # leave blank to include all the news in the `_news` folder
 
 # -----------------------------------------------------------------------------
 # Jekyll settings
@@ -315,7 +315,7 @@ enable_darkmode: true # enables switching between light/dark modes
 enable_navbar_social:
   false # enables displaying social links in the
   # navbar on the about page
-enable_project_categories:
+enable_project_categories: true
   true # enables categorization of projects into
   # multiple categories
 enable_medium_zoom: true # enables image zoom feature (as on medium.com)
