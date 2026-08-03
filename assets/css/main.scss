@@ -83,3 +83,76 @@ input[type="submit"], button, textarea {
 }
 
 textarea { width: 83%;  resize: none; }
+// -----------------------------------------------------------------------------
+// Custom refresh (Aug 2026): move away from the boxed/material look toward a
+// flatter, more whitespace-driven academic style.
+// -----------------------------------------------------------------------------
+
+.z-depth-1, .card, .z-depth-1.rounded, img.z-depth-1 {
+  box-shadow: none !important;
+}
+
+.card {
+  border: none;
+  border-top: 1px solid var(--global-divider-color);
+  border-radius: 0;
+  padding-top: 1.25rem !important;
+}
+
+.profile {
+  img.z-depth-1 {
+    border: 1px solid var(--global-divider-color);
+  }
+}
+
+.post-title {
+  font-weight: 600;
+  letter-spacing: -0.01em;
+}
+
+body, p, li {
+  line-height: 1.65;
+}
+
+.bio, p.bio {
+  font-size: 1rem;
+  line-height: 1.7;
+}
+
+// Slightly quieter, less "badge-like" year markers in the CV timeline
+.cv .badge {
+  background-color: transparent !important;
+  color: var(--global-text-color-light) !important;
+  font-weight: 600;
+  border: 1px solid var(--global-divider-color);
+}
+
+// News feed: a flowing, chronological log (one line per item) rather than a boxed table
+.news {
+  h3 {
+    font-weight: 600;
+    margin-bottom: 1rem;
+  }
+
+  .news-feed {
+    display: flex;
+    flex-direction: column;
+    gap: 0.55rem;
+  }
+
+  .news-item {
+    margin: 0;
+    font-size: 0.95rem;
+    line-height: 1.6;
+  }
+
+  .news-date {
+    font-weight: 600;
+    color: var(--global-text-color-light);
+    margin-right: 0.25em;
+  }
+
+  .news-title {
+    color: var(--global-theme-color);
+  }
+}

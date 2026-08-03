@@ -6,145 +6,241 @@
     - name: Location
       value: Amsterdam, the Netherlands
     - name: Email
-      value: <a href="mailto:kyurheep@gmail.com">kyurheep@gmail.com</a>
+      value: <a href="mailto:k.park@uva.nl">k.park@uva.nl</a>
+    - name: ORCID
+      value: <a href="https://orcid.org/0000-0001-8502-2134">0000-0001-8502-2134</a>
     - name: Languages
-      value: English, Korean, Dutch
+      value: Korean (native), English (fluent), Dutch (B1)
 
 - title: Education
   type: time_table
   contents:
+    - title: PhD Candidate
+      institution: Computational Science Lab, Informatics Institute, University of Amsterdam
+      year: 2023 - present
+      description:
+        - Expected completion August 2027.
+        - "Supervisors: Vítor V. Vasconcelos and Mike Lees."
+
+    - title: Visiting Scholar
+      institution: Stanford Doerr School of Sustainability, Stanford University
+      year: Spring 2026
+      description:
+        - "Hosted by Sara Constantino; research on climate-attitude networks, belief systems, social norms, and exploratory causal discovery."
+
+    - title: Complex Systems Summer School
+      institution: Santa Fe Institute
+      year: Summer 2026
+      description:
+        - Selected participant; interdisciplinary training and collaborative modeling projects in complex systems.
+
     - title: MSc Methodology and Statistics
       institution: Utrecht University
       year: 2023
       description:
-        - Methodology and Statistics for the Behavioral, Biomedical and Social Sciences (MSBBSS) programme
-        - GPA  9.04/ 10.00
+        - Cum laude, GPA 9.04/10.00.
+        - "Supervisors: Oisín Ryan and Lourens J. Waldorp."
 
-    - title: BSc Psychometrics
+    - title: BSc Psychology (Psychological Methods)
       institution: University of Amsterdam
       year: 2021
       description:
-        - Specialization in Psychological Methods
-        - GPA  9.05 / 10.00
-    
+        - Cum laude, GPA 9.05/10.00; Honors Programme.
+        - "Supervisors: Claudia van Borkulo and Denny Borsboom."
+
     - title: BSc Business Management
       institution: University of Houston
       year: 2017
       description:
-        - Specialization in Finance Management and Accounting
-        - GPA  3.94 / 4.00
+        - Summa cum laude, GPA 3.94/4.00; specialization in Finance Management and Accounting.
+        - Exchange semester at Mount Royal University, Calgary, Canada.
 
-- title: Experience
+- title: Research Interests
+  type: nested_list
+  contents:
+    - title: Complex Systems &amp; Dynamics
+      items:
+        - Dynamical systems modeling
+        - Multiscale (slow-fast) dynamics
+        - Agent-based modeling
+    - title: Causality &amp; Networks
+      items:
+        - Causal discovery
+        - Psychometric and symptom network models
+    - title: Applications
+      items:
+        - Mental health
+        - Climate beliefs, behavior, and adaptation
+
+- title: Selected Publications
+  type: list
+  contents:
+    - "<b>Park, K.</b>, Waldorp, L. J., &amp; Vasconcelos, V. V. (2026). A mechanistic model of symptom dynamics: Implications for statistical network analyses. <i>Multivariate Behavioral Research</i>. [in press]."
+    - "<b>Park, K.</b>, Li, X., Waldorp, L. J., Lees, M., &amp; Vasconcelos, V. V. (2026). The role of feedback loops in dynamical symptom networks. <i>Scientific Reports, 16</i>, 11273."
+    - "<b>Park, K.</b>, Vasconcelos, V. V., &amp; Lees, M. (2026). A tutorial on causal network simulation and exploration using the causalnet R package. <i>Behavior Research Methods, 58</i>, 204."
+    - "<b>Park, K.</b>, Elsenburg, L. K., Nicolaou, M., Stronks, K., &amp; Vasconcelos, V. V. (2026). Connecting precariousness and depression: From causal discovery to intervention simulation. <i>SSM - Mental Health, 9</i>, 100637."
+    - "Full list with links, abstracts, and the preprint: see the <a href='/publications/'>Publications</a> page."
+
+- title: Research Experience
   type: time_table
   contents:
-    - title: PhD, Teaching Assistant
-      institution: University of Amsterdam
-      year: 2023 - 2024
+    - title: PhD Researcher
+      institution: Computational Science Lab, Informatics Institute, University of Amsterdam
+      year: 2023 - present
       description:
-        - "Teaching Assistant for <em>'Complexity: Can it be Simplified?'</em>, an undergraduate elective on Complexity Science, including an honors track, taught by Dr. <a href='https://www.vvvasconcelos.net/'>Vítor V. Vasconcelos</a>."
-        - "Audited <em>'Modeling System Dynamics'</em>, a graduate-level course on System Dynamics for the MSc Information Studies program, taught by Dr. Debraj Roy."
-        - "Teaching Assistant for <em>'Causality'</em>, a graduate-level course covering topics such as causal graphs and potential outcomes for MSc Artificial Intelligence, taught by Dr. <a href='https://saramagliacane.github.io/'>Sara Magliacane</a>."
-        - "Supervised the thesis project of Xinhai Li, a Master's student in the MSc Computational Science program (joint degree UvA/VU)."
+        - Develop causal and dynamical models of complex human systems, with applications in mental health, climate attitudes, belief dynamics, and urban adaptation.
+        - Combine causal discovery, network analysis, agent-based modeling, and simulation to study feedback processes, structural uncertainty, and intervention effects.
+        - "Lead developer of <a href='https://github.com/KyuriP/causalnet'>causalnet</a>, an open-source R package for generating alternative directed structures from a network skeleton, including networks with cycles, summarizing their properties, and simulating nonlinear or user-defined dynamics."
 
-    - title: Student Assistant, Research Assistant
+    - title: Research Assistant
       institution: Utrecht University
       year: 2021 - 2023
       description:
-        - Enhanced the additional features of an R package <a href = https://github.com/emmekeaarts/mHMMbayes>mHMMbayes</a> (Multilevel Hidden Markov Models Using Bayesian Estimation) and create tutorials. 
-        - Established a more accessible approach to evaluate the validity of imputation models by utilizing synthetic data sets.
-        - Worked on establishing a procedure for exporting synthetic data based on real data at Statistics Netherlands (CBS).
-        - Converted MATLAB code for Bayesian piecewise linear regression model for dynamic network construction to R code.
-        - Together with Dr. Erik-Jan van Kesteren, published an R package called <a href = https://github.com/sodascience/synthpop.extract>synthpop.extract</a>.
-        - With Dr. Noémi Schuurman, coded qualitative data from psychological network papers using NVivo.
-        - Organize content-oriented meetings and Data Science Reading group meetings.
-        - Created course meterials such as practical assignments for the Data Wrangling course.
-        - Helped Dr. Laura Boeschoten with organizing <a href="https://hds.sites.uu.nl/2022/01/15/data-donation-day/">Data Donation Day</a>.
-        - Maintain the <a href='https://hds.sites.uu.nl/'>HDS</a> group website.
+        - "Enhanced the R package <a href='https://github.com/emmekeaarts/mHMMbayes'>mHMMbayes</a> (Multilevel Hidden Markov Models Using Bayesian Estimation) and developed tutorial materials."
+        - Contributed to the mice R package and developed a synthetic-data approach for evaluating imputation-model validity with Gerko Vink.
+        - "Developed procedures for producing reproducible synthetic-data extracts from Statistics Netherlands data and co-developed the <a href='https://github.com/sodascience/synthpop.extract'>synthpop.extract</a> R package with Erik-Jan van Kesteren."
+        - Translated a Bayesian piecewise-linear regression implementation for dynamic network construction from MATLAB to R.
+        - Applied and compared cyclic causal-discovery algorithms (CCD, FCI, CCI) for psychological data.
+        - Coded methodological characteristics of psychological network studies in NVivo with Noémi Schuurman.
 
-        # - title: Description 3.
-        #   contents:
-        #     - Sub-description 1.
-        #     - Sub-description 2.
+    - title: Research Assistant
+      institution: Psychological Methods, University of Amsterdam
+      year: 2019 - 2021
+      description:
+        - Conducted a meta-analysis of predictors of science skepticism, developed JASP tutorials, and modeled networks containing variables operating at different timescales using Ising and mixed graphical models.
 
-    - title: Student/Teaching Assistant, International Student Ambassador, Psychological Methods Student Faction
+- title: Teaching &amp; Student Mentoring
+  type: time_table
+  contents:
+    - title: Teaching Assistant, "Complexity - Can It Be Simplified?" (BSc Honors/MSc)
+      institution: "University of Amsterdam &middot; Vítor V. Vasconcelos"
+      year: 2023 - 2025
+    - title: Teaching Assistant, "Causality" (MSc Artificial Intelligence)
+      institution: University of Amsterdam &middot; Sara Magliacane
+      year: 2024 - 2025
+    - title: Teaching Assistant, "Modeling System Dynamics" (MSc Information Studies)
+      institution: University of Amsterdam &middot; Debraj Roy
+      year: 2023 - 2024
+    - title: Teaching Assistant, "AI and Psychology" (BSc Psychology)
+      institution: University of Amsterdam &middot; Han van der Maas
+      year: 2021
+    - title: Course material development &amp; R support
+      institution: Utrecht University
+      year: 2021 - 2023
+      description:
+        - Developed practical materials for Python programming, Bayesian networks, relational-event models, missing data, imputation, and text mining courses; provided R programming support to sociology graduate students.
+    - title: Teaching Assistant, Social Economics
+      institution: University of Pennsylvania &middot; Femida Handy
+      year: Summer 2016
+    - title: MSc supervision - Henry Zwart
+      institution: "MSc Computational Science (2026). Thesis: Interventions on Asymmetric Belief Networks."
+      year: 2026
+    - title: MSc supervision - Paraskevas Leivadaros
+      institution: "MSc Data Science (2025). Thesis: Elections and climate attitudes: how do people's views on climate change and related policies change during an election?"
+      year: 2025
+    - title: MSc supervision - Gabriela Torres
+      institution: "MSc Data Science (2025). Thesis: The Impact of COVID-19 Interventions and Extreme Weather Harm on Support for Climate Policy."
+      year: 2025
+    - title: MSc supervision - Xinhai Li
+      institution: "MSc Computational Science (2024). Thesis: Feedback Loops in the Dynamics of Major Depressive Disorder."
+      year: 2024
+
+- title: Grants, Fellowships &amp; Awards
+  type: time_table
+  contents:
+    - year: 2026 - 2027
+      items:
+        - Van der Gaag Grant, Royal Netherlands Academy of Arts and Sciences (KNAW) - PI
+    - year: 2026
+      items:
+        - Bridge Grant, Complex Systems Society
+        - Travel Award, International Meeting of the Psychometric Society
+    - year: 2025 - 2027
+      items:
+        - Energy Transition through the Lens of the SDGs (ENLENS) Research Grant
+    - year: 2025
+      items:
+        - Amsterdam University Fund - PhD Grant
+        - Travel Award, International Meeting of the Psychometric Society
+    - year: 2021 - 2023
+      items:
+        - Utrecht Excellence Scholarship, Utrecht University
+    - year: 2017
+      items:
+        - Scholarship Excellence Award, University of Houston
+    - year: 2014 - 2017
+      items:
+        - UH Academic Excellence Scholarship, University of Houston
+
+- title: Selected Presentations
+  type: time_table
+  contents:
+    - year: Jul 2026
+      items:
+        - "A slow-fast perspective on between-group differences in symptom networks. International Meeting of the Psychometric Society, Seoul, South Korea."
+    - year: Jul 2025
+      items:
+        - "Computational modeling of symptom dynamics and their implications for statistical networks. International Conference on Computational Science, Singapore."
+        - "Unraveling symptom dynamics: A mechanistic approach to feedback loops and causal discovery. International Meeting of the Psychometric Society, Minneapolis, MN."
+
+- title: Invited Talks &amp; Seminars
+  type: time_table
+  contents:
+    - year: May 2026
+      items:
+        - "Executive function engagement as a slow-fast stochastic dynamical system. Center for Mind and Brain, University of California, Davis, CA, USA."
+    - year: Apr 2026
+      items:
+        - "Complex systems approaches to mental health and climate-change attitudes. Biohealth Convergence and Open Sharing System (COSS), South Korea."
+    - year: Feb 2026
+      items:
+        - "Slow-fast coupling: Curie-Weiss symptoms under context dynamics. 3rd Joint Kobe University-UvA Workshop on Computational Social Science and Intelligent Systems, Amsterdam."
+    - year: Jan 2026
+      items:
+        - "Structural risk shifts symptom thresholds without altered symptom coupling: A slow-fast perspective. Theory Methods Lab Seminar, Amsterdam."
+    - year: Mar 2025
+      items:
+        - "Computational approaches to mental health at the symptom level. 2nd Joint Kobe University-UvA Workshop on Computational Social Science and Intelligent Systems, Amsterdam."
+
+- title: Service, Professional &amp; Volunteer Experience
+  type: time_table
+  contents:
+    - title: International Student Ambassador &amp; Psychological Methods Student Faction
       institution: University of Amsterdam
       year: 2018 - 2021
       description:
-        - Student assistant of Dr. Bastiaan Rutjens; worked on the “Meta-analysis on Science Skepticism” project.
-        - Teaching assistant of Prof. dr. Han van der Mass for the "AI and Psychology" course.
-        - Organized major school events such as Bachelor’s Day and Orientation Day.
-        - Managed UvA social media accounts and supported marketing activities.
-        - Worked on creating tutorials for <a href= https://jasp-stats.org/> JASP </a>.
-        - Organized study-related activities (e.g., debates, special lectures, and field trips).
-        - Met with the lecturers, programme coordinators, and policy officers once a month to discuss the proposed agendas in the Psychology department.
-    
+        - Represented students in programme meetings and organized academic, orientation, and outreach events.
+    - title: Human Data Science Group
+      institution: Utrecht University
+      year: 2021 - 2023
+      description:
+        - Organized research and data-science reading groups, helped coordinate Data Donation Day, and maintained the group website.
+    - title: Cabin Crew
+      institution: Emirates Airline, Dubai, UAE
+      year: 2017 - 2018
+    - title: Accounting Assistant
+      institution: Amerril Energy LLC, Houston, TX, USA
+      year: 2016 - 2017
+    - title: Sponsor &amp; Translator
+      institution: World Vision
+      year: 2011 - present
+      description:
+        - Sponsor since 2011; previously translated sponsor correspondence between Korean and English.
+    - title: Volunteer
+      institution: Stray Dogs Center (SDC), Dubai, UAE
+      year: 2017 - 2018
+      description:
+        - Volunteered at the shelter and supported fundraising for veterinary expenses.
 
-    # - title: Director
-    #   institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-    #   year: 1917-1933
-
-    # - title: Professor of Theoretical Physics
-    #   institution: Karl-Ferdinand University, Prague, Czechoslovakia
-    #   year: 1911 - 1917
-    #   description:
-
-    # - title: Associate Professor of Theoretical Physics
-    #   institution: University of Zurich, Zurich, Switzerland
-    #   year: 1909 - 1911
-
-# - title: Open Source Projects
-#   type: time_table
-#   contents:
-#     - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-#       year: coming up
-#       description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
-
-- title: Scholorships and Honors 
-  type: time_table
-  contents:
-    - year: January 2026
-      items: 
-        - Van der Gaag grant - KNAW (Royal Netherlands Academy of Arts & Sciences) 
-    - year: November 2025
-      items: 
-        - Bridge grant - yrCSS - Complex Systems Society
-    - year: July 2025
-      items: 
-        - Travel Award for IMPS 2025     
-    - year: April 2025 
-      items: 
-        - Energy transition through the Lens of SDGs (ENLENS) research grant 2025   
-    - year: 2021 - 2023
-      items: 
-        - Utrecht Excellence Scholarships, Utrecht University
-    - year: 2017
-      items: 
-        - Scholarship Excellence Award (top honors), University of Houston      
-    - year: 2015 - 2017
-      items: 
-        - UH Academic Excellence Scholarship, University of Houston	       
-
-- title: Academic Interests
+- title: Methods &amp; Programming
   type: nested_list
   contents:
-    - title: Complex Systems
-      items: 
-        - Dynamical systems modeling 
-        - Emergent Behavior
-    - title: Network Analysis
-      items: 
-        - Network theory 
-        - Psychometric network models 
-    - title: Causality 
+    - title: Methods
       items:
-        - Graphical models
-        - Causal discovery 
-
-
-
-# - title: Other Interests
-#   type: list
-#   contents:
-#     - <u>Programming :</u> R is the main lanugage I use, but I also program in Python and MATLAB. Currently learning C++.
-#     - <u>Travel :</u> My goal is to visit all 50 states! My next target is Hawaii! 
-#     - <u>Taking Photos :</u> I don't have any fancy cameras, but I do like taking some random photos of the mundane moments in life. 
+        - Causal discovery, network analysis, dynamical-systems modeling
+        - Stochastic differential equations, agent-based modeling, simulation studies
+        - Psychometric modeling, Bayesian and multilevel modeling
+    - title: Programming
+      items:
+        - "R, Python, MATLAB"
+        - "JavaScript (learning), C++ (learning)"

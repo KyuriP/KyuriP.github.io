@@ -2,8 +2,8 @@
 layout: post
 title: Visiting Stanford 
 date: 2026-03-07 15:59:00-0700
-inline: false
-published: false
+inline: true
+published: true
 
 ---
 
