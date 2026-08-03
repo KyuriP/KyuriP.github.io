@@ -119,11 +119,19 @@ body, p, li {
   line-height: 1.7;
 }
 
-// Plain-text year markers in the CV timeline (no more solid badge/pill boxes)
+// Plain-text year markers in the CV timeline (no more solid badge/pill boxes) —
+// styled in the theme's navy accent color, italic, like thomvolker.github.io/talks
 .cv-year {
   font-weight: 700;
   font-size: 0.9rem;
-  color: var(--global-text-color-light);
+  font-style: italic;
+  color: var(--global-theme-color);
+}
+
+// Year headers on the publications page, same treatment
+.publications h2.year {
+  font-style: italic;
+  color: var(--global-theme-color);
 }
 
 // News feed: a flowing, chronological log (one line per item) rather than a boxed table
