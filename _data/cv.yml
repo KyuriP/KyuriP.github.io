@@ -6,7 +6,7 @@
     - name: Location
       value: Amsterdam, the Netherlands
     - name: Email
-      value: <a href="mailto:k.park@uva.nl">k.park@uva.nl</a>
+      value: <a href="mailto:kyurigracepark@gmail.com">kyurigracepark@gmail.com</a>
     - name: ORCID
       value: <a href="https://orcid.org/0000-0001-8502-2134">0000-0001-8502-2134</a>
     - name: Languages
@@ -96,9 +96,9 @@
       institution: Utrecht University
       year: 2021 - 2023
       description:
-        - "Enhanced the R package <a href='https://github.com/emmekeaarts/mHMMbayes'>mHMMbayes</a> (Multilevel Hidden Markov Models Using Bayesian Estimation) and developed tutorial materials."
+        - "Enhanced the R package mHMMbayes (Multilevel Hidden Markov Models Using Bayesian Estimation) and developed tutorial materials."
         - Contributed to the mice R package and developed a synthetic-data approach for evaluating imputation-model validity with Gerko Vink.
-        - "Developed procedures for producing reproducible synthetic-data extracts from Statistics Netherlands data and co-developed the <a href='https://github.com/sodascience/synthpop.extract'>synthpop.extract</a> R package with Erik-Jan van Kesteren."
+        - "Developed procedures for producing reproducible synthetic-data extracts from Statistics Netherlands data and co-developed the synthpop.extract R package with Erik-Jan van Kesteren."
         - Translated a Bayesian piecewise-linear regression implementation for dynamic network construction from MATLAB to R.
         - Applied and compared cyclic causal-discovery algorithms (CCD, FCI, CCI) for psychological data.
         - Coded methodological characteristics of psychological network studies in NVivo with Noémi Schuurman.

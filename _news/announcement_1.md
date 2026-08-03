@@ -7,4 +7,4 @@ published: true
 
 ---
 
-I’m visiting the Stanford Doerr School of Sustainability until the end of June. I’d love to connect with anyone around Stanford working on mental health, climate attitudes, social norms, causal inference, network analysis, or complex systems.
+I’m visiting the Stanford Doerr School of Sustainability. I’d love to connect with anyone around Stanford working on mental health, climate attitudes, social norms, causal inference, network analysis, or complex systems.

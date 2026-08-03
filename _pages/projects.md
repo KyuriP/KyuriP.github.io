@@ -3,7 +3,7 @@ layout: page
 title: hobbies
 permalink: /hobbies/
 description: A few things I get up to when I'm not modeling networks.
-nav: true
+nav: false
 nav_order: 3
 display_categories: [fun]
 horizontal: false
