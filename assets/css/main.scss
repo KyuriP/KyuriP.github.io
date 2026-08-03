@@ -139,6 +139,16 @@ textarea { width: 83%;  resize: none; }
   }
 }
 
+.name-title {
+  color: var(--global-theme-color);
+}
+
+// Smaller, less shouty section headers in the CV (General Information,
+// Education, etc. were rendering at the browser's default h3 size)
+.cv .card-title {
+  font-size: 1.15rem;
+}
+
 .post-title {
   font-weight: 600;
   letter-spacing: -0.01em;
