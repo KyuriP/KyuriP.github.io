@@ -141,8 +141,9 @@ textarea { width: 83%;  resize: none; }
   }
 }
 
-.name-title {
+.post-title.name-title {
   color: var(--global-theme-color);
+  font-weight: 400;
 }
 
 // Smaller, less shouty section headers in the CV (General Information,
