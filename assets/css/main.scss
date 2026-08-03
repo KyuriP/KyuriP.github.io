@@ -105,6 +105,40 @@ textarea { width: 83%;  resize: none; }
   }
 }
 
+// Replace the old float-based profile/bio layout with flexbox. The float
+// approach relied on a tall margin-bottom under the photo to keep bio text
+// from spilling out to the full page width once it ran longer than the
+// photo — fragile, and broke (last line of the bio flush left, ignoring the
+// text column) whenever the bio got a bit long. Flexbox sizes each column
+// independently, so this can't happen regardless of bio length.
+.profile-bio-flex {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1.5rem;
+
+  .profile {
+    float: none !important;
+    margin-right: 0;
+    margin-bottom: 0;
+  }
+
+  .clearfix {
+    flex: 1 1 auto;
+    min-width: 0;
+  }
+}
+
+@media (min-width: 576px) {
+  .profile-bio-flex {
+    flex-direction: row;
+
+    .profile {
+      margin-right: 1.5rem;
+    }
+  }
+}
+
 .post-title {
   font-weight: 600;
   letter-spacing: -0.01em;
