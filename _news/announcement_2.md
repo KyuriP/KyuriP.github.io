@@ -7,4 +7,4 @@ published: true
 
 ---
 
-Going to participate in the SFI Complex Systems Summer School 2026!
+Going to participate in the Santa Fe Institute (SFI) Complex Systems Summer School 2026!
