@@ -210,3 +210,51 @@ body, p, li {
     color: var(--global-theme-color);
   }
 }
+
+// Publications: clean, minimal entries — no boxed abbr badges, no button-pill
+// row for Bib/HTML/PDF/Code. Just a bold linked title, authors, a small
+// muted venue/year line, and plain text links.
+.publications {
+  .pub-entry {
+    padding-bottom: 0.25rem;
+  }
+
+  .title {
+    font-size: 1.05rem;
+    margin-bottom: 0.2rem;
+
+    a {
+      color: var(--global-text-color);
+
+      &:hover {
+        color: var(--global-theme-color);
+      }
+    }
+  }
+
+  .author {
+    font-size: 0.92rem;
+    margin-bottom: 0.15rem;
+  }
+
+  .periodical {
+    font-size: 0.85rem;
+    font-style: italic;
+    color: var(--global-text-color-light);
+    margin-bottom: 0.35rem;
+  }
+
+  .links {
+    display: flex;
+    gap: 1rem;
+    font-size: 0.85rem;
+
+    a {
+      color: var(--global-theme-color);
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}
