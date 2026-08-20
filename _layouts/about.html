@@ -5,15 +5,16 @@ layout: default
 <!-- about.html -->
 <div class="post">
         <header class="post-header">
-          <h1 class="post-title">
+          <h1 class="post-title name-title">
            {% if site.title == "blank" -%}<span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }} {{ site.last_name }}{%- else -%}{{ site.title }}{%- endif %}
           </h1>
           <p class="desc">{{ page.subtitle }}</p>
         </header>
 
         <article>
+          <div class="profile-bio-flex">
           {% if page.profile -%}
-          <div class="profile float-{%- if page.profile.align == 'left' -%}left{%- else -%}right{%- endif -%}">
+          <div class="profile{%- if page.profile.align == 'right' -%} order-last{%- endif -%}">
             {%- if page.profile.image %}
               {%- assign profile_image_path = page.profile.image | prepend: 'assets/img/' -%}
 
@@ -23,8 +24,8 @@ layout: default
                 {%- assign profile_image_class = "img-fluid z-depth-1 rounded" -%}
               {% endif %}
 
-              {% include figure.html 
-              path=profile_image_path 
+              {% include figure.html
+              path=profile_image_path
               class=profile_image_class
               alt=page.profile.image -%}
             {% endif -%}
@@ -40,7 +41,7 @@ layout: default
               <div class="contact-icons">
               {% include social.html %}
               </div>
-  
+
               <div class="contact-note">
                 {{ site.contact_note }}
               </div>
@@ -52,6 +53,7 @@ layout: default
 
           <div class="clearfix">
             {{ content }}
+          </div>
           </div>
 
           <!-- News -->

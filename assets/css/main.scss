@@ -105,6 +105,53 @@ textarea { width: 83%;  resize: none; }
   }
 }
 
+// Replace the old float-based profile/bio layout with flexbox. The float
+// approach relied on a tall margin-bottom under the photo to keep bio text
+// from spilling out to the full page width once it ran longer than the
+// photo — fragile, and broke (last line of the bio flush left, ignoring the
+// text column) whenever the bio got a bit long. Flexbox sizes each column
+// independently, so this can't happen regardless of bio length.
+.profile-bio-flex {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 1.5rem;
+
+  .profile {
+    float: none !important;
+    margin-right: 1.5rem;
+    margin-bottom: 0;
+    flex: 0 0 auto;
+  }
+
+  .clearfix {
+    flex: 1 1 auto;
+    min-width: 0;
+  }
+}
+
+// Only stack vertically on genuinely narrow (phone-width) screens
+@media (max-width: 480px) {
+  .profile-bio-flex {
+    flex-direction: column;
+
+    .profile {
+      margin-right: 0;
+    }
+  }
+}
+
+.post-title.name-title {
+  color: var(--global-theme-color);
+  font-weight: 400;
+}
+
+// Smaller, less shouty section headers in the CV (General Information,
+// Education, etc. were rendering at the browser's default h3 size)
+.cv .card-title {
+  font-size: 1.15rem;
+}
+
 .post-title {
   font-weight: 600;
   letter-spacing: -0.01em;
@@ -119,12 +166,19 @@ body, p, li {
   line-height: 1.7;
 }
 
-// Slightly quieter, less "badge-like" year markers in the CV timeline
-.cv .badge {
-  background-color: transparent !important;
-  color: var(--global-text-color-light) !important;
-  font-weight: 600;
-  border: 1px solid var(--global-divider-color);
+// Plain-text year markers in the CV timeline (no more solid badge/pill boxes) —
+// styled in the theme's navy accent color, italic, like thomvolker.github.io/talks
+.cv-year {
+  font-weight: 700;
+  font-size: 0.9rem;
+  font-style: italic;
+  color: var(--global-theme-color);
+}
+
+// Year headers on the publications page, same treatment
+.publications h2.year {
+  font-style: italic;
+  color: var(--global-theme-color);
 }
 
 // News feed: a flowing, chronological log (one line per item) rather than a boxed table

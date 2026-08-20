@@ -1,7 +1,7 @@
 ---
 layout: post
 title: IMPS Conference in Seoul
-date: 2026-07-20 15:59:00-0500
+date: 2026-07-22 15:59:00-0500
 inline: true
 published: true
 ---

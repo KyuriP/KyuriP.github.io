@@ -6,7 +6,7 @@
     - name: Location
       value: Amsterdam, the Netherlands
     - name: Email
-      value: <a href="mailto:k.park@uva.nl">k.park@uva.nl</a>
+      value: <a href="mailto:kyurigracepark@gmail.com">kyurigracepark@gmail.com</a>
     - name: ORCID
       value: <a href="https://orcid.org/0000-0001-8502-2134">0000-0001-8502-2134</a>
     - name: Languages
@@ -55,95 +55,14 @@
         - Summa cum laude, GPA 3.94/4.00; specialization in Finance Management and Accounting.
         - Exchange semester at Mount Royal University, Calgary, Canada.
 
-- title: Research Interests
-  type: nested_list
-  contents:
-    - title: Complex Systems &amp; Dynamics
-      items:
-        - Dynamical systems modeling
-        - Multiscale (slow-fast) dynamics
-        - Agent-based modeling
-    - title: Causality &amp; Networks
-      items:
-        - Causal discovery
-        - Psychometric and symptom network models
-    - title: Applications
-      items:
-        - Mental health
-        - Climate beliefs, behavior, and adaptation
-
 - title: Selected Publications
   type: list
   contents:
-    - "<b>Park, K.</b>, Waldorp, L. J., &amp; Vasconcelos, V. V. (2026). A mechanistic model of symptom dynamics: Implications for statistical network analyses. <i>Multivariate Behavioral Research</i>. [in press]."
+    - "<b>Park, K.</b>, Waldorp, L. J., &amp; Vasconcelos, V. V. (2026). A mechanistic model of symptom dynamics: Implications for statistical network analyses. <i>Multivariate Behavioral Research</i>. Advance online publication. doi:10.1080/00273171.2026.2710730."
     - "<b>Park, K.</b>, Li, X., Waldorp, L. J., Lees, M., &amp; Vasconcelos, V. V. (2026). The role of feedback loops in dynamical symptom networks. <i>Scientific Reports, 16</i>, 11273."
     - "<b>Park, K.</b>, Vasconcelos, V. V., &amp; Lees, M. (2026). A tutorial on causal network simulation and exploration using the causalnet R package. <i>Behavior Research Methods, 58</i>, 204."
     - "<b>Park, K.</b>, Elsenburg, L. K., Nicolaou, M., Stronks, K., &amp; Vasconcelos, V. V. (2026). Connecting precariousness and depression: From causal discovery to intervention simulation. <i>SSM - Mental Health, 9</i>, 100637."
     - "Full list with links, abstracts, and the preprint: see the <a href='/publications/'>Publications</a> page."
-
-- title: Research Experience
-  type: time_table
-  contents:
-    - title: PhD Researcher
-      institution: Computational Science Lab, Informatics Institute, University of Amsterdam
-      year: 2023 - present
-      description:
-        - Develop causal and dynamical models of complex human systems, with applications in mental health, climate attitudes, belief dynamics, and urban adaptation.
-        - Combine causal discovery, network analysis, agent-based modeling, and simulation to study feedback processes, structural uncertainty, and intervention effects.
-        - "Lead developer of <a href='https://github.com/KyuriP/causalnet'>causalnet</a>, an open-source R package for generating alternative directed structures from a network skeleton, including networks with cycles, summarizing their properties, and simulating nonlinear or user-defined dynamics."
-
-    - title: Research Assistant
-      institution: Utrecht University
-      year: 2021 - 2023
-      description:
-        - "Enhanced the R package <a href='https://github.com/emmekeaarts/mHMMbayes'>mHMMbayes</a> (Multilevel Hidden Markov Models Using Bayesian Estimation) and developed tutorial materials."
-        - Contributed to the mice R package and developed a synthetic-data approach for evaluating imputation-model validity with Gerko Vink.
-        - "Developed procedures for producing reproducible synthetic-data extracts from Statistics Netherlands data and co-developed the <a href='https://github.com/sodascience/synthpop.extract'>synthpop.extract</a> R package with Erik-Jan van Kesteren."
-        - Translated a Bayesian piecewise-linear regression implementation for dynamic network construction from MATLAB to R.
-        - Applied and compared cyclic causal-discovery algorithms (CCD, FCI, CCI) for psychological data.
-        - Coded methodological characteristics of psychological network studies in NVivo with Noémi Schuurman.
-
-    - title: Research Assistant
-      institution: Psychological Methods, University of Amsterdam
-      year: 2019 - 2021
-      description:
-        - Conducted a meta-analysis of predictors of science skepticism, developed JASP tutorials, and modeled networks containing variables operating at different timescales using Ising and mixed graphical models.
-
-- title: Teaching &amp; Student Mentoring
-  type: time_table
-  contents:
-    - title: Teaching Assistant, "Complexity - Can It Be Simplified?" (BSc Honors/MSc)
-      institution: "University of Amsterdam &middot; Vítor V. Vasconcelos"
-      year: 2023 - 2025
-    - title: Teaching Assistant, "Causality" (MSc Artificial Intelligence)
-      institution: University of Amsterdam &middot; Sara Magliacane
-      year: 2024 - 2025
-    - title: Teaching Assistant, "Modeling System Dynamics" (MSc Information Studies)
-      institution: University of Amsterdam &middot; Debraj Roy
-      year: 2023 - 2024
-    - title: Teaching Assistant, "AI and Psychology" (BSc Psychology)
-      institution: University of Amsterdam &middot; Han van der Maas
-      year: 2021
-    - title: Course material development &amp; R support
-      institution: Utrecht University
-      year: 2021 - 2023
-      description:
-        - Developed practical materials for Python programming, Bayesian networks, relational-event models, missing data, imputation, and text mining courses; provided R programming support to sociology graduate students.
-    - title: Teaching Assistant, Social Economics
-      institution: University of Pennsylvania &middot; Femida Handy
-      year: Summer 2016
-    - title: MSc supervision - Henry Zwart
-      institution: "MSc Computational Science (2026). Thesis: Interventions on Asymmetric Belief Networks."
-      year: 2026
-    - title: MSc supervision - Paraskevas Leivadaros
-      institution: "MSc Data Science (2025). Thesis: Elections and climate attitudes: how do people's views on climate change and related policies change during an election?"
-      year: 2025
-    - title: MSc supervision - Gabriela Torres
-      institution: "MSc Data Science (2025). Thesis: The Impact of COVID-19 Interventions and Extreme Weather Harm on Support for Climate Policy."
-      year: 2025
-    - title: MSc supervision - Xinhai Li
-      institution: "MSc Computational Science (2024). Thesis: Feedback Loops in the Dynamics of Major Depressive Disorder."
-      year: 2024
 
 - title: Grants, Fellowships &amp; Awards
   type: time_table
@@ -202,6 +121,70 @@
       items:
         - "Computational approaches to mental health at the symptom level. 2nd Joint Kobe University-UvA Workshop on Computational Social Science and Intelligent Systems, Amsterdam."
 
+- title: Research Experience
+  type: time_table
+  contents:
+    - title: PhD Researcher
+      institution: Computational Science Lab, Informatics Institute, University of Amsterdam
+      year: 2023 - present
+      description:
+        - Develop causal and dynamical models of complex human systems, with applications in mental health, climate attitudes, belief dynamics, and urban adaptation.
+        - Combine causal discovery, network analysis, agent-based modeling, and simulation to study feedback processes, structural uncertainty, and intervention effects.
+        - "Lead developer of <a href='https://github.com/KyuriP/causalnet'>causalnet</a>, an open-source R package for generating alternative directed structures from a network skeleton, including networks with cycles, summarizing their properties, and simulating nonlinear or user-defined dynamics."
+
+    - title: Research Assistant
+      institution: Utrecht University
+      year: 2021 - 2023
+      description:
+        - "Enhanced the R package mHMMbayes (Multilevel Hidden Markov Models Using Bayesian Estimation) and developed tutorial materials."
+        - Contributed to the mice R package and developed a synthetic-data approach for evaluating imputation-model validity with Gerko Vink.
+        - "Developed procedures for producing reproducible synthetic-data extracts from Statistics Netherlands data and co-developed the synthpop.extract R package with Erik-Jan van Kesteren."
+        - Translated a Bayesian piecewise-linear regression implementation for dynamic network construction from MATLAB to R.
+        - Applied and compared cyclic causal-discovery algorithms (CCD, FCI, CCI) for psychological data.
+        - Coded methodological characteristics of psychological network studies in NVivo with Noémi Schuurman.
+
+    - title: Research Assistant
+      institution: Psychological Methods, University of Amsterdam
+      year: 2019 - 2021
+      description:
+        - Conducted a meta-analysis of predictors of science skepticism, developed JASP tutorials, and modeled networks containing variables operating at different timescales using Ising and mixed graphical models.
+
+- title: Teaching &amp; Student Mentoring
+  type: time_table
+  contents:
+    - title: Teaching Assistant, "Complexity - Can It Be Simplified?" (BSc Honors/MSc)
+      institution: "University of Amsterdam &middot; Vítor V. Vasconcelos"
+      year: 2023 - 2025
+    - title: Teaching Assistant, "Causality" (MSc Artificial Intelligence)
+      institution: University of Amsterdam &middot; Sara Magliacane
+      year: 2024 - 2025
+    - title: Teaching Assistant, "Modeling System Dynamics" (MSc Information Studies)
+      institution: University of Amsterdam &middot; Debraj Roy
+      year: 2023 - 2024
+    - title: Teaching Assistant, "AI and Psychology" (BSc Psychology)
+      institution: University of Amsterdam &middot; Han van der Maas
+      year: 2021
+    - title: Course material development &amp; R support
+      institution: Utrecht University
+      year: 2021 - 2023
+      description:
+        - Developed practical materials for Python programming, Bayesian networks, relational-event models, missing data, imputation, and text mining courses; provided R programming support to sociology graduate students.
+    - title: Teaching Assistant, Social Economics
+      institution: University of Pennsylvania &middot; Femida Handy
+      year: Summer 2016
+    - title: MSc supervision - Henry Zwart
+      institution: "MSc Computational Science (2026). Thesis: Interventions on Asymmetric Belief Networks."
+      year: 2026
+    - title: MSc supervision - Paraskevas Leivadaros
+      institution: "MSc Data Science (2025). Thesis: Elections and climate attitudes: how do people's views on climate change and related policies change during an election?"
+      year: 2025
+    - title: MSc supervision - Gabriela Torres
+      institution: "MSc Data Science (2025). Thesis: The Impact of COVID-19 Interventions and Extreme Weather Harm on Support for Climate Policy."
+      year: 2025
+    - title: MSc supervision - Xinhai Li
+      institution: "MSc Computational Science (2024). Thesis: Feedback Loops in the Dynamics of Major Depressive Disorder."
+      year: 2024
+
 - title: Service, Professional &amp; Volunteer Experience
   type: time_table
   contents:
@@ -231,6 +214,23 @@
       year: 2017 - 2018
       description:
         - Volunteered at the shelter and supported fundraising for veterinary expenses.
+
+- title: Research Interests
+  type: nested_list
+  contents:
+    - title: Complex Systems &amp; Dynamics
+      items:
+        - Dynamical systems modeling
+        - Multiscale (slow-fast) dynamics
+        - Agent-based modeling
+    - title: Causality &amp; Networks
+      items:
+        - Causal discovery
+        - Psychometric and symptom network models
+    - title: Applications
+      items:
+        - Mental health
+        - Climate beliefs, behavior, and adaptation
 
 - title: Methods &amp; Programming
   type: nested_list

@@ -23,21 +23,11 @@ social: true  # includes social icons at the bottom of the page
 ---
 
 <p class = bio>
-I'm a PhD candidate at the <a href = 'https://uva.computationalscience.nl/'>Computational Science Lab</a>, in the Informatics Institute at the <a href = 'https://ivi.uva.nl/research/computational-science-lab-csl.html'>University of Amsterdam</a>, supervised by Dr. <a href = 'https://vvvasconcelos.github.io/'>Vítor V. Vasconcelos</a> and Dr. <a href = 'https://mhlees.com/'>Mike Lees</a>. My work sits at the intersection of causal discovery, network science, and dynamical systems modeling — I'm interested in when we can say one part of a system actually drives another, rather than just moves alongside it, and what that means for where an intervention would do the most good. I mostly work on two domains: mental health (how symptoms sustain or resolve each other over time) and climate beliefs and behavior (how attitudes, norms, and adaptation spread through a population).
-
-A few questions I keep coming back to:
-<br><br>
-1. Do feedback loops between symptoms explain why some people get stuck in a disorder while others recover? In recent work, we found that it's not just the presence of feedback loops that drives symptom severity and persistence, but which specific connections they run through — which points toward interventions that target key connections rather than broadly loosening the whole network.
-<br><br>
-2. Can we recover cyclic causal structure — not just acyclic causal graphs — from the kind of cross-sectional data psychologists usually collect? Most causal discovery methods assume no feedback loops, which is a bad fit for psychopathology.
-<br><br>
-3. Do the same network and simulation tools that describe symptom dynamics also help explain how climate attitudes and adaptive behaviors interact and shift over time?
+I am currently a PhD candidate at the <a href = 'https://uva.computationalscience.nl/'>Computational Science Lab</a> within the Informatics Institute at the <a href = 'https://ivi.uva.nl/research/computational-science-lab-csl.html'> University of Amsterdam </a>, where I am supervised by Dr. <a href = 'https://vvvasconcelos.github.io/'>Vítor V. Vasconcelos</a> and Dr. <a href = 'https://mhlees.com/'>Michael Lees</a>. My research focuses on computational modeling of complex dynamical systems, with applications to (mental) health, climate change, and sustainability. I am particularly interested in how people’s perceptions, attitudes, and beliefs interact within broader social systems, and how these dynamics can reveal meaningful leverage points for intervention. I am also very interested in causality, particularly in how causal structure and directionality can be inferred in complex systems and what this means for designing interventions.
 
 <br>
-I did my Master's in Methodology and Statistics at <a href='https://www.uu.nl'>Utrecht University</a>, working on estimating cyclic causal models with Dr. <a href='https://ryanoisin.github.io/'>Oisín Ryan</a>. Before that, I studied <a href='https://psyres.uva.nl/content/research-groups/programme-group-psychological-methods/programme-group-psychological-methods.html?cb'>Psychological Methods</a> at the University of Amsterdam, where I first got into psychometrics, formal cognitive modeling, and Bayesian statistics, supervised by Prof. Dr. <a href='https://dennyborsboom.com/'>Denny Borsboom</a> and Dr. <a href='https://cvborkulo.com/'>Claudia van Borkulo</a>.
-
 <br>
-When I'm not doing any of that, I'm usually out chasing down a new cafe in Amsterdam, coffee in hand, or wandering national parks and small Dutch villages with a camera — I'll take a picture of just about anything (see <a href="/hobbies/">hobbies</a> for the evidence, latte art included). I also volunteer with local stray dog shelters, a habit I picked up while living in Dubai.
+I completed my Master's in Methodology and Statistics at <a href='https://www.uu.nl'>Utrecht University</a>, where I worked on causal modeling, specifically estimating cyclic causal models using discovery algorithms, under Dr. <a href='https://ryanoisin.github.io/'>Oisín Ryan</a>. Prior to that, I studied <a href='https://psyres.uva.nl/content/research-groups/programme-group-psychological-methods/programme-group-psychological-methods.html?cb'>Psychological Methods</a> at the University of Amsterdam, where I learned about psychometrics, formal modeling of cognition, and Bayesian modeling. For my Bachelor's thesis, I explored the integration of variables with different time scales into a single network model and its impact on network density, supervised by Prof. Dr. <a href='https://dennyborsboom.com/'>Denny Borsboom</a> and Dr. <a href='https://cvborkulo.com/'>Claudia van Borkulo</a>.
 </p>
 
 
