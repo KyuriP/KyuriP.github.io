@@ -7,7 +7,7 @@ nav_order: 5
 ---
 
 <p>
-Emailed me and haven't heard back? Please don't take it personally, I promise I'm not ignoring you. Sometimes perfectly normal, non-spam emails just quietly go sit in my spam folder and I never notice. So if it's been a while, try the form below instead, this one always finds me.
+Emailed me and haven't heard back? Sometimes perfectly normal, non-spam emails just quietly go sit in my spam folder and I never notice. So if it's been a while, try the form below instead, this one always finds me.
 </p>
 
 <p>
