@@ -175,9 +175,13 @@ body, p, li {
   color: var(--global-theme-color);
 }
 
-// Year headers on the publications page, same treatment
+// Year headers on the publications page: small, soft, no italic
 .publications h2.year {
-  font-style: italic;
+  font-family: 'Quicksand', 'Lato', sans-serif;
+  font-size: 1.1rem;
+  font-style: normal;
+  font-weight: 600;
+  letter-spacing: 0.02em;
   color: var(--global-theme-color);
 }
 
