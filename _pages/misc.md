@@ -2,7 +2,7 @@
 layout: page
 title: misc
 permalink: /misc/
-description: Some things that don't belong anywhere else.
+description: A loose collection of things off to the side of the CV.
 nav: true
 nav_order: 3
 dropdown: true
