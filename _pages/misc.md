@@ -7521,11 +7521,6 @@ now_entries:
 
 <div class="misc-page">
 
-  <div class="misc-subnav">
-    <button type="button" class="misc-tab active" data-target="elsewhere">Elsewhere</button>
-    <button type="button" class="misc-tab" data-target="clock">Off the clock</button>
-  </div>
-
   <section id="misc-panel-elsewhere" class="misc-panel active">
     {%- for para in page.elsewhere_intro %}
     <p class="misc-intro">{{ para }}</p>
@@ -7595,29 +7590,6 @@ now_entries:
   .misc-page {
     font-family: 'Lato', sans-serif;
     color: var(--global-text-color);
-  }
-
-  .misc-subnav {
-    display: flex;
-    gap: 0;
-    border-bottom: 1px solid var(--global-divider-color);
-    margin-bottom: 2rem;
-  }
-  .misc-tab {
-    font-family: 'Lato', sans-serif;
-    font-size: 0.95rem;
-    background: none;
-    border: none;
-    cursor: pointer;
-    color: var(--global-text-color-light);
-    padding: 0 4px 0.9rem;
-    margin-right: 1.6rem;
-    border-bottom: 2px solid transparent;
-    transform: translateY(1px);
-  }
-  .misc-tab.active {
-    color: var(--global-text-color);
-    border-bottom: 2px solid var(--global-theme-color);
   }
 
   .misc-panel { display: none; }
@@ -7848,34 +7820,32 @@ now_entries:
 
 <script src="https://unpkg.com/globe.gl"></script>
 <script>
-  // Switches the visible tab/panel to `target` ('elsewhere' or 'clock').
-  // Shared by tab clicks and the nav dropdown's #elsewhere / #clock links.
+  // Switches the visible panel to `target` ('elsewhere' or 'clock').
+  // Tabs are gone from the page itself now — switching happens entirely
+  // through the "misc" nav dropdown's #elsewhere / #clock links.
   function selectMiscTab(target) {
-    document.querySelectorAll('.misc-tab').forEach(function (t) {
-      t.classList.toggle('active', t.getAttribute('data-target') === target);
-    });
     document.querySelectorAll('.misc-panel').forEach(function (p) {
       p.classList.toggle('active', p.id === 'misc-panel-' + target);
     });
+  }
+
+  // Reads the current #elsewhere / #clock hash and shows that panel.
+  function applyMiscTabFromHash() {
+    var hash = (window.location.hash || '').replace('#', '');
+    if (hash === 'elsewhere' || hash === 'clock') {
+      selectMiscTab(hash);
+    }
   }
 
   document.addEventListener('DOMContentLoaded', function () {
     initMiscGlobe();
     shuffleTravelGrid();
 
-    var tabs = document.querySelectorAll('.misc-tab');
-    tabs.forEach(function (tab) {
-      tab.addEventListener('click', function () {
-        selectMiscTab(tab.getAttribute('data-target'));
-      });
-    });
-
-    // Land on the right tab when arriving via the nav dropdown
-    // (/misc/#elsewhere or /misc/#clock).
-    var hash = (window.location.hash || '').replace('#', '');
-    if (hash === 'elsewhere' || hash === 'clock') {
-      selectMiscTab(hash);
-    }
+    // Land on the right tab when arriving via the nav dropdown, and keep
+    // switching correctly if the dropdown is used again without a full
+    // page reload (clicking #elsewhere while already on #clock, etc.).
+    applyMiscTabFromHash();
+    window.addEventListener('hashchange', applyMiscTabFromHash);
 
     // close a lightbox when clicking its dark backdrop, or on Escape
     document.querySelectorAll('.misc-lightbox').forEach(function (lb) {
