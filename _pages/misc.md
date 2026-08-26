@@ -4,7 +4,13 @@ title: misc
 permalink: /misc/
 description: Some things that don't belong anywhere else.
 nav: true
-nav_order: 7
+nav_order: 3
+dropdown: true
+children:
+  - title: elsewhere
+    permalink: /misc/#elsewhere
+  - title: off the clock
+    permalink: /misc/#clock
 
 # --- Travel photos ---
 # Intro paragraphs shown above the photo grid on the Elsewhere tab (rendered as separate <p> tags).
@@ -7842,6 +7848,17 @@ now_entries:
 
 <script src="https://unpkg.com/globe.gl"></script>
 <script>
+  // Switches the visible tab/panel to `target` ('elsewhere' or 'clock').
+  // Shared by tab clicks and the nav dropdown's #elsewhere / #clock links.
+  function selectMiscTab(target) {
+    document.querySelectorAll('.misc-tab').forEach(function (t) {
+      t.classList.toggle('active', t.getAttribute('data-target') === target);
+    });
+    document.querySelectorAll('.misc-panel').forEach(function (p) {
+      p.classList.toggle('active', p.id === 'misc-panel-' + target);
+    });
+  }
+
   document.addEventListener('DOMContentLoaded', function () {
     initMiscGlobe();
     shuffleTravelGrid();
@@ -7849,15 +7866,16 @@ now_entries:
     var tabs = document.querySelectorAll('.misc-tab');
     tabs.forEach(function (tab) {
       tab.addEventListener('click', function () {
-        var target = tab.getAttribute('data-target');
-        document.querySelectorAll('.misc-tab').forEach(function (t) {
-          t.classList.toggle('active', t === tab);
-        });
-        document.querySelectorAll('.misc-panel').forEach(function (p) {
-          p.classList.toggle('active', p.id === 'misc-panel-' + target);
-        });
+        selectMiscTab(tab.getAttribute('data-target'));
       });
     });
+
+    // Land on the right tab when arriving via the nav dropdown
+    // (/misc/#elsewhere or /misc/#clock).
+    var hash = (window.location.hash || '').replace('#', '');
+    if (hash === 'elsewhere' || hash === 'clock') {
+      selectMiscTab(hash);
+    }
 
     // close a lightbox when clicking its dark backdrop, or on Escape
     document.querySelectorAll('.misc-lightbox').forEach(function (lb) {
