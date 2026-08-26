@@ -7950,7 +7950,17 @@ now_entries:
 
       world.controls().autoRotate = true;
       world.controls().autoRotateSpeed = 0.4;
-      world.controls().enableZoom = false;
+      world.controls().enableZoom = true;
+
+      // Pause the auto-rotation while hovering so clustered pins (e.g. Europe)
+      // hold still long enough to aim for. Scroll/pinch to zoom in also helps
+      // spread tightly-packed pins apart.
+      container.addEventListener('mouseenter', function () {
+        world.controls().autoRotate = false;
+      });
+      container.addEventListener('mouseleave', function () {
+        world.controls().autoRotate = true;
+      });
 
       window.addEventListener('resize', function () {
         world.width(container.clientWidth);
