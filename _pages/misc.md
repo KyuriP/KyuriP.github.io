@@ -5522,8 +5522,6 @@ travel_photos:
     alt: Seattle, USA photo 34
   - img: assets/img/travel/seattle/seattle-35.jpg
     alt: Seattle, USA photo 35
-  - img: assets/img/travel/seattle/seattle-36.jpg
-    alt: Seattle, USA photo 36
 - place: Segovia, Spain
   tag: segovia
   lat: 40.9429
