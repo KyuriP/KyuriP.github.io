@@ -5522,8 +5522,6 @@ travel_photos:
     alt: Seattle, USA photo 34
   - img: assets/img/travel/seattle/seattle-35.jpg
     alt: Seattle, USA photo 35
-  - img: assets/img/travel/seattle/seattle-36.jpg
-    alt: Seattle, USA photo 36
 - place: Segovia, Spain
   tag: segovia
   lat: 40.9429
@@ -7937,7 +7935,7 @@ now_entries:
         .height(container.clientHeight);
 
       world.controls().autoRotate = true;
-      world.controls().autoRotateSpeed = 0.4;
+      world.controls().autoRotateSpeed = 1.4;
       world.controls().enableZoom = true;
 
       // Pause the auto-rotation while hovering so clustered pins (e.g. Europe)
