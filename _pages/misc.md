@@ -428,6 +428,38 @@ travel_photos:
     alt: Annecy, France photo 26
   - img: assets/img/travel/anncey/anncey-27.jpg
     alt: Annecy, France photo 27
+- place: Apeldoorn, Netherlands
+  tag: apeldoorn
+  lat: 52.2112
+  lng: 5.9699
+  img: assets/img/travel/apeldoorn/apeldoorn-01.jpg
+  gallery:
+  - img: assets/img/travel/apeldoorn/apeldoorn-01.jpg
+    alt: Apeldoorn, Netherlands photo 1
+  - img: assets/img/travel/apeldoorn/apeldoorn-02.jpg
+    alt: Apeldoorn, Netherlands photo 2
+  - img: assets/img/travel/apeldoorn/apeldoorn-03.jpg
+    alt: Apeldoorn, Netherlands photo 3
+  - img: assets/img/travel/apeldoorn/apeldoorn-04.jpg
+    alt: Apeldoorn, Netherlands photo 4
+  - img: assets/img/travel/apeldoorn/apeldoorn-05.jpg
+    alt: Apeldoorn, Netherlands photo 5
+  - img: assets/img/travel/apeldoorn/apeldoorn-06.jpg
+    alt: Apeldoorn, Netherlands photo 6
+  - img: assets/img/travel/apeldoorn/apeldoorn-07.jpg
+    alt: Apeldoorn, Netherlands photo 7
+  - img: assets/img/travel/apeldoorn/apeldoorn-08.jpg
+    alt: Apeldoorn, Netherlands photo 8
+  - img: assets/img/travel/apeldoorn/apeldoorn-09.jpg
+    alt: Apeldoorn, Netherlands photo 9
+  - img: assets/img/travel/apeldoorn/apeldoorn-10.jpg
+    alt: Apeldoorn, Netherlands photo 10
+  - img: assets/img/travel/apeldoorn/apeldoorn-11.jpg
+    alt: Apeldoorn, Netherlands photo 11
+  - img: assets/img/travel/apeldoorn/apeldoorn-12.jpg
+    alt: Apeldoorn, Netherlands photo 12
+  - img: assets/img/travel/apeldoorn/apeldoorn-13.jpg
+    alt: Apeldoorn, Netherlands photo 13
 - place: Athens, Greece
   tag: athens
   lat: 37.9838
@@ -1592,6 +1624,94 @@ travel_photos:
     alt: Chicago, USA photo 11
   - img: assets/img/travel/chicago/chicago-12.jpg
     alt: Chicago, USA photo 12
+  - img: assets/img/travel/chicago/chicago-13.jpg
+    alt: Chicago, USA photo 13
+  - img: assets/img/travel/chicago/chicago-14.jpg
+    alt: Chicago, USA photo 14
+  - img: assets/img/travel/chicago/chicago-15.jpg
+    alt: Chicago, USA photo 15
+  - img: assets/img/travel/chicago/chicago-16.jpg
+    alt: Chicago, USA photo 16
+  - img: assets/img/travel/chicago/chicago-17.jpg
+    alt: Chicago, USA photo 17
+  - img: assets/img/travel/chicago/chicago-18.jpg
+    alt: Chicago, USA photo 18
+  - img: assets/img/travel/chicago/chicago-19.jpg
+    alt: Chicago, USA photo 19
+  - img: assets/img/travel/chicago/chicago-20.jpg
+    alt: Chicago, USA photo 20
+  - img: assets/img/travel/chicago/chicago-21.jpg
+    alt: Chicago, USA photo 21
+  - img: assets/img/travel/chicago/chicago-22.jpg
+    alt: Chicago, USA photo 22
+  - img: assets/img/travel/chicago/chicago-23.jpg
+    alt: Chicago, USA photo 23
+  - img: assets/img/travel/chicago/chicago-24.jpg
+    alt: Chicago, USA photo 24
+  - img: assets/img/travel/chicago/chicago-25.jpg
+    alt: Chicago, USA photo 25
+  - img: assets/img/travel/chicago/chicago-26.jpg
+    alt: Chicago, USA photo 26
+  - img: assets/img/travel/chicago/chicago-27.jpg
+    alt: Chicago, USA photo 27
+  - img: assets/img/travel/chicago/chicago-28.jpg
+    alt: Chicago, USA photo 28
+  - img: assets/img/travel/chicago/chicago-29.jpg
+    alt: Chicago, USA photo 29
+  - img: assets/img/travel/chicago/chicago-30.jpg
+    alt: Chicago, USA photo 30
+  - img: assets/img/travel/chicago/chicago-31.jpg
+    alt: Chicago, USA photo 31
+  - img: assets/img/travel/chicago/chicago-32.jpg
+    alt: Chicago, USA photo 32
+  - img: assets/img/travel/chicago/chicago-33.jpg
+    alt: Chicago, USA photo 33
+  - img: assets/img/travel/chicago/chicago-34.jpg
+    alt: Chicago, USA photo 34
+  - img: assets/img/travel/chicago/chicago-35.jpg
+    alt: Chicago, USA photo 35
+  - img: assets/img/travel/chicago/chicago-36.jpg
+    alt: Chicago, USA photo 36
+  - img: assets/img/travel/chicago/chicago-37.jpg
+    alt: Chicago, USA photo 37
+  - img: assets/img/travel/chicago/chicago-38.jpg
+    alt: Chicago, USA photo 38
+  - img: assets/img/travel/chicago/chicago-39.jpg
+    alt: Chicago, USA photo 39
+  - img: assets/img/travel/chicago/chicago-40.jpg
+    alt: Chicago, USA photo 40
+  - img: assets/img/travel/chicago/chicago-41.jpg
+    alt: Chicago, USA photo 41
+  - img: assets/img/travel/chicago/chicago-42.jpg
+    alt: Chicago, USA photo 42
+  - img: assets/img/travel/chicago/chicago-43.jpg
+    alt: Chicago, USA photo 43
+  - img: assets/img/travel/chicago/chicago-44.jpg
+    alt: Chicago, USA photo 44
+  - img: assets/img/travel/chicago/chicago-45.jpg
+    alt: Chicago, USA photo 45
+  - img: assets/img/travel/chicago/chicago-46.jpg
+    alt: Chicago, USA photo 46
+  - img: assets/img/travel/chicago/chicago-47.jpg
+    alt: Chicago, USA photo 47
+  - img: assets/img/travel/chicago/chicago-48.jpg
+    alt: Chicago, USA photo 48
+  - img: assets/img/travel/chicago/chicago-49.jpg
+    alt: Chicago, USA photo 49
+  - img: assets/img/travel/chicago/chicago-50.jpg
+    alt: Chicago, USA photo 50
+  - img: assets/img/travel/chicago/chicago-51.jpg
+    alt: Chicago, USA photo 51
+  - img: assets/img/travel/chicago/chicago-52.jpg
+    alt: Chicago, USA photo 52
+  - img: assets/img/travel/chicago/chicago-53.jpg
+    alt: Chicago, USA photo 53
+  - img: assets/img/travel/chicago/chicago-54.jpg
+    alt: Chicago, USA photo 54
+  - img: assets/img/travel/chicago/chicago-55.jpg
+    alt: Chicago, USA photo 55
+  - img: assets/img/travel/chicago/chicago-56.jpg
+    alt: Chicago, USA photo 56
 - place: Civita di Bagnoregio, Italy
   tag: civita
   lat: 42.6283
@@ -1796,6 +1916,80 @@ travel_photos:
     alt: Da Nang, Vietnam photo 16
   - img: assets/img/travel/danang/danang-17.jpg
     alt: Da Nang, Vietnam photo 17
+- place: Daejeon, South Korea
+  tag: daejeon
+  lat: 36.3504
+  lng: 127.3845
+  img: assets/img/travel/daejeon/daejeon-01.jpg
+  gallery:
+  - img: assets/img/travel/daejeon/daejeon-01.jpg
+    alt: Daejeon, South Korea photo 1
+  - img: assets/img/travel/daejeon/daejeon-02.jpg
+    alt: Daejeon, South Korea photo 2
+  - img: assets/img/travel/daejeon/daejeon-03.jpg
+    alt: Daejeon, South Korea photo 3
+  - img: assets/img/travel/daejeon/daejeon-04.jpg
+    alt: Daejeon, South Korea photo 4
+  - img: assets/img/travel/daejeon/daejeon-05.jpg
+    alt: Daejeon, South Korea photo 5
+  - img: assets/img/travel/daejeon/daejeon-06.jpg
+    alt: Daejeon, South Korea photo 6
+  - img: assets/img/travel/daejeon/daejeon-07.jpg
+    alt: Daejeon, South Korea photo 7
+  - img: assets/img/travel/daejeon/daejeon-08.jpg
+    alt: Daejeon, South Korea photo 8
+  - img: assets/img/travel/daejeon/daejeon-09.jpg
+    alt: Daejeon, South Korea photo 9
+  - img: assets/img/travel/daejeon/daejeon-10.jpg
+    alt: Daejeon, South Korea photo 10
+  - img: assets/img/travel/daejeon/daejeon-11.jpg
+    alt: Daejeon, South Korea photo 11
+  - img: assets/img/travel/daejeon/daejeon-12.jpg
+    alt: Daejeon, South Korea photo 12
+  - img: assets/img/travel/daejeon/daejeon-13.jpg
+    alt: Daejeon, South Korea photo 13
+  - img: assets/img/travel/daejeon/daejeon-14.jpg
+    alt: Daejeon, South Korea photo 14
+  - img: assets/img/travel/daejeon/daejeon-15.jpg
+    alt: Daejeon, South Korea photo 15
+  - img: assets/img/travel/daejeon/daejeon-16.jpg
+    alt: Daejeon, South Korea photo 16
+  - img: assets/img/travel/daejeon/daejeon-17.jpg
+    alt: Daejeon, South Korea photo 17
+  - img: assets/img/travel/daejeon/daejeon-18.jpg
+    alt: Daejeon, South Korea photo 18
+  - img: assets/img/travel/daejeon/daejeon-19.jpg
+    alt: Daejeon, South Korea photo 19
+  - img: assets/img/travel/daejeon/daejeon-20.jpg
+    alt: Daejeon, South Korea photo 20
+  - img: assets/img/travel/daejeon/daejeon-21.jpg
+    alt: Daejeon, South Korea photo 21
+  - img: assets/img/travel/daejeon/daejeon-22.jpg
+    alt: Daejeon, South Korea photo 22
+  - img: assets/img/travel/daejeon/daejeon-23.jpg
+    alt: Daejeon, South Korea photo 23
+  - img: assets/img/travel/daejeon/daejeon-24.jpg
+    alt: Daejeon, South Korea photo 24
+  - img: assets/img/travel/daejeon/daejeon-25.jpg
+    alt: Daejeon, South Korea photo 25
+  - img: assets/img/travel/daejeon/daejeon-26.jpg
+    alt: Daejeon, South Korea photo 26
+  - img: assets/img/travel/daejeon/daejeon-27.jpg
+    alt: Daejeon, South Korea photo 27
+  - img: assets/img/travel/daejeon/daejeon-28.jpg
+    alt: Daejeon, South Korea photo 28
+  - img: assets/img/travel/daejeon/daejeon-29.jpg
+    alt: Daejeon, South Korea photo 29
+  - img: assets/img/travel/daejeon/daejeon-30.jpg
+    alt: Daejeon, South Korea photo 30
+  - img: assets/img/travel/daejeon/daejeon-31.jpg
+    alt: Daejeon, South Korea photo 31
+  - img: assets/img/travel/daejeon/daejeon-32.jpg
+    alt: Daejeon, South Korea photo 32
+  - img: assets/img/travel/daejeon/daejeon-33.jpg
+    alt: Daejeon, South Korea photo 33
+  - img: assets/img/travel/daejeon/daejeon-34.jpg
+    alt: Daejeon, South Korea photo 34
 - place: Dallas & Fort Worth, Texas
   tag: dallas
   lat: 32.7767
@@ -2418,6 +2612,62 @@ travel_photos:
     alt: Geneva, Switzerland photo 27
   - img: assets/img/travel/geneva/geneva-28.jpg
     alt: Geneva, Switzerland photo 28
+- place: Giethoorn, Netherlands
+  tag: giethoorn
+  lat: 52.7405
+  lng: 6.0784
+  img: assets/img/travel/giethoorn/giethoorn-01.jpg
+  gallery:
+  - img: assets/img/travel/giethoorn/giethoorn-01.jpg
+    alt: Giethoorn, Netherlands photo 1
+  - img: assets/img/travel/giethoorn/giethoorn-02.jpg
+    alt: Giethoorn, Netherlands photo 2
+  - img: assets/img/travel/giethoorn/giethoorn-03.jpg
+    alt: Giethoorn, Netherlands photo 3
+  - img: assets/img/travel/giethoorn/giethoorn-04.jpg
+    alt: Giethoorn, Netherlands photo 4
+  - img: assets/img/travel/giethoorn/giethoorn-05.jpg
+    alt: Giethoorn, Netherlands photo 5
+  - img: assets/img/travel/giethoorn/giethoorn-06.jpg
+    alt: Giethoorn, Netherlands photo 6
+  - img: assets/img/travel/giethoorn/giethoorn-07.jpg
+    alt: Giethoorn, Netherlands photo 7
+  - img: assets/img/travel/giethoorn/giethoorn-08.jpg
+    alt: Giethoorn, Netherlands photo 8
+  - img: assets/img/travel/giethoorn/giethoorn-09.jpg
+    alt: Giethoorn, Netherlands photo 9
+  - img: assets/img/travel/giethoorn/giethoorn-10.jpg
+    alt: Giethoorn, Netherlands photo 10
+  - img: assets/img/travel/giethoorn/giethoorn-11.jpg
+    alt: Giethoorn, Netherlands photo 11
+  - img: assets/img/travel/giethoorn/giethoorn-12.jpg
+    alt: Giethoorn, Netherlands photo 12
+  - img: assets/img/travel/giethoorn/giethoorn-13.jpg
+    alt: Giethoorn, Netherlands photo 13
+  - img: assets/img/travel/giethoorn/giethoorn-14.jpg
+    alt: Giethoorn, Netherlands photo 14
+  - img: assets/img/travel/giethoorn/giethoorn-15.jpg
+    alt: Giethoorn, Netherlands photo 15
+  - img: assets/img/travel/giethoorn/giethoorn-16.jpg
+    alt: Giethoorn, Netherlands photo 16
+  - img: assets/img/travel/giethoorn/giethoorn-17.jpg
+    alt: Giethoorn, Netherlands photo 17
+  - img: assets/img/travel/giethoorn/giethoorn-18.jpg
+    alt: Giethoorn, Netherlands photo 18
+  - img: assets/img/travel/giethoorn/giethoorn-19.jpg
+    alt: Giethoorn, Netherlands photo 19
+  - img: assets/img/travel/giethoorn/giethoorn-20.jpg
+    alt: Giethoorn, Netherlands photo 20
+  - img: assets/img/travel/giethoorn/giethoorn-21.jpg
+    alt: Giethoorn, Netherlands photo 21
+  - img: assets/img/travel/giethoorn/giethoorn-22.jpg
+    alt: Giethoorn, Netherlands photo 22
+  - img: assets/img/travel/giethoorn/giethoorn-23.jpg
+    alt: Giethoorn, Netherlands photo 23
+  - img: assets/img/travel/giethoorn/giethoorn-24.jpg
+    alt: Giethoorn, Netherlands photo 24
+  - img: assets/img/travel/giethoorn/giethoorn-25.jpg
+    alt: Giethoorn, Netherlands photo 25
 - place: Glasgow, Scotland
   tag: glasgow
   lat: 55.8642
@@ -2500,6 +2750,306 @@ travel_photos:
     alt: Glacier rock face meeting turquoise water
   - img: assets/img/travel/greenland/greenland-12.jpg
     alt: Misty mountains reflected in still water
+  - img: assets/img/travel/greenland/greenland-13.jpg
+    alt: Greenland photo 13
+  - img: assets/img/travel/greenland/greenland-14.jpg
+    alt: Greenland photo 14
+  - img: assets/img/travel/greenland/greenland-15.jpg
+    alt: Greenland photo 15
+  - img: assets/img/travel/greenland/greenland-16.jpg
+    alt: Greenland photo 16
+  - img: assets/img/travel/greenland/greenland-17.jpg
+    alt: Greenland photo 17
+  - img: assets/img/travel/greenland/greenland-18.jpg
+    alt: Greenland photo 18
+  - img: assets/img/travel/greenland/greenland-19.jpg
+    alt: Greenland photo 19
+  - img: assets/img/travel/greenland/greenland-20.jpg
+    alt: Greenland photo 20
+  - img: assets/img/travel/greenland/greenland-21.jpg
+    alt: Greenland photo 21
+  - img: assets/img/travel/greenland/greenland-22.jpg
+    alt: Greenland photo 22
+  - img: assets/img/travel/greenland/greenland-23.jpg
+    alt: Greenland photo 23
+  - img: assets/img/travel/greenland/greenland-24.jpg
+    alt: Greenland photo 24
+  - img: assets/img/travel/greenland/greenland-25.jpg
+    alt: Greenland photo 25
+  - img: assets/img/travel/greenland/greenland-26.jpg
+    alt: Greenland photo 26
+  - img: assets/img/travel/greenland/greenland-27.jpg
+    alt: Greenland photo 27
+  - img: assets/img/travel/greenland/greenland-28.jpg
+    alt: Greenland photo 28
+  - img: assets/img/travel/greenland/greenland-29.jpg
+    alt: Greenland photo 29
+  - img: assets/img/travel/greenland/greenland-30.jpg
+    alt: Greenland photo 30
+  - img: assets/img/travel/greenland/greenland-31.jpg
+    alt: Greenland photo 31
+  - img: assets/img/travel/greenland/greenland-32.jpg
+    alt: Greenland photo 32
+  - img: assets/img/travel/greenland/greenland-33.jpg
+    alt: Greenland photo 33
+  - img: assets/img/travel/greenland/greenland-34.jpg
+    alt: Greenland photo 34
+  - img: assets/img/travel/greenland/greenland-35.jpg
+    alt: Greenland photo 35
+  - img: assets/img/travel/greenland/greenland-36.jpg
+    alt: Greenland photo 36
+  - img: assets/img/travel/greenland/greenland-37.jpg
+    alt: Greenland photo 37
+  - img: assets/img/travel/greenland/greenland-38.jpg
+    alt: Greenland photo 38
+  - img: assets/img/travel/greenland/greenland-39.jpg
+    alt: Greenland photo 39
+  - img: assets/img/travel/greenland/greenland-40.jpg
+    alt: Greenland photo 40
+  - img: assets/img/travel/greenland/greenland-41.jpg
+    alt: Greenland photo 41
+  - img: assets/img/travel/greenland/greenland-42.jpg
+    alt: Greenland photo 42
+  - img: assets/img/travel/greenland/greenland-43.jpg
+    alt: Greenland photo 43
+  - img: assets/img/travel/greenland/greenland-44.jpg
+    alt: Greenland photo 44
+  - img: assets/img/travel/greenland/greenland-45.jpg
+    alt: Greenland photo 45
+  - img: assets/img/travel/greenland/greenland-46.jpg
+    alt: Greenland photo 46
+  - img: assets/img/travel/greenland/greenland-47.jpg
+    alt: Greenland photo 47
+  - img: assets/img/travel/greenland/greenland-48.jpg
+    alt: Greenland photo 48
+  - img: assets/img/travel/greenland/greenland-49.jpg
+    alt: Greenland photo 49
+  - img: assets/img/travel/greenland/greenland-50.jpg
+    alt: Greenland photo 50
+  - img: assets/img/travel/greenland/greenland-51.jpg
+    alt: Greenland photo 51
+  - img: assets/img/travel/greenland/greenland-52.jpg
+    alt: Greenland photo 52
+  - img: assets/img/travel/greenland/greenland-53.jpg
+    alt: Greenland photo 53
+  - img: assets/img/travel/greenland/greenland-54.jpg
+    alt: Greenland photo 54
+  - img: assets/img/travel/greenland/greenland-55.jpg
+    alt: Greenland photo 55
+  - img: assets/img/travel/greenland/greenland-56.jpg
+    alt: Greenland photo 56
+  - img: assets/img/travel/greenland/greenland-57.jpg
+    alt: Greenland photo 57
+  - img: assets/img/travel/greenland/greenland-58.jpg
+    alt: Greenland photo 58
+  - img: assets/img/travel/greenland/greenland-59.jpg
+    alt: Greenland photo 59
+  - img: assets/img/travel/greenland/greenland-60.jpg
+    alt: Greenland photo 60
+  - img: assets/img/travel/greenland/greenland-61.jpg
+    alt: Greenland photo 61
+  - img: assets/img/travel/greenland/greenland-62.jpg
+    alt: Greenland photo 62
+  - img: assets/img/travel/greenland/greenland-63.jpg
+    alt: Greenland photo 63
+  - img: assets/img/travel/greenland/greenland-64.jpg
+    alt: Greenland photo 64
+  - img: assets/img/travel/greenland/greenland-65.jpg
+    alt: Greenland photo 65
+  - img: assets/img/travel/greenland/greenland-66.jpg
+    alt: Greenland photo 66
+  - img: assets/img/travel/greenland/greenland-67.jpg
+    alt: Greenland photo 67
+  - img: assets/img/travel/greenland/greenland-68.jpg
+    alt: Greenland photo 68
+  - img: assets/img/travel/greenland/greenland-69.jpg
+    alt: Greenland photo 69
+  - img: assets/img/travel/greenland/greenland-70.jpg
+    alt: Greenland photo 70
+  - img: assets/img/travel/greenland/greenland-71.jpg
+    alt: Greenland photo 71
+  - img: assets/img/travel/greenland/greenland-72.jpg
+    alt: Greenland photo 72
+  - img: assets/img/travel/greenland/greenland-73.jpg
+    alt: Greenland photo 73
+  - img: assets/img/travel/greenland/greenland-74.jpg
+    alt: Greenland photo 74
+  - img: assets/img/travel/greenland/greenland-75.jpg
+    alt: Greenland photo 75
+  - img: assets/img/travel/greenland/greenland-76.jpg
+    alt: Greenland photo 76
+  - img: assets/img/travel/greenland/greenland-77.jpg
+    alt: Greenland photo 77
+  - img: assets/img/travel/greenland/greenland-78.jpg
+    alt: Greenland photo 78
+  - img: assets/img/travel/greenland/greenland-79.jpg
+    alt: Greenland photo 79
+  - img: assets/img/travel/greenland/greenland-80.jpg
+    alt: Greenland photo 80
+  - img: assets/img/travel/greenland/greenland-81.jpg
+    alt: Greenland photo 81
+  - img: assets/img/travel/greenland/greenland-82.jpg
+    alt: Greenland photo 82
+  - img: assets/img/travel/greenland/greenland-83.jpg
+    alt: Greenland photo 83
+  - img: assets/img/travel/greenland/greenland-84.jpg
+    alt: Greenland photo 84
+  - img: assets/img/travel/greenland/greenland-85.jpg
+    alt: Greenland photo 85
+  - img: assets/img/travel/greenland/greenland-86.jpg
+    alt: Greenland photo 86
+  - img: assets/img/travel/greenland/greenland-87.jpg
+    alt: Greenland photo 87
+  - img: assets/img/travel/greenland/greenland-88.jpg
+    alt: Greenland photo 88
+  - img: assets/img/travel/greenland/greenland-89.jpg
+    alt: Greenland photo 89
+  - img: assets/img/travel/greenland/greenland-90.jpg
+    alt: Greenland photo 90
+  - img: assets/img/travel/greenland/greenland-91.jpg
+    alt: Greenland photo 91
+  - img: assets/img/travel/greenland/greenland-92.jpg
+    alt: Greenland photo 92
+  - img: assets/img/travel/greenland/greenland-93.jpg
+    alt: Greenland photo 93
+  - img: assets/img/travel/greenland/greenland-94.jpg
+    alt: Greenland photo 94
+  - img: assets/img/travel/greenland/greenland-95.jpg
+    alt: Greenland photo 95
+  - img: assets/img/travel/greenland/greenland-96.jpg
+    alt: Greenland photo 96
+  - img: assets/img/travel/greenland/greenland-97.jpg
+    alt: Greenland photo 97
+  - img: assets/img/travel/greenland/greenland-98.jpg
+    alt: Greenland photo 98
+  - img: assets/img/travel/greenland/greenland-99.jpg
+    alt: Greenland photo 99
+  - img: assets/img/travel/greenland/greenland-100.jpg
+    alt: Greenland photo 100
+  - img: assets/img/travel/greenland/greenland-101.jpg
+    alt: Greenland photo 101
+  - img: assets/img/travel/greenland/greenland-102.jpg
+    alt: Greenland photo 102
+  - img: assets/img/travel/greenland/greenland-103.jpg
+    alt: Greenland photo 103
+  - img: assets/img/travel/greenland/greenland-104.jpg
+    alt: Greenland photo 104
+  - img: assets/img/travel/greenland/greenland-105.jpg
+    alt: Greenland photo 105
+  - img: assets/img/travel/greenland/greenland-106.jpg
+    alt: Greenland photo 106
+  - img: assets/img/travel/greenland/greenland-107.jpg
+    alt: Greenland photo 107
+  - img: assets/img/travel/greenland/greenland-108.jpg
+    alt: Greenland photo 108
+  - img: assets/img/travel/greenland/greenland-109.jpg
+    alt: Greenland photo 109
+  - img: assets/img/travel/greenland/greenland-110.jpg
+    alt: Greenland photo 110
+  - img: assets/img/travel/greenland/greenland-111.jpg
+    alt: Greenland photo 111
+  - img: assets/img/travel/greenland/greenland-112.jpg
+    alt: Greenland photo 112
+  - img: assets/img/travel/greenland/greenland-113.jpg
+    alt: Greenland photo 113
+  - img: assets/img/travel/greenland/greenland-114.jpg
+    alt: Greenland photo 114
+  - img: assets/img/travel/greenland/greenland-115.jpg
+    alt: Greenland photo 115
+  - img: assets/img/travel/greenland/greenland-116.jpg
+    alt: Greenland photo 116
+  - img: assets/img/travel/greenland/greenland-117.jpg
+    alt: Greenland photo 117
+  - img: assets/img/travel/greenland/greenland-118.jpg
+    alt: Greenland photo 118
+  - img: assets/img/travel/greenland/greenland-119.jpg
+    alt: Greenland photo 119
+  - img: assets/img/travel/greenland/greenland-120.jpg
+    alt: Greenland photo 120
+  - img: assets/img/travel/greenland/greenland-121.jpg
+    alt: Greenland photo 121
+  - img: assets/img/travel/greenland/greenland-122.jpg
+    alt: Greenland photo 122
+  - img: assets/img/travel/greenland/greenland-123.jpg
+    alt: Greenland photo 123
+  - img: assets/img/travel/greenland/greenland-124.jpg
+    alt: Greenland photo 124
+  - img: assets/img/travel/greenland/greenland-125.jpg
+    alt: Greenland photo 125
+  - img: assets/img/travel/greenland/greenland-126.jpg
+    alt: Greenland photo 126
+  - img: assets/img/travel/greenland/greenland-127.jpg
+    alt: Greenland photo 127
+  - img: assets/img/travel/greenland/greenland-128.jpg
+    alt: Greenland photo 128
+  - img: assets/img/travel/greenland/greenland-129.jpg
+    alt: Greenland photo 129
+  - img: assets/img/travel/greenland/greenland-130.jpg
+    alt: Greenland photo 130
+  - img: assets/img/travel/greenland/greenland-131.jpg
+    alt: Greenland photo 131
+  - img: assets/img/travel/greenland/greenland-132.jpg
+    alt: Greenland photo 132
+  - img: assets/img/travel/greenland/greenland-133.jpg
+    alt: Greenland photo 133
+  - img: assets/img/travel/greenland/greenland-134.jpg
+    alt: Greenland photo 134
+  - img: assets/img/travel/greenland/greenland-135.jpg
+    alt: Greenland photo 135
+  - img: assets/img/travel/greenland/greenland-136.jpg
+    alt: Greenland photo 136
+  - img: assets/img/travel/greenland/greenland-137.jpg
+    alt: Greenland photo 137
+  - img: assets/img/travel/greenland/greenland-138.jpg
+    alt: Greenland photo 138
+  - img: assets/img/travel/greenland/greenland-139.jpg
+    alt: Greenland photo 139
+  - img: assets/img/travel/greenland/greenland-140.jpg
+    alt: Greenland photo 140
+  - img: assets/img/travel/greenland/greenland-141.jpg
+    alt: Greenland photo 141
+  - img: assets/img/travel/greenland/greenland-142.jpg
+    alt: Greenland photo 142
+  - img: assets/img/travel/greenland/greenland-143.jpg
+    alt: Greenland photo 143
+  - img: assets/img/travel/greenland/greenland-144.jpg
+    alt: Greenland photo 144
+  - img: assets/img/travel/greenland/greenland-145.jpg
+    alt: Greenland photo 145
+  - img: assets/img/travel/greenland/greenland-146.jpg
+    alt: Greenland photo 146
+  - img: assets/img/travel/greenland/greenland-147.jpg
+    alt: Greenland photo 147
+  - img: assets/img/travel/greenland/greenland-148.jpg
+    alt: Greenland photo 148
+  - img: assets/img/travel/greenland/greenland-149.jpg
+    alt: Greenland photo 149
+  - img: assets/img/travel/greenland/greenland-150.jpg
+    alt: Greenland photo 150
+  - img: assets/img/travel/greenland/greenland-151.jpg
+    alt: Greenland photo 151
+  - img: assets/img/travel/greenland/greenland-152.jpg
+    alt: Greenland photo 152
+  - img: assets/img/travel/greenland/greenland-153.jpg
+    alt: Greenland photo 153
+  - img: assets/img/travel/greenland/greenland-154.jpg
+    alt: Greenland photo 154
+  - img: assets/img/travel/greenland/greenland-155.jpg
+    alt: Greenland photo 155
+  - img: assets/img/travel/greenland/greenland-156.jpg
+    alt: Greenland photo 156
+  - img: assets/img/travel/greenland/greenland-157.jpg
+    alt: Greenland photo 157
+  - img: assets/img/travel/greenland/greenland-158.jpg
+    alt: Greenland photo 158
+  - img: assets/img/travel/greenland/greenland-159.jpg
+    alt: Greenland photo 159
+  - img: assets/img/travel/greenland/greenland-160.jpg
+    alt: Greenland photo 160
+  - img: assets/img/travel/greenland/greenland-161.jpg
+    alt: Greenland photo 161
+  - img: assets/img/travel/greenland/greenland-162.jpg
+    alt: Greenland photo 162
 - place: Haarlem, Netherlands
   tag: haarlem
   lat: 52.3874
@@ -3112,6 +3662,906 @@ travel_photos:
     alt: Kyuri and her mom at the edge of the glacier lagoon
   - img: assets/img/travel/iceland/iceland-12.jpg
     alt: Kyuri and her mom standing before a basalt waterfall
+  - img: assets/img/travel/iceland/iceland-13.jpg
+    alt: Iceland photo 13
+  - img: assets/img/travel/iceland/iceland-14.jpg
+    alt: Iceland photo 14
+  - img: assets/img/travel/iceland/iceland-15.jpg
+    alt: Iceland photo 15
+  - img: assets/img/travel/iceland/iceland-16.jpg
+    alt: Iceland photo 16
+  - img: assets/img/travel/iceland/iceland-17.jpg
+    alt: Iceland photo 17
+  - img: assets/img/travel/iceland/iceland-18.jpg
+    alt: Iceland photo 18
+  - img: assets/img/travel/iceland/iceland-19.jpg
+    alt: Iceland photo 19
+  - img: assets/img/travel/iceland/iceland-20.jpg
+    alt: Iceland photo 20
+  - img: assets/img/travel/iceland/iceland-21.jpg
+    alt: Iceland photo 21
+  - img: assets/img/travel/iceland/iceland-22.jpg
+    alt: Iceland photo 22
+  - img: assets/img/travel/iceland/iceland-23.jpg
+    alt: Iceland photo 23
+  - img: assets/img/travel/iceland/iceland-24.jpg
+    alt: Iceland photo 24
+  - img: assets/img/travel/iceland/iceland-25.jpg
+    alt: Iceland photo 25
+  - img: assets/img/travel/iceland/iceland-26.jpg
+    alt: Iceland photo 26
+  - img: assets/img/travel/iceland/iceland-27.jpg
+    alt: Iceland photo 27
+  - img: assets/img/travel/iceland/iceland-28.jpg
+    alt: Iceland photo 28
+  - img: assets/img/travel/iceland/iceland-29.jpg
+    alt: Iceland photo 29
+  - img: assets/img/travel/iceland/iceland-30.jpg
+    alt: Iceland photo 30
+  - img: assets/img/travel/iceland/iceland-31.jpg
+    alt: Iceland photo 31
+  - img: assets/img/travel/iceland/iceland-32.jpg
+    alt: Iceland photo 32
+  - img: assets/img/travel/iceland/iceland-33.jpg
+    alt: Iceland photo 33
+  - img: assets/img/travel/iceland/iceland-34.jpg
+    alt: Iceland photo 34
+  - img: assets/img/travel/iceland/iceland-35.jpg
+    alt: Iceland photo 35
+  - img: assets/img/travel/iceland/iceland-36.jpg
+    alt: Iceland photo 36
+  - img: assets/img/travel/iceland/iceland-37.jpg
+    alt: Iceland photo 37
+  - img: assets/img/travel/iceland/iceland-38.jpg
+    alt: Iceland photo 38
+  - img: assets/img/travel/iceland/iceland-39.jpg
+    alt: Iceland photo 39
+  - img: assets/img/travel/iceland/iceland-40.jpg
+    alt: Iceland photo 40
+  - img: assets/img/travel/iceland/iceland-41.jpg
+    alt: Iceland photo 41
+  - img: assets/img/travel/iceland/iceland-42.jpg
+    alt: Iceland photo 42
+  - img: assets/img/travel/iceland/iceland-43.jpg
+    alt: Iceland photo 43
+  - img: assets/img/travel/iceland/iceland-44.jpg
+    alt: Iceland photo 44
+  - img: assets/img/travel/iceland/iceland-45.jpg
+    alt: Iceland photo 45
+  - img: assets/img/travel/iceland/iceland-46.jpg
+    alt: Iceland photo 46
+  - img: assets/img/travel/iceland/iceland-47.jpg
+    alt: Iceland photo 47
+  - img: assets/img/travel/iceland/iceland-48.jpg
+    alt: Iceland photo 48
+  - img: assets/img/travel/iceland/iceland-49.jpg
+    alt: Iceland photo 49
+  - img: assets/img/travel/iceland/iceland-50.jpg
+    alt: Iceland photo 50
+  - img: assets/img/travel/iceland/iceland-51.jpg
+    alt: Iceland photo 51
+  - img: assets/img/travel/iceland/iceland-52.jpg
+    alt: Iceland photo 52
+  - img: assets/img/travel/iceland/iceland-53.jpg
+    alt: Iceland photo 53
+  - img: assets/img/travel/iceland/iceland-54.jpg
+    alt: Iceland photo 54
+  - img: assets/img/travel/iceland/iceland-55.jpg
+    alt: Iceland photo 55
+  - img: assets/img/travel/iceland/iceland-56.jpg
+    alt: Iceland photo 56
+  - img: assets/img/travel/iceland/iceland-57.jpg
+    alt: Iceland photo 57
+  - img: assets/img/travel/iceland/iceland-58.jpg
+    alt: Iceland photo 58
+  - img: assets/img/travel/iceland/iceland-59.jpg
+    alt: Iceland photo 59
+  - img: assets/img/travel/iceland/iceland-60.jpg
+    alt: Iceland photo 60
+  - img: assets/img/travel/iceland/iceland-61.jpg
+    alt: Iceland photo 61
+  - img: assets/img/travel/iceland/iceland-62.jpg
+    alt: Iceland photo 62
+  - img: assets/img/travel/iceland/iceland-63.jpg
+    alt: Iceland photo 63
+  - img: assets/img/travel/iceland/iceland-64.jpg
+    alt: Iceland photo 64
+  - img: assets/img/travel/iceland/iceland-65.jpg
+    alt: Iceland photo 65
+  - img: assets/img/travel/iceland/iceland-66.jpg
+    alt: Iceland photo 66
+  - img: assets/img/travel/iceland/iceland-67.jpg
+    alt: Iceland photo 67
+  - img: assets/img/travel/iceland/iceland-68.jpg
+    alt: Iceland photo 68
+  - img: assets/img/travel/iceland/iceland-69.jpg
+    alt: Iceland photo 69
+  - img: assets/img/travel/iceland/iceland-70.jpg
+    alt: Iceland photo 70
+  - img: assets/img/travel/iceland/iceland-71.jpg
+    alt: Iceland photo 71
+  - img: assets/img/travel/iceland/iceland-72.jpg
+    alt: Iceland photo 72
+  - img: assets/img/travel/iceland/iceland-73.jpg
+    alt: Iceland photo 73
+  - img: assets/img/travel/iceland/iceland-74.jpg
+    alt: Iceland photo 74
+  - img: assets/img/travel/iceland/iceland-75.jpg
+    alt: Iceland photo 75
+  - img: assets/img/travel/iceland/iceland-76.jpg
+    alt: Iceland photo 76
+  - img: assets/img/travel/iceland/iceland-77.jpg
+    alt: Iceland photo 77
+  - img: assets/img/travel/iceland/iceland-78.jpg
+    alt: Iceland photo 78
+  - img: assets/img/travel/iceland/iceland-79.jpg
+    alt: Iceland photo 79
+  - img: assets/img/travel/iceland/iceland-80.jpg
+    alt: Iceland photo 80
+  - img: assets/img/travel/iceland/iceland-81.jpg
+    alt: Iceland photo 81
+  - img: assets/img/travel/iceland/iceland-82.jpg
+    alt: Iceland photo 82
+  - img: assets/img/travel/iceland/iceland-83.jpg
+    alt: Iceland photo 83
+  - img: assets/img/travel/iceland/iceland-84.jpg
+    alt: Iceland photo 84
+  - img: assets/img/travel/iceland/iceland-85.jpg
+    alt: Iceland photo 85
+  - img: assets/img/travel/iceland/iceland-86.jpg
+    alt: Iceland photo 86
+  - img: assets/img/travel/iceland/iceland-87.jpg
+    alt: Iceland photo 87
+  - img: assets/img/travel/iceland/iceland-88.jpg
+    alt: Iceland photo 88
+  - img: assets/img/travel/iceland/iceland-89.jpg
+    alt: Iceland photo 89
+  - img: assets/img/travel/iceland/iceland-90.jpg
+    alt: Iceland photo 90
+  - img: assets/img/travel/iceland/iceland-91.jpg
+    alt: Iceland photo 91
+  - img: assets/img/travel/iceland/iceland-92.jpg
+    alt: Iceland photo 92
+  - img: assets/img/travel/iceland/iceland-93.jpg
+    alt: Iceland photo 93
+  - img: assets/img/travel/iceland/iceland-94.jpg
+    alt: Iceland photo 94
+  - img: assets/img/travel/iceland/iceland-95.jpg
+    alt: Iceland photo 95
+  - img: assets/img/travel/iceland/iceland-96.jpg
+    alt: Iceland photo 96
+  - img: assets/img/travel/iceland/iceland-97.jpg
+    alt: Iceland photo 97
+  - img: assets/img/travel/iceland/iceland-98.jpg
+    alt: Iceland photo 98
+  - img: assets/img/travel/iceland/iceland-99.jpg
+    alt: Iceland photo 99
+  - img: assets/img/travel/iceland/iceland-100.jpg
+    alt: Iceland photo 100
+  - img: assets/img/travel/iceland/iceland-101.jpg
+    alt: Iceland photo 101
+  - img: assets/img/travel/iceland/iceland-102.jpg
+    alt: Iceland photo 102
+  - img: assets/img/travel/iceland/iceland-103.jpg
+    alt: Iceland photo 103
+  - img: assets/img/travel/iceland/iceland-104.jpg
+    alt: Iceland photo 104
+  - img: assets/img/travel/iceland/iceland-105.jpg
+    alt: Iceland photo 105
+  - img: assets/img/travel/iceland/iceland-106.jpg
+    alt: Iceland photo 106
+  - img: assets/img/travel/iceland/iceland-107.jpg
+    alt: Iceland photo 107
+  - img: assets/img/travel/iceland/iceland-108.jpg
+    alt: Iceland photo 108
+  - img: assets/img/travel/iceland/iceland-109.jpg
+    alt: Iceland photo 109
+  - img: assets/img/travel/iceland/iceland-110.jpg
+    alt: Iceland photo 110
+  - img: assets/img/travel/iceland/iceland-111.jpg
+    alt: Iceland photo 111
+  - img: assets/img/travel/iceland/iceland-112.jpg
+    alt: Iceland photo 112
+  - img: assets/img/travel/iceland/iceland-113.jpg
+    alt: Iceland photo 113
+  - img: assets/img/travel/iceland/iceland-114.jpg
+    alt: Iceland photo 114
+  - img: assets/img/travel/iceland/iceland-115.jpg
+    alt: Iceland photo 115
+  - img: assets/img/travel/iceland/iceland-116.jpg
+    alt: Iceland photo 116
+  - img: assets/img/travel/iceland/iceland-117.jpg
+    alt: Iceland photo 117
+  - img: assets/img/travel/iceland/iceland-118.jpg
+    alt: Iceland photo 118
+  - img: assets/img/travel/iceland/iceland-119.jpg
+    alt: Iceland photo 119
+  - img: assets/img/travel/iceland/iceland-120.jpg
+    alt: Iceland photo 120
+  - img: assets/img/travel/iceland/iceland-121.jpg
+    alt: Iceland photo 121
+  - img: assets/img/travel/iceland/iceland-122.jpg
+    alt: Iceland photo 122
+  - img: assets/img/travel/iceland/iceland-123.jpg
+    alt: Iceland photo 123
+  - img: assets/img/travel/iceland/iceland-124.jpg
+    alt: Iceland photo 124
+  - img: assets/img/travel/iceland/iceland-125.jpg
+    alt: Iceland photo 125
+  - img: assets/img/travel/iceland/iceland-126.jpg
+    alt: Iceland photo 126
+  - img: assets/img/travel/iceland/iceland-127.jpg
+    alt: Iceland photo 127
+  - img: assets/img/travel/iceland/iceland-128.jpg
+    alt: Iceland photo 128
+  - img: assets/img/travel/iceland/iceland-129.jpg
+    alt: Iceland photo 129
+  - img: assets/img/travel/iceland/iceland-130.jpg
+    alt: Iceland photo 130
+  - img: assets/img/travel/iceland/iceland-131.jpg
+    alt: Iceland photo 131
+  - img: assets/img/travel/iceland/iceland-132.jpg
+    alt: Iceland photo 132
+  - img: assets/img/travel/iceland/iceland-133.jpg
+    alt: Iceland photo 133
+  - img: assets/img/travel/iceland/iceland-134.jpg
+    alt: Iceland photo 134
+  - img: assets/img/travel/iceland/iceland-135.jpg
+    alt: Iceland photo 135
+  - img: assets/img/travel/iceland/iceland-136.jpg
+    alt: Iceland photo 136
+  - img: assets/img/travel/iceland/iceland-137.jpg
+    alt: Iceland photo 137
+  - img: assets/img/travel/iceland/iceland-138.jpg
+    alt: Iceland photo 138
+  - img: assets/img/travel/iceland/iceland-139.jpg
+    alt: Iceland photo 139
+  - img: assets/img/travel/iceland/iceland-140.jpg
+    alt: Iceland photo 140
+  - img: assets/img/travel/iceland/iceland-141.jpg
+    alt: Iceland photo 141
+  - img: assets/img/travel/iceland/iceland-142.jpg
+    alt: Iceland photo 142
+  - img: assets/img/travel/iceland/iceland-143.jpg
+    alt: Iceland photo 143
+  - img: assets/img/travel/iceland/iceland-144.jpg
+    alt: Iceland photo 144
+  - img: assets/img/travel/iceland/iceland-145.jpg
+    alt: Iceland photo 145
+  - img: assets/img/travel/iceland/iceland-146.jpg
+    alt: Iceland photo 146
+  - img: assets/img/travel/iceland/iceland-147.jpg
+    alt: Iceland photo 147
+  - img: assets/img/travel/iceland/iceland-148.jpg
+    alt: Iceland photo 148
+  - img: assets/img/travel/iceland/iceland-149.jpg
+    alt: Iceland photo 149
+  - img: assets/img/travel/iceland/iceland-150.jpg
+    alt: Iceland photo 150
+  - img: assets/img/travel/iceland/iceland-151.jpg
+    alt: Iceland photo 151
+  - img: assets/img/travel/iceland/iceland-152.jpg
+    alt: Iceland photo 152
+  - img: assets/img/travel/iceland/iceland-153.jpg
+    alt: Iceland photo 153
+  - img: assets/img/travel/iceland/iceland-154.jpg
+    alt: Iceland photo 154
+  - img: assets/img/travel/iceland/iceland-155.jpg
+    alt: Iceland photo 155
+  - img: assets/img/travel/iceland/iceland-156.jpg
+    alt: Iceland photo 156
+  - img: assets/img/travel/iceland/iceland-157.jpg
+    alt: Iceland photo 157
+  - img: assets/img/travel/iceland/iceland-158.jpg
+    alt: Iceland photo 158
+  - img: assets/img/travel/iceland/iceland-159.jpg
+    alt: Iceland photo 159
+  - img: assets/img/travel/iceland/iceland-160.jpg
+    alt: Iceland photo 160
+  - img: assets/img/travel/iceland/iceland-161.jpg
+    alt: Iceland photo 161
+  - img: assets/img/travel/iceland/iceland-162.jpg
+    alt: Iceland photo 162
+  - img: assets/img/travel/iceland/iceland-163.jpg
+    alt: Iceland photo 163
+  - img: assets/img/travel/iceland/iceland-164.jpg
+    alt: Iceland photo 164
+  - img: assets/img/travel/iceland/iceland-165.jpg
+    alt: Iceland photo 165
+  - img: assets/img/travel/iceland/iceland-166.jpg
+    alt: Iceland photo 166
+  - img: assets/img/travel/iceland/iceland-167.jpg
+    alt: Iceland photo 167
+  - img: assets/img/travel/iceland/iceland-168.jpg
+    alt: Iceland photo 168
+  - img: assets/img/travel/iceland/iceland-169.jpg
+    alt: Iceland photo 169
+  - img: assets/img/travel/iceland/iceland-170.jpg
+    alt: Iceland photo 170
+  - img: assets/img/travel/iceland/iceland-171.jpg
+    alt: Iceland photo 171
+  - img: assets/img/travel/iceland/iceland-172.jpg
+    alt: Iceland photo 172
+  - img: assets/img/travel/iceland/iceland-173.jpg
+    alt: Iceland photo 173
+  - img: assets/img/travel/iceland/iceland-174.jpg
+    alt: Iceland photo 174
+  - img: assets/img/travel/iceland/iceland-175.jpg
+    alt: Iceland photo 175
+  - img: assets/img/travel/iceland/iceland-176.jpg
+    alt: Iceland photo 176
+  - img: assets/img/travel/iceland/iceland-177.jpg
+    alt: Iceland photo 177
+  - img: assets/img/travel/iceland/iceland-178.jpg
+    alt: Iceland photo 178
+  - img: assets/img/travel/iceland/iceland-179.jpg
+    alt: Iceland photo 179
+  - img: assets/img/travel/iceland/iceland-180.jpg
+    alt: Iceland photo 180
+  - img: assets/img/travel/iceland/iceland-181.jpg
+    alt: Iceland photo 181
+  - img: assets/img/travel/iceland/iceland-182.jpg
+    alt: Iceland photo 182
+  - img: assets/img/travel/iceland/iceland-183.jpg
+    alt: Iceland photo 183
+  - img: assets/img/travel/iceland/iceland-184.jpg
+    alt: Iceland photo 184
+  - img: assets/img/travel/iceland/iceland-185.jpg
+    alt: Iceland photo 185
+  - img: assets/img/travel/iceland/iceland-186.jpg
+    alt: Iceland photo 186
+  - img: assets/img/travel/iceland/iceland-187.jpg
+    alt: Iceland photo 187
+  - img: assets/img/travel/iceland/iceland-188.jpg
+    alt: Iceland photo 188
+  - img: assets/img/travel/iceland/iceland-189.jpg
+    alt: Iceland photo 189
+  - img: assets/img/travel/iceland/iceland-190.jpg
+    alt: Iceland photo 190
+  - img: assets/img/travel/iceland/iceland-191.jpg
+    alt: Iceland photo 191
+  - img: assets/img/travel/iceland/iceland-192.jpg
+    alt: Iceland photo 192
+  - img: assets/img/travel/iceland/iceland-193.jpg
+    alt: Iceland photo 193
+  - img: assets/img/travel/iceland/iceland-194.jpg
+    alt: Iceland photo 194
+  - img: assets/img/travel/iceland/iceland-195.jpg
+    alt: Iceland photo 195
+  - img: assets/img/travel/iceland/iceland-196.jpg
+    alt: Iceland photo 196
+  - img: assets/img/travel/iceland/iceland-197.jpg
+    alt: Iceland photo 197
+  - img: assets/img/travel/iceland/iceland-198.jpg
+    alt: Iceland photo 198
+  - img: assets/img/travel/iceland/iceland-199.jpg
+    alt: Iceland photo 199
+  - img: assets/img/travel/iceland/iceland-200.jpg
+    alt: Iceland photo 200
+  - img: assets/img/travel/iceland/iceland-201.jpg
+    alt: Iceland photo 201
+  - img: assets/img/travel/iceland/iceland-202.jpg
+    alt: Iceland photo 202
+  - img: assets/img/travel/iceland/iceland-203.jpg
+    alt: Iceland photo 203
+  - img: assets/img/travel/iceland/iceland-204.jpg
+    alt: Iceland photo 204
+  - img: assets/img/travel/iceland/iceland-205.jpg
+    alt: Iceland photo 205
+  - img: assets/img/travel/iceland/iceland-206.jpg
+    alt: Iceland photo 206
+  - img: assets/img/travel/iceland/iceland-207.jpg
+    alt: Iceland photo 207
+  - img: assets/img/travel/iceland/iceland-208.jpg
+    alt: Iceland photo 208
+  - img: assets/img/travel/iceland/iceland-209.jpg
+    alt: Iceland photo 209
+  - img: assets/img/travel/iceland/iceland-210.jpg
+    alt: Iceland photo 210
+  - img: assets/img/travel/iceland/iceland-211.jpg
+    alt: Iceland photo 211
+  - img: assets/img/travel/iceland/iceland-212.jpg
+    alt: Iceland photo 212
+  - img: assets/img/travel/iceland/iceland-213.jpg
+    alt: Iceland photo 213
+  - img: assets/img/travel/iceland/iceland-214.jpg
+    alt: Iceland photo 214
+  - img: assets/img/travel/iceland/iceland-215.jpg
+    alt: Iceland photo 215
+  - img: assets/img/travel/iceland/iceland-216.jpg
+    alt: Iceland photo 216
+  - img: assets/img/travel/iceland/iceland-217.jpg
+    alt: Iceland photo 217
+  - img: assets/img/travel/iceland/iceland-218.jpg
+    alt: Iceland photo 218
+  - img: assets/img/travel/iceland/iceland-219.jpg
+    alt: Iceland photo 219
+  - img: assets/img/travel/iceland/iceland-220.jpg
+    alt: Iceland photo 220
+  - img: assets/img/travel/iceland/iceland-221.jpg
+    alt: Iceland photo 221
+  - img: assets/img/travel/iceland/iceland-222.jpg
+    alt: Iceland photo 222
+  - img: assets/img/travel/iceland/iceland-223.jpg
+    alt: Iceland photo 223
+  - img: assets/img/travel/iceland/iceland-224.jpg
+    alt: Iceland photo 224
+  - img: assets/img/travel/iceland/iceland-225.jpg
+    alt: Iceland photo 225
+  - img: assets/img/travel/iceland/iceland-226.jpg
+    alt: Iceland photo 226
+  - img: assets/img/travel/iceland/iceland-227.jpg
+    alt: Iceland photo 227
+  - img: assets/img/travel/iceland/iceland-228.jpg
+    alt: Iceland photo 228
+  - img: assets/img/travel/iceland/iceland-229.jpg
+    alt: Iceland photo 229
+  - img: assets/img/travel/iceland/iceland-230.jpg
+    alt: Iceland photo 230
+  - img: assets/img/travel/iceland/iceland-231.jpg
+    alt: Iceland photo 231
+  - img: assets/img/travel/iceland/iceland-232.jpg
+    alt: Iceland photo 232
+  - img: assets/img/travel/iceland/iceland-233.jpg
+    alt: Iceland photo 233
+  - img: assets/img/travel/iceland/iceland-234.jpg
+    alt: Iceland photo 234
+  - img: assets/img/travel/iceland/iceland-235.jpg
+    alt: Iceland photo 235
+  - img: assets/img/travel/iceland/iceland-236.jpg
+    alt: Iceland photo 236
+  - img: assets/img/travel/iceland/iceland-237.jpg
+    alt: Iceland photo 237
+  - img: assets/img/travel/iceland/iceland-238.jpg
+    alt: Iceland photo 238
+  - img: assets/img/travel/iceland/iceland-239.jpg
+    alt: Iceland photo 239
+  - img: assets/img/travel/iceland/iceland-240.jpg
+    alt: Iceland photo 240
+  - img: assets/img/travel/iceland/iceland-241.jpg
+    alt: Iceland photo 241
+  - img: assets/img/travel/iceland/iceland-242.jpg
+    alt: Iceland photo 242
+  - img: assets/img/travel/iceland/iceland-243.jpg
+    alt: Iceland photo 243
+  - img: assets/img/travel/iceland/iceland-244.jpg
+    alt: Iceland photo 244
+  - img: assets/img/travel/iceland/iceland-245.jpg
+    alt: Iceland photo 245
+  - img: assets/img/travel/iceland/iceland-246.jpg
+    alt: Iceland photo 246
+  - img: assets/img/travel/iceland/iceland-247.jpg
+    alt: Iceland photo 247
+  - img: assets/img/travel/iceland/iceland-248.jpg
+    alt: Iceland photo 248
+  - img: assets/img/travel/iceland/iceland-249.jpg
+    alt: Iceland photo 249
+  - img: assets/img/travel/iceland/iceland-250.jpg
+    alt: Iceland photo 250
+  - img: assets/img/travel/iceland/iceland-251.jpg
+    alt: Iceland photo 251
+  - img: assets/img/travel/iceland/iceland-252.jpg
+    alt: Iceland photo 252
+  - img: assets/img/travel/iceland/iceland-253.jpg
+    alt: Iceland photo 253
+  - img: assets/img/travel/iceland/iceland-254.jpg
+    alt: Iceland photo 254
+  - img: assets/img/travel/iceland/iceland-255.jpg
+    alt: Iceland photo 255
+  - img: assets/img/travel/iceland/iceland-256.jpg
+    alt: Iceland photo 256
+  - img: assets/img/travel/iceland/iceland-257.jpg
+    alt: Iceland photo 257
+  - img: assets/img/travel/iceland/iceland-258.jpg
+    alt: Iceland photo 258
+  - img: assets/img/travel/iceland/iceland-259.jpg
+    alt: Iceland photo 259
+  - img: assets/img/travel/iceland/iceland-260.jpg
+    alt: Iceland photo 260
+  - img: assets/img/travel/iceland/iceland-261.jpg
+    alt: Iceland photo 261
+  - img: assets/img/travel/iceland/iceland-262.jpg
+    alt: Iceland photo 262
+  - img: assets/img/travel/iceland/iceland-263.jpg
+    alt: Iceland photo 263
+  - img: assets/img/travel/iceland/iceland-264.jpg
+    alt: Iceland photo 264
+  - img: assets/img/travel/iceland/iceland-265.jpg
+    alt: Iceland photo 265
+  - img: assets/img/travel/iceland/iceland-266.jpg
+    alt: Iceland photo 266
+  - img: assets/img/travel/iceland/iceland-267.jpg
+    alt: Iceland photo 267
+  - img: assets/img/travel/iceland/iceland-268.jpg
+    alt: Iceland photo 268
+  - img: assets/img/travel/iceland/iceland-269.jpg
+    alt: Iceland photo 269
+  - img: assets/img/travel/iceland/iceland-270.jpg
+    alt: Iceland photo 270
+  - img: assets/img/travel/iceland/iceland-271.jpg
+    alt: Iceland photo 271
+  - img: assets/img/travel/iceland/iceland-272.jpg
+    alt: Iceland photo 272
+  - img: assets/img/travel/iceland/iceland-273.jpg
+    alt: Iceland photo 273
+  - img: assets/img/travel/iceland/iceland-274.jpg
+    alt: Iceland photo 274
+  - img: assets/img/travel/iceland/iceland-275.jpg
+    alt: Iceland photo 275
+  - img: assets/img/travel/iceland/iceland-276.jpg
+    alt: Iceland photo 276
+  - img: assets/img/travel/iceland/iceland-277.jpg
+    alt: Iceland photo 277
+  - img: assets/img/travel/iceland/iceland-278.jpg
+    alt: Iceland photo 278
+  - img: assets/img/travel/iceland/iceland-279.jpg
+    alt: Iceland photo 279
+  - img: assets/img/travel/iceland/iceland-280.jpg
+    alt: Iceland photo 280
+  - img: assets/img/travel/iceland/iceland-281.jpg
+    alt: Iceland photo 281
+  - img: assets/img/travel/iceland/iceland-282.jpg
+    alt: Iceland photo 282
+  - img: assets/img/travel/iceland/iceland-283.jpg
+    alt: Iceland photo 283
+  - img: assets/img/travel/iceland/iceland-284.jpg
+    alt: Iceland photo 284
+  - img: assets/img/travel/iceland/iceland-285.jpg
+    alt: Iceland photo 285
+  - img: assets/img/travel/iceland/iceland-286.jpg
+    alt: Iceland photo 286
+  - img: assets/img/travel/iceland/iceland-287.jpg
+    alt: Iceland photo 287
+  - img: assets/img/travel/iceland/iceland-288.jpg
+    alt: Iceland photo 288
+  - img: assets/img/travel/iceland/iceland-289.jpg
+    alt: Iceland photo 289
+  - img: assets/img/travel/iceland/iceland-290.jpg
+    alt: Iceland photo 290
+  - img: assets/img/travel/iceland/iceland-291.jpg
+    alt: Iceland photo 291
+  - img: assets/img/travel/iceland/iceland-292.jpg
+    alt: Iceland photo 292
+  - img: assets/img/travel/iceland/iceland-293.jpg
+    alt: Iceland photo 293
+  - img: assets/img/travel/iceland/iceland-294.jpg
+    alt: Iceland photo 294
+  - img: assets/img/travel/iceland/iceland-295.jpg
+    alt: Iceland photo 295
+  - img: assets/img/travel/iceland/iceland-296.jpg
+    alt: Iceland photo 296
+  - img: assets/img/travel/iceland/iceland-297.jpg
+    alt: Iceland photo 297
+  - img: assets/img/travel/iceland/iceland-298.jpg
+    alt: Iceland photo 298
+  - img: assets/img/travel/iceland/iceland-299.jpg
+    alt: Iceland photo 299
+  - img: assets/img/travel/iceland/iceland-300.jpg
+    alt: Iceland photo 300
+  - img: assets/img/travel/iceland/iceland-301.jpg
+    alt: Iceland photo 301
+  - img: assets/img/travel/iceland/iceland-302.jpg
+    alt: Iceland photo 302
+  - img: assets/img/travel/iceland/iceland-303.jpg
+    alt: Iceland photo 303
+  - img: assets/img/travel/iceland/iceland-304.jpg
+    alt: Iceland photo 304
+  - img: assets/img/travel/iceland/iceland-305.jpg
+    alt: Iceland photo 305
+  - img: assets/img/travel/iceland/iceland-306.jpg
+    alt: Iceland photo 306
+  - img: assets/img/travel/iceland/iceland-307.jpg
+    alt: Iceland photo 307
+  - img: assets/img/travel/iceland/iceland-308.jpg
+    alt: Iceland photo 308
+  - img: assets/img/travel/iceland/iceland-309.jpg
+    alt: Iceland photo 309
+  - img: assets/img/travel/iceland/iceland-310.jpg
+    alt: Iceland photo 310
+  - img: assets/img/travel/iceland/iceland-311.jpg
+    alt: Iceland photo 311
+  - img: assets/img/travel/iceland/iceland-312.jpg
+    alt: Iceland photo 312
+  - img: assets/img/travel/iceland/iceland-313.jpg
+    alt: Iceland photo 313
+  - img: assets/img/travel/iceland/iceland-314.jpg
+    alt: Iceland photo 314
+  - img: assets/img/travel/iceland/iceland-315.jpg
+    alt: Iceland photo 315
+  - img: assets/img/travel/iceland/iceland-316.jpg
+    alt: Iceland photo 316
+  - img: assets/img/travel/iceland/iceland-317.jpg
+    alt: Iceland photo 317
+  - img: assets/img/travel/iceland/iceland-318.jpg
+    alt: Iceland photo 318
+  - img: assets/img/travel/iceland/iceland-319.jpg
+    alt: Iceland photo 319
+  - img: assets/img/travel/iceland/iceland-320.jpg
+    alt: Iceland photo 320
+  - img: assets/img/travel/iceland/iceland-321.jpg
+    alt: Iceland photo 321
+  - img: assets/img/travel/iceland/iceland-322.jpg
+    alt: Iceland photo 322
+  - img: assets/img/travel/iceland/iceland-323.jpg
+    alt: Iceland photo 323
+  - img: assets/img/travel/iceland/iceland-324.jpg
+    alt: Iceland photo 324
+  - img: assets/img/travel/iceland/iceland-325.jpg
+    alt: Iceland photo 325
+  - img: assets/img/travel/iceland/iceland-326.jpg
+    alt: Iceland photo 326
+  - img: assets/img/travel/iceland/iceland-327.jpg
+    alt: Iceland photo 327
+  - img: assets/img/travel/iceland/iceland-328.jpg
+    alt: Iceland photo 328
+  - img: assets/img/travel/iceland/iceland-329.jpg
+    alt: Iceland photo 329
+  - img: assets/img/travel/iceland/iceland-330.jpg
+    alt: Iceland photo 330
+  - img: assets/img/travel/iceland/iceland-331.jpg
+    alt: Iceland photo 331
+  - img: assets/img/travel/iceland/iceland-332.jpg
+    alt: Iceland photo 332
+  - img: assets/img/travel/iceland/iceland-333.jpg
+    alt: Iceland photo 333
+  - img: assets/img/travel/iceland/iceland-334.jpg
+    alt: Iceland photo 334
+  - img: assets/img/travel/iceland/iceland-335.jpg
+    alt: Iceland photo 335
+  - img: assets/img/travel/iceland/iceland-336.jpg
+    alt: Iceland photo 336
+  - img: assets/img/travel/iceland/iceland-337.jpg
+    alt: Iceland photo 337
+  - img: assets/img/travel/iceland/iceland-338.jpg
+    alt: Iceland photo 338
+  - img: assets/img/travel/iceland/iceland-339.jpg
+    alt: Iceland photo 339
+  - img: assets/img/travel/iceland/iceland-340.jpg
+    alt: Iceland photo 340
+  - img: assets/img/travel/iceland/iceland-341.jpg
+    alt: Iceland photo 341
+  - img: assets/img/travel/iceland/iceland-342.jpg
+    alt: Iceland photo 342
+  - img: assets/img/travel/iceland/iceland-343.jpg
+    alt: Iceland photo 343
+  - img: assets/img/travel/iceland/iceland-344.jpg
+    alt: Iceland photo 344
+  - img: assets/img/travel/iceland/iceland-345.jpg
+    alt: Iceland photo 345
+  - img: assets/img/travel/iceland/iceland-346.jpg
+    alt: Iceland photo 346
+  - img: assets/img/travel/iceland/iceland-347.jpg
+    alt: Iceland photo 347
+  - img: assets/img/travel/iceland/iceland-348.jpg
+    alt: Iceland photo 348
+  - img: assets/img/travel/iceland/iceland-349.jpg
+    alt: Iceland photo 349
+  - img: assets/img/travel/iceland/iceland-350.jpg
+    alt: Iceland photo 350
+  - img: assets/img/travel/iceland/iceland-351.jpg
+    alt: Iceland photo 351
+  - img: assets/img/travel/iceland/iceland-352.jpg
+    alt: Iceland photo 352
+  - img: assets/img/travel/iceland/iceland-353.jpg
+    alt: Iceland photo 353
+  - img: assets/img/travel/iceland/iceland-354.jpg
+    alt: Iceland photo 354
+  - img: assets/img/travel/iceland/iceland-355.jpg
+    alt: Iceland photo 355
+  - img: assets/img/travel/iceland/iceland-356.jpg
+    alt: Iceland photo 356
+  - img: assets/img/travel/iceland/iceland-357.jpg
+    alt: Iceland photo 357
+  - img: assets/img/travel/iceland/iceland-358.jpg
+    alt: Iceland photo 358
+  - img: assets/img/travel/iceland/iceland-359.jpg
+    alt: Iceland photo 359
+  - img: assets/img/travel/iceland/iceland-360.jpg
+    alt: Iceland photo 360
+  - img: assets/img/travel/iceland/iceland-361.jpg
+    alt: Iceland photo 361
+  - img: assets/img/travel/iceland/iceland-362.jpg
+    alt: Iceland photo 362
+  - img: assets/img/travel/iceland/iceland-363.jpg
+    alt: Iceland photo 363
+  - img: assets/img/travel/iceland/iceland-364.jpg
+    alt: Iceland photo 364
+  - img: assets/img/travel/iceland/iceland-365.jpg
+    alt: Iceland photo 365
+  - img: assets/img/travel/iceland/iceland-366.jpg
+    alt: Iceland photo 366
+  - img: assets/img/travel/iceland/iceland-367.jpg
+    alt: Iceland photo 367
+  - img: assets/img/travel/iceland/iceland-368.jpg
+    alt: Iceland photo 368
+  - img: assets/img/travel/iceland/iceland-369.jpg
+    alt: Iceland photo 369
+  - img: assets/img/travel/iceland/iceland-370.jpg
+    alt: Iceland photo 370
+  - img: assets/img/travel/iceland/iceland-371.jpg
+    alt: Iceland photo 371
+  - img: assets/img/travel/iceland/iceland-372.jpg
+    alt: Iceland photo 372
+  - img: assets/img/travel/iceland/iceland-373.jpg
+    alt: Iceland photo 373
+  - img: assets/img/travel/iceland/iceland-374.jpg
+    alt: Iceland photo 374
+  - img: assets/img/travel/iceland/iceland-375.jpg
+    alt: Iceland photo 375
+  - img: assets/img/travel/iceland/iceland-376.jpg
+    alt: Iceland photo 376
+  - img: assets/img/travel/iceland/iceland-377.jpg
+    alt: Iceland photo 377
+  - img: assets/img/travel/iceland/iceland-378.jpg
+    alt: Iceland photo 378
+  - img: assets/img/travel/iceland/iceland-379.jpg
+    alt: Iceland photo 379
+  - img: assets/img/travel/iceland/iceland-380.jpg
+    alt: Iceland photo 380
+  - img: assets/img/travel/iceland/iceland-381.jpg
+    alt: Iceland photo 381
+  - img: assets/img/travel/iceland/iceland-382.jpg
+    alt: Iceland photo 382
+  - img: assets/img/travel/iceland/iceland-383.jpg
+    alt: Iceland photo 383
+  - img: assets/img/travel/iceland/iceland-384.jpg
+    alt: Iceland photo 384
+  - img: assets/img/travel/iceland/iceland-385.jpg
+    alt: Iceland photo 385
+  - img: assets/img/travel/iceland/iceland-386.jpg
+    alt: Iceland photo 386
+  - img: assets/img/travel/iceland/iceland-387.jpg
+    alt: Iceland photo 387
+  - img: assets/img/travel/iceland/iceland-388.jpg
+    alt: Iceland photo 388
+  - img: assets/img/travel/iceland/iceland-389.jpg
+    alt: Iceland photo 389
+  - img: assets/img/travel/iceland/iceland-390.jpg
+    alt: Iceland photo 390
+  - img: assets/img/travel/iceland/iceland-391.jpg
+    alt: Iceland photo 391
+  - img: assets/img/travel/iceland/iceland-392.jpg
+    alt: Iceland photo 392
+  - img: assets/img/travel/iceland/iceland-393.jpg
+    alt: Iceland photo 393
+  - img: assets/img/travel/iceland/iceland-394.jpg
+    alt: Iceland photo 394
+  - img: assets/img/travel/iceland/iceland-395.jpg
+    alt: Iceland photo 395
+  - img: assets/img/travel/iceland/iceland-396.jpg
+    alt: Iceland photo 396
+  - img: assets/img/travel/iceland/iceland-397.jpg
+    alt: Iceland photo 397
+  - img: assets/img/travel/iceland/iceland-398.jpg
+    alt: Iceland photo 398
+  - img: assets/img/travel/iceland/iceland-399.jpg
+    alt: Iceland photo 399
+  - img: assets/img/travel/iceland/iceland-400.jpg
+    alt: Iceland photo 400
+  - img: assets/img/travel/iceland/iceland-401.jpg
+    alt: Iceland photo 401
+  - img: assets/img/travel/iceland/iceland-402.jpg
+    alt: Iceland photo 402
+  - img: assets/img/travel/iceland/iceland-403.jpg
+    alt: Iceland photo 403
+  - img: assets/img/travel/iceland/iceland-404.jpg
+    alt: Iceland photo 404
+  - img: assets/img/travel/iceland/iceland-405.jpg
+    alt: Iceland photo 405
+  - img: assets/img/travel/iceland/iceland-406.jpg
+    alt: Iceland photo 406
+  - img: assets/img/travel/iceland/iceland-407.jpg
+    alt: Iceland photo 407
+  - img: assets/img/travel/iceland/iceland-408.jpg
+    alt: Iceland photo 408
+  - img: assets/img/travel/iceland/iceland-409.jpg
+    alt: Iceland photo 409
+  - img: assets/img/travel/iceland/iceland-410.jpg
+    alt: Iceland photo 410
+  - img: assets/img/travel/iceland/iceland-411.jpg
+    alt: Iceland photo 411
+  - img: assets/img/travel/iceland/iceland-412.jpg
+    alt: Iceland photo 412
+  - img: assets/img/travel/iceland/iceland-413.jpg
+    alt: Iceland photo 413
+  - img: assets/img/travel/iceland/iceland-414.jpg
+    alt: Iceland photo 414
+  - img: assets/img/travel/iceland/iceland-415.jpg
+    alt: Iceland photo 415
+  - img: assets/img/travel/iceland/iceland-416.jpg
+    alt: Iceland photo 416
+  - img: assets/img/travel/iceland/iceland-417.jpg
+    alt: Iceland photo 417
+  - img: assets/img/travel/iceland/iceland-418.jpg
+    alt: Iceland photo 418
+  - img: assets/img/travel/iceland/iceland-419.jpg
+    alt: Iceland photo 419
+  - img: assets/img/travel/iceland/iceland-420.jpg
+    alt: Iceland photo 420
+  - img: assets/img/travel/iceland/iceland-421.jpg
+    alt: Iceland photo 421
+  - img: assets/img/travel/iceland/iceland-422.jpg
+    alt: Iceland photo 422
+  - img: assets/img/travel/iceland/iceland-423.jpg
+    alt: Iceland photo 423
+  - img: assets/img/travel/iceland/iceland-424.jpg
+    alt: Iceland photo 424
+  - img: assets/img/travel/iceland/iceland-425.jpg
+    alt: Iceland photo 425
+  - img: assets/img/travel/iceland/iceland-426.jpg
+    alt: Iceland photo 426
+  - img: assets/img/travel/iceland/iceland-427.jpg
+    alt: Iceland photo 427
+  - img: assets/img/travel/iceland/iceland-428.jpg
+    alt: Iceland photo 428
+  - img: assets/img/travel/iceland/iceland-429.jpg
+    alt: Iceland photo 429
+  - img: assets/img/travel/iceland/iceland-430.jpg
+    alt: Iceland photo 430
+  - img: assets/img/travel/iceland/iceland-431.jpg
+    alt: Iceland photo 431
+  - img: assets/img/travel/iceland/iceland-432.jpg
+    alt: Iceland photo 432
+  - img: assets/img/travel/iceland/iceland-433.jpg
+    alt: Iceland photo 433
+  - img: assets/img/travel/iceland/iceland-434.jpg
+    alt: Iceland photo 434
+  - img: assets/img/travel/iceland/iceland-435.jpg
+    alt: Iceland photo 435
+  - img: assets/img/travel/iceland/iceland-436.jpg
+    alt: Iceland photo 436
+  - img: assets/img/travel/iceland/iceland-437.jpg
+    alt: Iceland photo 437
+  - img: assets/img/travel/iceland/iceland-438.jpg
+    alt: Iceland photo 438
+  - img: assets/img/travel/iceland/iceland-439.jpg
+    alt: Iceland photo 439
+  - img: assets/img/travel/iceland/iceland-440.jpg
+    alt: Iceland photo 440
+  - img: assets/img/travel/iceland/iceland-441.jpg
+    alt: Iceland photo 441
+  - img: assets/img/travel/iceland/iceland-442.jpg
+    alt: Iceland photo 442
+  - img: assets/img/travel/iceland/iceland-443.jpg
+    alt: Iceland photo 443
+  - img: assets/img/travel/iceland/iceland-444.jpg
+    alt: Iceland photo 444
+  - img: assets/img/travel/iceland/iceland-445.jpg
+    alt: Iceland photo 445
+  - img: assets/img/travel/iceland/iceland-446.jpg
+    alt: Iceland photo 446
+  - img: assets/img/travel/iceland/iceland-447.jpg
+    alt: Iceland photo 447
+  - img: assets/img/travel/iceland/iceland-448.jpg
+    alt: Iceland photo 448
+  - img: assets/img/travel/iceland/iceland-449.jpg
+    alt: Iceland photo 449
+  - img: assets/img/travel/iceland/iceland-450.jpg
+    alt: Iceland photo 450
+  - img: assets/img/travel/iceland/iceland-451.jpg
+    alt: Iceland photo 451
+  - img: assets/img/travel/iceland/iceland-452.jpg
+    alt: Iceland photo 452
+  - img: assets/img/travel/iceland/iceland-453.jpg
+    alt: Iceland photo 453
+  - img: assets/img/travel/iceland/iceland-454.jpg
+    alt: Iceland photo 454
+  - img: assets/img/travel/iceland/iceland-455.jpg
+    alt: Iceland photo 455
+  - img: assets/img/travel/iceland/iceland-456.jpg
+    alt: Iceland photo 456
+  - img: assets/img/travel/iceland/iceland-457.jpg
+    alt: Iceland photo 457
+  - img: assets/img/travel/iceland/iceland-458.jpg
+    alt: Iceland photo 458
+  - img: assets/img/travel/iceland/iceland-459.jpg
+    alt: Iceland photo 459
+  - img: assets/img/travel/iceland/iceland-460.jpg
+    alt: Iceland photo 460
+  - img: assets/img/travel/iceland/iceland-461.jpg
+    alt: Iceland photo 461
+  - img: assets/img/travel/iceland/iceland-462.jpg
+    alt: Iceland photo 462
 - place: Jakarta, Indonesia
   tag: jakarta
   lat: -6.2088
@@ -5362,6 +6812,120 @@ travel_photos:
     alt: San Francisco, USA photo 23
   - img: assets/img/travel/sanfrancisco/sanfrancisco-24.jpg
     alt: San Francisco, USA photo 24
+- place: Santa Fe, New Mexico
+  tag: santafe2026
+  lat: 35.687
+  lng: -105.9378
+  img: assets/img/travel/santafe2026/santafe2026-01.jpg
+  gallery:
+  - img: assets/img/travel/santafe2026/santafe2026-01.jpg
+    alt: Santa Fe, New Mexico photo 1
+  - img: assets/img/travel/santafe2026/santafe2026-02.jpg
+    alt: Santa Fe, New Mexico photo 2
+  - img: assets/img/travel/santafe2026/santafe2026-03.jpg
+    alt: Santa Fe, New Mexico photo 3
+  - img: assets/img/travel/santafe2026/santafe2026-04.jpg
+    alt: Santa Fe, New Mexico photo 4
+  - img: assets/img/travel/santafe2026/santafe2026-05.jpg
+    alt: Santa Fe, New Mexico photo 5
+  - img: assets/img/travel/santafe2026/santafe2026-06.jpg
+    alt: Santa Fe, New Mexico photo 6
+  - img: assets/img/travel/santafe2026/santafe2026-07.jpg
+    alt: Santa Fe, New Mexico photo 7
+  - img: assets/img/travel/santafe2026/santafe2026-08.jpg
+    alt: Santa Fe, New Mexico photo 8
+  - img: assets/img/travel/santafe2026/santafe2026-09.jpg
+    alt: Santa Fe, New Mexico photo 9
+  - img: assets/img/travel/santafe2026/santafe2026-10.jpg
+    alt: Santa Fe, New Mexico photo 10
+  - img: assets/img/travel/santafe2026/santafe2026-11.jpg
+    alt: Santa Fe, New Mexico photo 11
+  - img: assets/img/travel/santafe2026/santafe2026-12.jpg
+    alt: Santa Fe, New Mexico photo 12
+  - img: assets/img/travel/santafe2026/santafe2026-13.jpg
+    alt: Santa Fe, New Mexico photo 13
+  - img: assets/img/travel/santafe2026/santafe2026-14.jpg
+    alt: Santa Fe, New Mexico photo 14
+  - img: assets/img/travel/santafe2026/santafe2026-15.jpg
+    alt: Santa Fe, New Mexico photo 15
+  - img: assets/img/travel/santafe2026/santafe2026-16.jpg
+    alt: Santa Fe, New Mexico photo 16
+  - img: assets/img/travel/santafe2026/santafe2026-17.jpg
+    alt: Santa Fe, New Mexico photo 17
+  - img: assets/img/travel/santafe2026/santafe2026-18.jpg
+    alt: Santa Fe, New Mexico photo 18
+  - img: assets/img/travel/santafe2026/santafe2026-19.jpg
+    alt: Santa Fe, New Mexico photo 19
+  - img: assets/img/travel/santafe2026/santafe2026-20.jpg
+    alt: Santa Fe, New Mexico photo 20
+  - img: assets/img/travel/santafe2026/santafe2026-21.jpg
+    alt: Santa Fe, New Mexico photo 21
+  - img: assets/img/travel/santafe2026/santafe2026-22.jpg
+    alt: Santa Fe, New Mexico photo 22
+  - img: assets/img/travel/santafe2026/santafe2026-23.jpg
+    alt: Santa Fe, New Mexico photo 23
+  - img: assets/img/travel/santafe2026/santafe2026-24.jpg
+    alt: Santa Fe, New Mexico photo 24
+  - img: assets/img/travel/santafe2026/santafe2026-25.jpg
+    alt: Santa Fe, New Mexico photo 25
+  - img: assets/img/travel/santafe2026/santafe2026-26.jpg
+    alt: Santa Fe, New Mexico photo 26
+  - img: assets/img/travel/santafe2026/santafe2026-27.jpg
+    alt: Santa Fe, New Mexico photo 27
+  - img: assets/img/travel/santafe2026/santafe2026-28.jpg
+    alt: Santa Fe, New Mexico photo 28
+  - img: assets/img/travel/santafe2026/santafe2026-29.jpg
+    alt: Santa Fe, New Mexico photo 29
+  - img: assets/img/travel/santafe2026/santafe2026-30.jpg
+    alt: Santa Fe, New Mexico photo 30
+  - img: assets/img/travel/santafe2026/santafe2026-31.jpg
+    alt: Santa Fe, New Mexico photo 31
+  - img: assets/img/travel/santafe2026/santafe2026-32.jpg
+    alt: Santa Fe, New Mexico photo 32
+  - img: assets/img/travel/santafe2026/santafe2026-33.jpg
+    alt: Santa Fe, New Mexico photo 33
+  - img: assets/img/travel/santafe2026/santafe2026-34.jpg
+    alt: Santa Fe, New Mexico photo 34
+  - img: assets/img/travel/santafe2026/santafe2026-35.jpg
+    alt: Santa Fe, New Mexico photo 35
+  - img: assets/img/travel/santafe2026/santafe2026-36.jpg
+    alt: Santa Fe, New Mexico photo 36
+  - img: assets/img/travel/santafe2026/santafe2026-37.jpg
+    alt: Santa Fe, New Mexico photo 37
+  - img: assets/img/travel/santafe2026/santafe2026-38.jpg
+    alt: Santa Fe, New Mexico photo 38
+  - img: assets/img/travel/santafe2026/santafe2026-39.jpg
+    alt: Santa Fe, New Mexico photo 39
+  - img: assets/img/travel/santafe2026/santafe2026-40.jpg
+    alt: Santa Fe, New Mexico photo 40
+  - img: assets/img/travel/santafe2026/santafe2026-41.jpg
+    alt: Santa Fe, New Mexico photo 41
+  - img: assets/img/travel/santafe2026/santafe2026-42.jpg
+    alt: Santa Fe, New Mexico photo 42
+  - img: assets/img/travel/santafe2026/santafe2026-43.jpg
+    alt: Santa Fe, New Mexico photo 43
+  - img: assets/img/travel/santafe2026/santafe2026-44.jpg
+    alt: Santa Fe, New Mexico photo 44
+  - img: assets/img/travel/santafe2026/santafe2026-45.jpg
+    alt: Santa Fe, New Mexico photo 45
+  - img: assets/img/travel/santafe2026/santafe2026-46.jpg
+    alt: Santa Fe, New Mexico photo 46
+  - img: assets/img/travel/santafe2026/santafe2026-47.jpg
+    alt: Santa Fe, New Mexico photo 47
+  - img: assets/img/travel/santafe2026/santafe2026-48.jpg
+    alt: Santa Fe, New Mexico photo 48
+  - img: assets/img/travel/santafe2026/santafe2026-49.jpg
+    alt: Santa Fe, New Mexico photo 49
+  - img: assets/img/travel/santafe2026/santafe2026-50.jpg
+    alt: Santa Fe, New Mexico photo 50
+  - img: assets/img/travel/santafe2026/santafe2026-51.jpg
+    alt: Santa Fe, New Mexico photo 51
+  - img: assets/img/travel/santafe2026/santafe2026-52.jpg
+    alt: Santa Fe, New Mexico photo 52
+  - img: assets/img/travel/santafe2026/santafe2026-53.jpg
+    alt: Santa Fe, New Mexico photo 53
+  - img: assets/img/travel/santafe2026/santafe2026-54.jpg
+    alt: Santa Fe, New Mexico photo 54
 - place: Sao Paulo, Brazil
   tag: saopaulo
   lat: -23.5505
@@ -5572,6 +7136,104 @@ travel_photos:
     alt: Segovia, Spain photo 22
   - img: assets/img/travel/segovia/segovia-23.jpg
     alt: Segovia, Spain photo 23
+- place: Seoul, South Korea
+  tag: seoul
+  lat: 37.5665
+  lng: 126.978
+  img: assets/img/travel/seoul/seoul-01.jpg
+  gallery:
+  - img: assets/img/travel/seoul/seoul-01.jpg
+    alt: Seoul, South Korea photo 1
+  - img: assets/img/travel/seoul/seoul-02.jpg
+    alt: Seoul, South Korea photo 2
+  - img: assets/img/travel/seoul/seoul-03.jpg
+    alt: Seoul, South Korea photo 3
+  - img: assets/img/travel/seoul/seoul-04.jpg
+    alt: Seoul, South Korea photo 4
+  - img: assets/img/travel/seoul/seoul-05.jpg
+    alt: Seoul, South Korea photo 5
+  - img: assets/img/travel/seoul/seoul-06.jpg
+    alt: Seoul, South Korea photo 6
+  - img: assets/img/travel/seoul/seoul-07.jpg
+    alt: Seoul, South Korea photo 7
+  - img: assets/img/travel/seoul/seoul-08.jpg
+    alt: Seoul, South Korea photo 8
+  - img: assets/img/travel/seoul/seoul-09.jpg
+    alt: Seoul, South Korea photo 9
+  - img: assets/img/travel/seoul/seoul-10.jpg
+    alt: Seoul, South Korea photo 10
+  - img: assets/img/travel/seoul/seoul-11.jpg
+    alt: Seoul, South Korea photo 11
+  - img: assets/img/travel/seoul/seoul-12.jpg
+    alt: Seoul, South Korea photo 12
+  - img: assets/img/travel/seoul/seoul-13.jpg
+    alt: Seoul, South Korea photo 13
+  - img: assets/img/travel/seoul/seoul-14.jpg
+    alt: Seoul, South Korea photo 14
+  - img: assets/img/travel/seoul/seoul-15.jpg
+    alt: Seoul, South Korea photo 15
+  - img: assets/img/travel/seoul/seoul-16.jpg
+    alt: Seoul, South Korea photo 16
+  - img: assets/img/travel/seoul/seoul-17.jpg
+    alt: Seoul, South Korea photo 17
+  - img: assets/img/travel/seoul/seoul-18.jpg
+    alt: Seoul, South Korea photo 18
+  - img: assets/img/travel/seoul/seoul-19.jpg
+    alt: Seoul, South Korea photo 19
+  - img: assets/img/travel/seoul/seoul-20.jpg
+    alt: Seoul, South Korea photo 20
+  - img: assets/img/travel/seoul/seoul-21.jpg
+    alt: Seoul, South Korea photo 21
+  - img: assets/img/travel/seoul/seoul-22.jpg
+    alt: Seoul, South Korea photo 22
+  - img: assets/img/travel/seoul/seoul-23.jpg
+    alt: Seoul, South Korea photo 23
+  - img: assets/img/travel/seoul/seoul-24.jpg
+    alt: Seoul, South Korea photo 24
+  - img: assets/img/travel/seoul/seoul-25.jpg
+    alt: Seoul, South Korea photo 25
+  - img: assets/img/travel/seoul/seoul-26.jpg
+    alt: Seoul, South Korea photo 26
+  - img: assets/img/travel/seoul/seoul-27.jpg
+    alt: Seoul, South Korea photo 27
+  - img: assets/img/travel/seoul/seoul-28.jpg
+    alt: Seoul, South Korea photo 28
+  - img: assets/img/travel/seoul/seoul-29.jpg
+    alt: Seoul, South Korea photo 29
+  - img: assets/img/travel/seoul/seoul-30.jpg
+    alt: Seoul, South Korea photo 30
+  - img: assets/img/travel/seoul/seoul-31.jpg
+    alt: Seoul, South Korea photo 31
+  - img: assets/img/travel/seoul/seoul-32.jpg
+    alt: Seoul, South Korea photo 32
+  - img: assets/img/travel/seoul/seoul-33.jpg
+    alt: Seoul, South Korea photo 33
+  - img: assets/img/travel/seoul/seoul-34.jpg
+    alt: Seoul, South Korea photo 34
+  - img: assets/img/travel/seoul/seoul-35.jpg
+    alt: Seoul, South Korea photo 35
+  - img: assets/img/travel/seoul/seoul-36.jpg
+    alt: Seoul, South Korea photo 36
+  - img: assets/img/travel/seoul/seoul-37.jpg
+    alt: Seoul, South Korea photo 37
+  - img: assets/img/travel/seoul/seoul-38.jpg
+    alt: Seoul, South Korea photo 38
+  - img: assets/img/travel/seoul/seoul-39.jpg
+    alt: Seoul, South Korea photo 39
+  - img: assets/img/travel/seoul/seoul-40.jpg
+    alt: Seoul, South Korea photo 40
+  - img: assets/img/travel/seoul/seoul-41.jpg
+    alt: Seoul, South Korea photo 41
+  - img: assets/img/travel/seoul/seoul-42.jpg
+    alt: Seoul, South Korea photo 42
+  - img: assets/img/travel/seoul/seoul-43.jpg
+    alt: Seoul, South Korea photo 43
+  - img: assets/img/travel/seoul/seoul-44.jpg
+    alt: Seoul, South Korea photo 44
+  - img: assets/img/travel/seoul/seoul-45.jpg
+    alt: Seoul, South Korea photo 45
+  - img: assets/img/travel/seoul/seoul-46.jpg
+    alt: Seoul, South Korea photo 46
 - place: Seychelles
   tag: seychelles
   lat: -4.6796
@@ -5898,6 +7560,116 @@ travel_photos:
     alt: St. Petersburg, Russia photo 43
   - img: assets/img/travel/stpetersburg/stpetersburg-44.jpg
     alt: St. Petersburg, Russia photo 44
+- place: Stanford & Palo Alto, California
+  tag: stanford
+  lat: 37.4275
+  lng: -122.1697
+  img: assets/img/travel/stanford/stanford-03.jpg
+  gallery:
+  - img: assets/img/travel/stanford/stanford-01.jpg
+    alt: Stanford & Palo Alto, California photo 1
+  - img: assets/img/travel/stanford/stanford-02.jpg
+    alt: Stanford & Palo Alto, California photo 2
+  - img: assets/img/travel/stanford/stanford-03.jpg
+    alt: Stanford & Palo Alto, California photo 3
+  - img: assets/img/travel/stanford/stanford-04.jpg
+    alt: Stanford & Palo Alto, California photo 4
+  - img: assets/img/travel/stanford/stanford-05.jpg
+    alt: Stanford & Palo Alto, California photo 5
+  - img: assets/img/travel/stanford/stanford-06.jpg
+    alt: Stanford & Palo Alto, California photo 6
+  - img: assets/img/travel/stanford/stanford-07.jpg
+    alt: Stanford & Palo Alto, California photo 7
+  - img: assets/img/travel/stanford/stanford-08.jpg
+    alt: Stanford & Palo Alto, California photo 8
+  - img: assets/img/travel/stanford/stanford-09.jpg
+    alt: Stanford & Palo Alto, California photo 9
+  - img: assets/img/travel/stanford/stanford-10.jpg
+    alt: Stanford & Palo Alto, California photo 10
+  - img: assets/img/travel/stanford/stanford-11.jpg
+    alt: Stanford & Palo Alto, California photo 11
+  - img: assets/img/travel/stanford/stanford-12.jpg
+    alt: Stanford & Palo Alto, California photo 12
+  - img: assets/img/travel/stanford/stanford-13.jpg
+    alt: Stanford & Palo Alto, California photo 13
+  - img: assets/img/travel/stanford/stanford-14.jpg
+    alt: Stanford & Palo Alto, California photo 14
+  - img: assets/img/travel/stanford/stanford-15.jpg
+    alt: Stanford & Palo Alto, California photo 15
+  - img: assets/img/travel/stanford/stanford-16.jpg
+    alt: Stanford & Palo Alto, California photo 16
+  - img: assets/img/travel/stanford/stanford-17.jpg
+    alt: Stanford & Palo Alto, California photo 17
+  - img: assets/img/travel/stanford/stanford-18.jpg
+    alt: Stanford & Palo Alto, California photo 18
+  - img: assets/img/travel/stanford/stanford-19.jpg
+    alt: Stanford & Palo Alto, California photo 19
+  - img: assets/img/travel/stanford/stanford-20.jpg
+    alt: Stanford & Palo Alto, California photo 20
+  - img: assets/img/travel/stanford/stanford-21.jpg
+    alt: Stanford & Palo Alto, California photo 21
+  - img: assets/img/travel/stanford/stanford-22.jpg
+    alt: Stanford & Palo Alto, California photo 22
+  - img: assets/img/travel/stanford/stanford-23.jpg
+    alt: Stanford & Palo Alto, California photo 23
+  - img: assets/img/travel/stanford/stanford-24.jpg
+    alt: Stanford & Palo Alto, California photo 24
+  - img: assets/img/travel/stanford/stanford-25.jpg
+    alt: Stanford & Palo Alto, California photo 25
+  - img: assets/img/travel/stanford/stanford-26.jpg
+    alt: Stanford & Palo Alto, California photo 26
+  - img: assets/img/travel/stanford/stanford-27.jpg
+    alt: Stanford & Palo Alto, California photo 27
+  - img: assets/img/travel/stanford/stanford-28.jpg
+    alt: Stanford & Palo Alto, California photo 28
+  - img: assets/img/travel/stanford/stanford-29.jpg
+    alt: Stanford & Palo Alto, California photo 29
+  - img: assets/img/travel/stanford/stanford-30.jpg
+    alt: Stanford & Palo Alto, California photo 30
+  - img: assets/img/travel/stanford/stanford-31.jpg
+    alt: Stanford & Palo Alto, California photo 31
+  - img: assets/img/travel/stanford/stanford-32.jpg
+    alt: Stanford & Palo Alto, California photo 32
+  - img: assets/img/travel/stanford/stanford-33.jpg
+    alt: Stanford & Palo Alto, California photo 33
+  - img: assets/img/travel/stanford/stanford-34.jpg
+    alt: Stanford & Palo Alto, California photo 34
+  - img: assets/img/travel/stanford/stanford-35.jpg
+    alt: Stanford & Palo Alto, California photo 35
+  - img: assets/img/travel/stanford/stanford-36.jpg
+    alt: Stanford & Palo Alto, California photo 36
+  - img: assets/img/travel/stanford/stanford-37.jpg
+    alt: Stanford & Palo Alto, California photo 37
+  - img: assets/img/travel/stanford/stanford-38.jpg
+    alt: Stanford & Palo Alto, California photo 38
+  - img: assets/img/travel/stanford/stanford-39.jpg
+    alt: Stanford & Palo Alto, California photo 39
+  - img: assets/img/travel/stanford/stanford-40.jpg
+    alt: Stanford & Palo Alto, California photo 40
+  - img: assets/img/travel/stanford/stanford-41.jpg
+    alt: Stanford & Palo Alto, California photo 41
+  - img: assets/img/travel/stanford/stanford-42.jpg
+    alt: Stanford & Palo Alto, California photo 42
+  - img: assets/img/travel/stanford/stanford-43.jpg
+    alt: Stanford & Palo Alto, California photo 43
+  - img: assets/img/travel/stanford/stanford-44.jpg
+    alt: Stanford & Palo Alto, California photo 44
+  - img: assets/img/travel/stanford/stanford-45.jpg
+    alt: Stanford & Palo Alto, California photo 45
+  - img: assets/img/travel/stanford/stanford-46.jpg
+    alt: Stanford & Palo Alto, California photo 46
+  - img: assets/img/travel/stanford/stanford-47.jpg
+    alt: Stanford & Palo Alto, California photo 47
+  - img: assets/img/travel/stanford/stanford-48.jpg
+    alt: Stanford & Palo Alto, California photo 48
+  - img: assets/img/travel/stanford/stanford-49.jpg
+    alt: Stanford & Palo Alto, California photo 49
+  - img: assets/img/travel/stanford/stanford-50.jpg
+    alt: Stanford & Palo Alto, California photo 50
+  - img: assets/img/travel/stanford/stanford-51.jpg
+    alt: Stanford & Palo Alto, California photo 51
+  - img: assets/img/travel/stanford/stanford-52.jpg
+    alt: Stanford & Palo Alto, California photo 52
 - place: Stockholm, Sweden
   tag: stockholm
   lat: 59.3293
@@ -6954,6 +8726,10 @@ globe_points:
   tag: anncey
   lat: 45.8992
   lng: 6.1294
+- place: Apeldoorn, Netherlands
+  tag: apeldoorn
+  lat: 52.2112
+  lng: 5.9699
 - place: Athens, Greece
   tag: athens
   lat: 37.9838
@@ -7078,6 +8854,10 @@ globe_points:
   tag: danang
   lat: 16.0544
   lng: 108.2022
+- place: Daejeon, South Korea
+  tag: daejeon
+  lat: 36.3504
+  lng: 127.3845
 - place: Dallas & Fort Worth, Texas
   tag: dallas
   lat: 32.7767
@@ -7134,6 +8914,10 @@ globe_points:
   tag: geneva
   lat: 46.2044
   lng: 6.1432
+- place: Giethoorn, Netherlands
+  tag: giethoorn
+  lat: 52.7405
+  lng: 6.0784
 - place: Glasgow, Scotland
   tag: glasgow
   lat: 55.8642
@@ -7382,6 +9166,10 @@ globe_points:
   tag: sanfrancisco
   lat: 37.7749
   lng: -122.4194
+- place: Santa Fe, New Mexico
+  tag: santafe2026
+  lat: 35.687
+  lng: -105.9378
 - place: Sao Paulo, Brazil
   tag: saopaulo
   lat: -23.5505
@@ -7398,6 +9186,10 @@ globe_points:
   tag: segovia
   lat: 40.9429
   lng: -4.1088
+- place: Seoul, South Korea
+  tag: seoul
+  lat: 37.5665
+  lng: 126.978
 - place: Seychelles
   tag: seychelles
   lat: -4.6796
@@ -7418,6 +9210,10 @@ globe_points:
   tag: stpetersburg
   lat: 59.9343
   lng: 30.3351
+- place: Stanford & Palo Alto, California
+  tag: stanford
+  lat: 37.4275
+  lng: -122.1697
 - place: Stockholm, Sweden
   tag: stockholm
   lat: 59.3293
