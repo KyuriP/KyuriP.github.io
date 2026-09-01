@@ -3876,14 +3876,10 @@ travel_photos:
     alt: Iceland photo 118
   - img: assets/img/travel/iceland/iceland-119.jpg
     alt: Iceland photo 119
-  - img: assets/img/travel/iceland/iceland-120.jpg
-    alt: Iceland photo 120
   - img: assets/img/travel/iceland/iceland-121.jpg
     alt: Iceland photo 121
   - img: assets/img/travel/iceland/iceland-122.jpg
     alt: Iceland photo 122
-  - img: assets/img/travel/iceland/iceland-123.jpg
-    alt: Iceland photo 123
   - img: assets/img/travel/iceland/iceland-124.jpg
     alt: Iceland photo 124
   - img: assets/img/travel/iceland/iceland-125.jpg
@@ -3920,18 +3916,8 @@ travel_photos:
     alt: Iceland photo 140
   - img: assets/img/travel/iceland/iceland-141.jpg
     alt: Iceland photo 141
-  - img: assets/img/travel/iceland/iceland-142.jpg
-    alt: Iceland photo 142
-  - img: assets/img/travel/iceland/iceland-143.jpg
-    alt: Iceland photo 143
-  - img: assets/img/travel/iceland/iceland-144.jpg
-    alt: Iceland photo 144
-  - img: assets/img/travel/iceland/iceland-145.jpg
-    alt: Iceland photo 145
   - img: assets/img/travel/iceland/iceland-146.jpg
     alt: Iceland photo 146
-  - img: assets/img/travel/iceland/iceland-147.jpg
-    alt: Iceland photo 147
   - img: assets/img/travel/iceland/iceland-148.jpg
     alt: Iceland photo 148
   - img: assets/img/travel/iceland/iceland-149.jpg
@@ -3952,8 +3938,6 @@ travel_photos:
     alt: Iceland photo 156
   - img: assets/img/travel/iceland/iceland-157.jpg
     alt: Iceland photo 157
-  - img: assets/img/travel/iceland/iceland-158.jpg
-    alt: Iceland photo 158
   - img: assets/img/travel/iceland/iceland-159.jpg
     alt: Iceland photo 159
   - img: assets/img/travel/iceland/iceland-160.jpg
@@ -4004,10 +3988,6 @@ travel_photos:
     alt: Iceland photo 182
   - img: assets/img/travel/iceland/iceland-183.jpg
     alt: Iceland photo 183
-  - img: assets/img/travel/iceland/iceland-184.jpg
-    alt: Iceland photo 184
-  - img: assets/img/travel/iceland/iceland-185.jpg
-    alt: Iceland photo 185
   - img: assets/img/travel/iceland/iceland-186.jpg
     alt: Iceland photo 186
   - img: assets/img/travel/iceland/iceland-187.jpg
@@ -4066,16 +4046,8 @@ travel_photos:
     alt: Iceland photo 213
   - img: assets/img/travel/iceland/iceland-214.jpg
     alt: Iceland photo 214
-  - img: assets/img/travel/iceland/iceland-215.jpg
-    alt: Iceland photo 215
-  - img: assets/img/travel/iceland/iceland-216.jpg
-    alt: Iceland photo 216
   - img: assets/img/travel/iceland/iceland-217.jpg
     alt: Iceland photo 217
-  - img: assets/img/travel/iceland/iceland-218.jpg
-    alt: Iceland photo 218
-  - img: assets/img/travel/iceland/iceland-219.jpg
-    alt: Iceland photo 219
   - img: assets/img/travel/iceland/iceland-220.jpg
     alt: Iceland photo 220
   - img: assets/img/travel/iceland/iceland-221.jpg
@@ -4192,16 +4164,8 @@ travel_photos:
     alt: Iceland photo 276
   - img: assets/img/travel/iceland/iceland-277.jpg
     alt: Iceland photo 277
-  - img: assets/img/travel/iceland/iceland-278.jpg
-    alt: Iceland photo 278
-  - img: assets/img/travel/iceland/iceland-279.jpg
-    alt: Iceland photo 279
   - img: assets/img/travel/iceland/iceland-280.jpg
     alt: Iceland photo 280
-  - img: assets/img/travel/iceland/iceland-281.jpg
-    alt: Iceland photo 281
-  - img: assets/img/travel/iceland/iceland-282.jpg
-    alt: Iceland photo 282
   - img: assets/img/travel/iceland/iceland-283.jpg
     alt: Iceland photo 283
   - img: assets/img/travel/iceland/iceland-284.jpg
@@ -4226,10 +4190,6 @@ travel_photos:
     alt: Iceland photo 293
   - img: assets/img/travel/iceland/iceland-294.jpg
     alt: Iceland photo 294
-  - img: assets/img/travel/iceland/iceland-295.jpg
-    alt: Iceland photo 295
-  - img: assets/img/travel/iceland/iceland-296.jpg
-    alt: Iceland photo 296
   - img: assets/img/travel/iceland/iceland-297.jpg
     alt: Iceland photo 297
   - img: assets/img/travel/iceland/iceland-298.jpg
@@ -4276,10 +4236,6 @@ travel_photos:
     alt: Iceland photo 318
   - img: assets/img/travel/iceland/iceland-319.jpg
     alt: Iceland photo 319
-  - img: assets/img/travel/iceland/iceland-320.jpg
-    alt: Iceland photo 320
-  - img: assets/img/travel/iceland/iceland-321.jpg
-    alt: Iceland photo 321
   - img: assets/img/travel/iceland/iceland-322.jpg
     alt: Iceland photo 322
   - img: assets/img/travel/iceland/iceland-323.jpg
@@ -4360,10 +4316,6 @@ travel_photos:
     alt: Iceland photo 360
   - img: assets/img/travel/iceland/iceland-361.jpg
     alt: Iceland photo 361
-  - img: assets/img/travel/iceland/iceland-362.jpg
-    alt: Iceland photo 362
-  - img: assets/img/travel/iceland/iceland-363.jpg
-    alt: Iceland photo 363
   - img: assets/img/travel/iceland/iceland-364.jpg
     alt: Iceland photo 364
   - img: assets/img/travel/iceland/iceland-365.jpg
@@ -4396,14 +4348,8 @@ travel_photos:
     alt: Iceland photo 378
   - img: assets/img/travel/iceland/iceland-379.jpg
     alt: Iceland photo 379
-  - img: assets/img/travel/iceland/iceland-380.jpg
-    alt: Iceland photo 380
-  - img: assets/img/travel/iceland/iceland-381.jpg
-    alt: Iceland photo 381
   - img: assets/img/travel/iceland/iceland-382.jpg
     alt: Iceland photo 382
-  - img: assets/img/travel/iceland/iceland-383.jpg
-    alt: Iceland photo 383
   - img: assets/img/travel/iceland/iceland-384.jpg
     alt: Iceland photo 384
   - img: assets/img/travel/iceland/iceland-385.jpg
@@ -4462,10 +4408,6 @@ travel_photos:
     alt: Iceland photo 411
   - img: assets/img/travel/iceland/iceland-412.jpg
     alt: Iceland photo 412
-  - img: assets/img/travel/iceland/iceland-413.jpg
-    alt: Iceland photo 413
-  - img: assets/img/travel/iceland/iceland-414.jpg
-    alt: Iceland photo 414
   - img: assets/img/travel/iceland/iceland-415.jpg
     alt: Iceland photo 415
   - img: assets/img/travel/iceland/iceland-416.jpg
@@ -4484,12 +4426,6 @@ travel_photos:
     alt: Iceland photo 422
   - img: assets/img/travel/iceland/iceland-423.jpg
     alt: Iceland photo 423
-  - img: assets/img/travel/iceland/iceland-424.jpg
-    alt: Iceland photo 424
-  - img: assets/img/travel/iceland/iceland-425.jpg
-    alt: Iceland photo 425
-  - img: assets/img/travel/iceland/iceland-426.jpg
-    alt: Iceland photo 426
   - img: assets/img/travel/iceland/iceland-427.jpg
     alt: Iceland photo 427
   - img: assets/img/travel/iceland/iceland-428.jpg
@@ -4520,28 +4456,16 @@ travel_photos:
     alt: Iceland photo 440
   - img: assets/img/travel/iceland/iceland-441.jpg
     alt: Iceland photo 441
-  - img: assets/img/travel/iceland/iceland-442.jpg
-    alt: Iceland photo 442
-  - img: assets/img/travel/iceland/iceland-443.jpg
-    alt: Iceland photo 443
-  - img: assets/img/travel/iceland/iceland-444.jpg
-    alt: Iceland photo 444
   - img: assets/img/travel/iceland/iceland-445.jpg
     alt: Iceland photo 445
   - img: assets/img/travel/iceland/iceland-446.jpg
     alt: Iceland photo 446
   - img: assets/img/travel/iceland/iceland-447.jpg
     alt: Iceland photo 447
-  - img: assets/img/travel/iceland/iceland-448.jpg
-    alt: Iceland photo 448
   - img: assets/img/travel/iceland/iceland-449.jpg
     alt: Iceland photo 449
   - img: assets/img/travel/iceland/iceland-450.jpg
     alt: Iceland photo 450
-  - img: assets/img/travel/iceland/iceland-451.jpg
-    alt: Iceland photo 451
-  - img: assets/img/travel/iceland/iceland-452.jpg
-    alt: Iceland photo 452
   - img: assets/img/travel/iceland/iceland-453.jpg
     alt: Iceland photo 453
   - img: assets/img/travel/iceland/iceland-454.jpg
@@ -4550,12 +4474,6 @@ travel_photos:
     alt: Iceland photo 455
   - img: assets/img/travel/iceland/iceland-456.jpg
     alt: Iceland photo 456
-  - img: assets/img/travel/iceland/iceland-457.jpg
-    alt: Iceland photo 457
-  - img: assets/img/travel/iceland/iceland-458.jpg
-    alt: Iceland photo 458
-  - img: assets/img/travel/iceland/iceland-459.jpg
-    alt: Iceland photo 459
   - img: assets/img/travel/iceland/iceland-460.jpg
     alt: Iceland photo 460
   - img: assets/img/travel/iceland/iceland-461.jpg
