@@ -5558,8 +5558,6 @@ travel_photos:
     alt: Munich, Germany photo 27
   - img: assets/img/travel/munich/munich-28.jpg
     alt: Munich, Germany photo 28
-  - img: assets/img/travel/munich/munich-29.jpg
-    alt: Munich, Germany photo 29
   - img: assets/img/travel/munich/munich-30.jpg
     alt: Munich, Germany photo 30
 - place: Muscat, Oman
