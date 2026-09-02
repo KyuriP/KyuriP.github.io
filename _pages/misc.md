@@ -2774,10 +2774,6 @@ travel_photos:
     alt: Greenland photo 23
   - img: assets/img/travel/greenland/greenland-24.jpg
     alt: Greenland photo 24
-  - img: assets/img/travel/greenland/greenland-25.jpg
-    alt: Greenland photo 25
-  - img: assets/img/travel/greenland/greenland-26.jpg
-    alt: Greenland photo 26
   - img: assets/img/travel/greenland/greenland-27.jpg
     alt: Greenland photo 27
   - img: assets/img/travel/greenland/greenland-28.jpg
@@ -2902,14 +2898,10 @@ travel_photos:
     alt: Greenland photo 87
   - img: assets/img/travel/greenland/greenland-88.jpg
     alt: Greenland photo 88
-  - img: assets/img/travel/greenland/greenland-89.jpg
-    alt: Greenland photo 89
   - img: assets/img/travel/greenland/greenland-90.jpg
     alt: Greenland photo 90
   - img: assets/img/travel/greenland/greenland-91.jpg
     alt: Greenland photo 91
-  - img: assets/img/travel/greenland/greenland-92.jpg
-    alt: Greenland photo 92
   - img: assets/img/travel/greenland/greenland-93.jpg
     alt: Greenland photo 93
   - img: assets/img/travel/greenland/greenland-94.jpg
