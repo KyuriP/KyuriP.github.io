@@ -428,6 +428,54 @@ travel_photos:
     alt: Annecy, France photo 26
   - img: assets/img/travel/anncey/anncey-27.jpg
     alt: Annecy, France photo 27
+- place: Antelope Canyon, Arizona
+  tag: antelopecanyon
+  lat: 36.8619
+  lng: -111.3743
+  img: assets/img/travel/antelopecanyon/antelopecanyon-07.jpg
+  gallery:
+  - img: assets/img/travel/antelopecanyon/antelopecanyon-01.jpg
+    alt: Antelope Canyon, Arizona photo 1
+  - img: assets/img/travel/antelopecanyon/antelopecanyon-02.jpg
+    alt: Antelope Canyon, Arizona photo 2
+  - img: assets/img/travel/antelopecanyon/antelopecanyon-03.jpg
+    alt: Antelope Canyon, Arizona photo 3
+  - img: assets/img/travel/antelopecanyon/antelopecanyon-04.jpg
+    alt: Antelope Canyon, Arizona photo 4
+  - img: assets/img/travel/antelopecanyon/antelopecanyon-05.jpg
+    alt: Antelope Canyon, Arizona photo 5
+  - img: assets/img/travel/antelopecanyon/antelopecanyon-06.jpg
+    alt: Antelope Canyon, Arizona photo 6
+  - img: assets/img/travel/antelopecanyon/antelopecanyon-07.jpg
+    alt: Antelope Canyon, Arizona photo 7
+  - img: assets/img/travel/antelopecanyon/antelopecanyon-08.jpg
+    alt: Antelope Canyon, Arizona photo 8
+  - img: assets/img/travel/antelopecanyon/antelopecanyon-09.jpg
+    alt: Antelope Canyon, Arizona photo 9
+  - img: assets/img/travel/antelopecanyon/antelopecanyon-10.jpg
+    alt: Antelope Canyon, Arizona photo 10
+  - img: assets/img/travel/antelopecanyon/antelopecanyon-11.jpg
+    alt: Antelope Canyon, Arizona photo 11
+  - img: assets/img/travel/antelopecanyon/antelopecanyon-12.jpg
+    alt: Antelope Canyon, Arizona photo 12
+  - img: assets/img/travel/antelopecanyon/antelopecanyon-13.jpg
+    alt: Antelope Canyon, Arizona photo 13
+  - img: assets/img/travel/antelopecanyon/antelopecanyon-14.jpg
+    alt: Antelope Canyon, Arizona photo 14
+  - img: assets/img/travel/antelopecanyon/antelopecanyon-15.jpg
+    alt: Antelope Canyon, Arizona photo 15
+  - img: assets/img/travel/antelopecanyon/antelopecanyon-16.jpg
+    alt: Antelope Canyon, Arizona photo 16
+  - img: assets/img/travel/antelopecanyon/antelopecanyon-17.jpg
+    alt: Antelope Canyon, Arizona photo 17
+  - img: assets/img/travel/antelopecanyon/antelopecanyon-18.jpg
+    alt: Antelope Canyon, Arizona photo 18
+  - img: assets/img/travel/antelopecanyon/antelopecanyon-19.jpg
+    alt: Antelope Canyon, Arizona photo 19
+  - img: assets/img/travel/antelopecanyon/antelopecanyon-20.jpg
+    alt: Antelope Canyon, Arizona photo 20
+  - img: assets/img/travel/antelopecanyon/antelopecanyon-21.jpg
+    alt: Antelope Canyon, Arizona photo 21
 - place: Apeldoorn, Netherlands
   tag: apeldoorn
   lat: 52.2112
@@ -1156,6 +1204,58 @@ travel_photos:
     alt: Brussels, Belgium photo 17
   - img: assets/img/travel/brussels/brussels-18.jpg
     alt: Brussels, Belgium photo 18
+- place: Bryce Canyon National Park, Utah
+  tag: brycecanyon
+  lat: 37.593
+  lng: -112.1871
+  img: assets/img/travel/brycecanyon/brycecanyon-05.jpg
+  gallery:
+  - img: assets/img/travel/brycecanyon/brycecanyon-01.jpg
+    alt: Bryce Canyon National Park, Utah photo 1
+  - img: assets/img/travel/brycecanyon/brycecanyon-02.jpg
+    alt: Bryce Canyon National Park, Utah photo 2
+  - img: assets/img/travel/brycecanyon/brycecanyon-03.jpg
+    alt: Bryce Canyon National Park, Utah photo 3
+  - img: assets/img/travel/brycecanyon/brycecanyon-04.jpg
+    alt: Bryce Canyon National Park, Utah photo 4
+  - img: assets/img/travel/brycecanyon/brycecanyon-05.jpg
+    alt: Bryce Canyon National Park, Utah photo 5
+  - img: assets/img/travel/brycecanyon/brycecanyon-06.jpg
+    alt: Bryce Canyon National Park, Utah photo 6
+  - img: assets/img/travel/brycecanyon/brycecanyon-07.jpg
+    alt: Bryce Canyon National Park, Utah photo 7
+  - img: assets/img/travel/brycecanyon/brycecanyon-08.jpg
+    alt: Bryce Canyon National Park, Utah photo 8
+  - img: assets/img/travel/brycecanyon/brycecanyon-09.jpg
+    alt: Bryce Canyon National Park, Utah photo 9
+  - img: assets/img/travel/brycecanyon/brycecanyon-10.jpg
+    alt: Bryce Canyon National Park, Utah photo 10
+  - img: assets/img/travel/brycecanyon/brycecanyon-11.jpg
+    alt: Bryce Canyon National Park, Utah photo 11
+  - img: assets/img/travel/brycecanyon/brycecanyon-12.jpg
+    alt: Bryce Canyon National Park, Utah photo 12
+  - img: assets/img/travel/brycecanyon/brycecanyon-13.jpg
+    alt: Bryce Canyon National Park, Utah photo 13
+  - img: assets/img/travel/brycecanyon/brycecanyon-14.jpg
+    alt: Bryce Canyon National Park, Utah photo 14
+  - img: assets/img/travel/brycecanyon/brycecanyon-15.jpg
+    alt: Bryce Canyon National Park, Utah photo 15
+  - img: assets/img/travel/brycecanyon/brycecanyon-16.jpg
+    alt: Bryce Canyon National Park, Utah photo 16
+  - img: assets/img/travel/brycecanyon/brycecanyon-17.jpg
+    alt: Bryce Canyon National Park, Utah photo 17
+  - img: assets/img/travel/brycecanyon/brycecanyon-18.jpg
+    alt: Bryce Canyon National Park, Utah photo 18
+  - img: assets/img/travel/brycecanyon/brycecanyon-19.jpg
+    alt: Bryce Canyon National Park, Utah photo 19
+  - img: assets/img/travel/brycecanyon/brycecanyon-20.jpg
+    alt: Bryce Canyon National Park, Utah photo 20
+  - img: assets/img/travel/brycecanyon/brycecanyon-21.jpg
+    alt: Bryce Canyon National Park, Utah photo 21
+  - img: assets/img/travel/brycecanyon/brycecanyon-22.jpg
+    alt: Bryce Canyon National Park, Utah photo 22
+  - img: assets/img/travel/brycecanyon/brycecanyon-23.jpg
+    alt: Bryce Canyon National Park, Utah photo 23
 - place: Budapest, Hungary
   tag: budapest
   lat: 47.4979
@@ -2718,6 +2818,58 @@ travel_photos:
     alt: Glasgow, Scotland photo 22
   - img: assets/img/travel/glasgow/glasgow-23.jpg
     alt: Glasgow, Scotland photo 23
+- place: Grand Canyon National Park, Arizona
+  tag: grandcanyon
+  lat: 36.0544
+  lng: -112.1401
+  img: assets/img/travel/grandcanyon/grandcanyon-17.jpg
+  gallery:
+  - img: assets/img/travel/grandcanyon/grandcanyon-01.jpg
+    alt: Grand Canyon National Park, Arizona photo 1
+  - img: assets/img/travel/grandcanyon/grandcanyon-02.jpg
+    alt: Grand Canyon National Park, Arizona photo 2
+  - img: assets/img/travel/grandcanyon/grandcanyon-03.jpg
+    alt: Grand Canyon National Park, Arizona photo 3
+  - img: assets/img/travel/grandcanyon/grandcanyon-04.jpg
+    alt: Grand Canyon National Park, Arizona photo 4
+  - img: assets/img/travel/grandcanyon/grandcanyon-05.jpg
+    alt: Grand Canyon National Park, Arizona photo 5
+  - img: assets/img/travel/grandcanyon/grandcanyon-06.jpg
+    alt: Grand Canyon National Park, Arizona photo 6
+  - img: assets/img/travel/grandcanyon/grandcanyon-07.jpg
+    alt: Grand Canyon National Park, Arizona photo 7
+  - img: assets/img/travel/grandcanyon/grandcanyon-08.jpg
+    alt: Grand Canyon National Park, Arizona photo 8
+  - img: assets/img/travel/grandcanyon/grandcanyon-09.jpg
+    alt: Grand Canyon National Park, Arizona photo 9
+  - img: assets/img/travel/grandcanyon/grandcanyon-10.jpg
+    alt: Grand Canyon National Park, Arizona photo 10
+  - img: assets/img/travel/grandcanyon/grandcanyon-11.jpg
+    alt: Grand Canyon National Park, Arizona photo 11
+  - img: assets/img/travel/grandcanyon/grandcanyon-12.jpg
+    alt: Grand Canyon National Park, Arizona photo 12
+  - img: assets/img/travel/grandcanyon/grandcanyon-13.jpg
+    alt: Grand Canyon National Park, Arizona photo 13
+  - img: assets/img/travel/grandcanyon/grandcanyon-14.jpg
+    alt: Grand Canyon National Park, Arizona photo 14
+  - img: assets/img/travel/grandcanyon/grandcanyon-15.jpg
+    alt: Grand Canyon National Park, Arizona photo 15
+  - img: assets/img/travel/grandcanyon/grandcanyon-16.jpg
+    alt: Grand Canyon National Park, Arizona photo 16
+  - img: assets/img/travel/grandcanyon/grandcanyon-17.jpg
+    alt: Grand Canyon National Park, Arizona photo 17
+  - img: assets/img/travel/grandcanyon/grandcanyon-18.jpg
+    alt: Grand Canyon National Park, Arizona photo 18
+  - img: assets/img/travel/grandcanyon/grandcanyon-19.jpg
+    alt: Grand Canyon National Park, Arizona photo 19
+  - img: assets/img/travel/grandcanyon/grandcanyon-20.jpg
+    alt: Grand Canyon National Park, Arizona photo 20
+  - img: assets/img/travel/grandcanyon/grandcanyon-21.jpg
+    alt: Grand Canyon National Park, Arizona photo 21
+  - img: assets/img/travel/grandcanyon/grandcanyon-22.jpg
+    alt: Grand Canyon National Park, Arizona photo 22
+  - img: assets/img/travel/grandcanyon/grandcanyon-23.jpg
+    alt: Grand Canyon National Park, Arizona photo 23
 - place: Greenland
   tag: Greenland
   lat: 65.61
@@ -3522,6 +3674,18 @@ travel_photos:
     alt: Hong Kong photo 13
   - img: assets/img/travel/hongkong/hongkong-14.jpg
     alt: Hong Kong photo 14
+- place: Horseshoe Bend, Arizona
+  tag: horseshoebend
+  lat: 36.8791
+  lng: -111.5104
+  img: assets/img/travel/horseshoebend/horseshoebend-01.jpg
+  gallery:
+  - img: assets/img/travel/horseshoebend/horseshoebend-01.jpg
+    alt: Horseshoe Bend, Arizona photo 1
+  - img: assets/img/travel/horseshoebend/horseshoebend-02.jpg
+    alt: Horseshoe Bend, Arizona photo 2
+  - img: assets/img/travel/horseshoebend/horseshoebend-03.jpg
+    alt: Horseshoe Bend, Arizona photo 3
 - place: Houston, USA
   tag: houston
   lat: 29.7604
@@ -4480,6 +4644,40 @@ travel_photos:
     alt: Johannesburg, South Africa photo 13
   - img: assets/img/travel/johannesburg/johannesburg-14.jpg
     alt: Johannesburg, South Africa photo 14
+- place: Joshua Tree National Park, California
+  tag: joshuatree
+  lat: 33.8734
+  lng: -115.901
+  img: assets/img/travel/joshuatree/joshuatree-01.jpg
+  gallery:
+  - img: assets/img/travel/joshuatree/joshuatree-01.jpg
+    alt: Joshua Tree National Park, California photo 1
+  - img: assets/img/travel/joshuatree/joshuatree-02.jpg
+    alt: Joshua Tree National Park, California photo 2
+  - img: assets/img/travel/joshuatree/joshuatree-03.jpg
+    alt: Joshua Tree National Park, California photo 3
+  - img: assets/img/travel/joshuatree/joshuatree-04.jpg
+    alt: Joshua Tree National Park, California photo 4
+  - img: assets/img/travel/joshuatree/joshuatree-05.jpg
+    alt: Joshua Tree National Park, California photo 5
+  - img: assets/img/travel/joshuatree/joshuatree-06.jpg
+    alt: Joshua Tree National Park, California photo 6
+  - img: assets/img/travel/joshuatree/joshuatree-07.jpg
+    alt: Joshua Tree National Park, California photo 7
+  - img: assets/img/travel/joshuatree/joshuatree-08.jpg
+    alt: Joshua Tree National Park, California photo 8
+  - img: assets/img/travel/joshuatree/joshuatree-09.jpg
+    alt: Joshua Tree National Park, California photo 9
+  - img: assets/img/travel/joshuatree/joshuatree-10.jpg
+    alt: Joshua Tree National Park, California photo 10
+  - img: assets/img/travel/joshuatree/joshuatree-11.jpg
+    alt: Joshua Tree National Park, California photo 11
+  - img: assets/img/travel/joshuatree/joshuatree-12.jpg
+    alt: Joshua Tree National Park, California photo 12
+  - img: assets/img/travel/joshuatree/joshuatree-13.jpg
+    alt: Joshua Tree National Park, California photo 13
+  - img: assets/img/travel/joshuatree/joshuatree-14.jpg
+    alt: Joshua Tree National Park, California photo 14
 - place: Kolkata, India
   tag: calcutta
   lat: 22.5726
@@ -4630,6 +4828,56 @@ travel_photos:
     alt: Laren, Netherlands photo 14
   - img: assets/img/travel/delfthaguelarenvolendammuiden/laren-15.jpg
     alt: Laren, Netherlands photo 15
+- place: Las Vegas, Nevada
+  tag: lasvegas
+  lat: 36.1699
+  lng: -115.1398
+  img: assets/img/travel/lasvegas/lasvegas-01.jpg
+  gallery:
+  - img: assets/img/travel/lasvegas/lasvegas-01.jpg
+    alt: Las Vegas, Nevada photo 1
+  - img: assets/img/travel/lasvegas/lasvegas-02.jpg
+    alt: Las Vegas, Nevada photo 2
+  - img: assets/img/travel/lasvegas/lasvegas-03.jpg
+    alt: Las Vegas, Nevada photo 3
+  - img: assets/img/travel/lasvegas/lasvegas-04.jpg
+    alt: Las Vegas, Nevada photo 4
+  - img: assets/img/travel/lasvegas/lasvegas-05.jpg
+    alt: Las Vegas, Nevada photo 5
+  - img: assets/img/travel/lasvegas/lasvegas-06.jpg
+    alt: Las Vegas, Nevada photo 6
+  - img: assets/img/travel/lasvegas/lasvegas-07.jpg
+    alt: Las Vegas, Nevada photo 7
+  - img: assets/img/travel/lasvegas/lasvegas-08.jpg
+    alt: Las Vegas, Nevada photo 8
+  - img: assets/img/travel/lasvegas/lasvegas-09.jpg
+    alt: Las Vegas, Nevada photo 9
+  - img: assets/img/travel/lasvegas/lasvegas-10.jpg
+    alt: Las Vegas, Nevada photo 10
+  - img: assets/img/travel/lasvegas/lasvegas-11.jpg
+    alt: Las Vegas, Nevada photo 11
+  - img: assets/img/travel/lasvegas/lasvegas-12.jpg
+    alt: Las Vegas, Nevada photo 12
+  - img: assets/img/travel/lasvegas/lasvegas-13.jpg
+    alt: Las Vegas, Nevada photo 13
+  - img: assets/img/travel/lasvegas/lasvegas-14.jpg
+    alt: Las Vegas, Nevada photo 14
+  - img: assets/img/travel/lasvegas/lasvegas-15.jpg
+    alt: Las Vegas, Nevada photo 15
+  - img: assets/img/travel/lasvegas/lasvegas-16.jpg
+    alt: Las Vegas, Nevada photo 16
+  - img: assets/img/travel/lasvegas/lasvegas-17.jpg
+    alt: Las Vegas, Nevada photo 17
+  - img: assets/img/travel/lasvegas/lasvegas-18.jpg
+    alt: Las Vegas, Nevada photo 18
+  - img: assets/img/travel/lasvegas/lasvegas-19.jpg
+    alt: Las Vegas, Nevada photo 19
+  - img: assets/img/travel/lasvegas/lasvegas-20.jpg
+    alt: Las Vegas, Nevada photo 20
+  - img: assets/img/travel/lasvegas/lasvegas-21.jpg
+    alt: Las Vegas, Nevada photo 21
+  - img: assets/img/travel/lasvegas/lasvegas-22.jpg
+    alt: Las Vegas, Nevada photo 22
 - place: Limerick, Ireland
   tag: limerick
   lat: 52.6638
@@ -4940,6 +5188,64 @@ travel_photos:
     alt: Los Angeles, USA photo 18
   - img: assets/img/travel/la/la-19.jpg
     alt: Los Angeles, USA photo 19
+  - img: assets/img/travel/la/la-20.jpg
+    alt: Los Angeles, USA photo 20
+  - img: assets/img/travel/la/la-21.jpg
+    alt: Los Angeles, USA photo 21
+  - img: assets/img/travel/la/la-22.jpg
+    alt: Los Angeles, USA photo 22
+  - img: assets/img/travel/la/la-23.jpg
+    alt: Los Angeles, USA photo 23
+  - img: assets/img/travel/la/la-24.jpg
+    alt: Los Angeles, USA photo 24
+  - img: assets/img/travel/la/la-25.jpg
+    alt: Los Angeles, USA photo 25
+  - img: assets/img/travel/la/la-26.jpg
+    alt: Los Angeles, USA photo 26
+  - img: assets/img/travel/la/la-27.jpg
+    alt: Los Angeles, USA photo 27
+  - img: assets/img/travel/la/la-28.jpg
+    alt: Los Angeles, USA photo 28
+  - img: assets/img/travel/la/la-29.jpg
+    alt: Los Angeles, USA photo 29
+  - img: assets/img/travel/la/la-30.jpg
+    alt: Los Angeles, USA photo 30
+  - img: assets/img/travel/la/la-31.jpg
+    alt: Los Angeles, USA photo 31
+  - img: assets/img/travel/la/la-32.jpg
+    alt: Los Angeles, USA photo 32
+  - img: assets/img/travel/la/la-33.jpg
+    alt: Los Angeles, USA photo 33
+  - img: assets/img/travel/la/la-34.jpg
+    alt: Los Angeles, USA photo 34
+  - img: assets/img/travel/la/la-35.jpg
+    alt: Los Angeles, USA photo 35
+  - img: assets/img/travel/la/la-36.jpg
+    alt: Los Angeles, USA photo 36
+  - img: assets/img/travel/la/la-37.jpg
+    alt: Los Angeles, USA photo 37
+  - img: assets/img/travel/la/la-38.jpg
+    alt: Los Angeles, USA photo 38
+  - img: assets/img/travel/la/la-39.jpg
+    alt: Los Angeles, USA photo 39
+  - img: assets/img/travel/la/la-40.jpg
+    alt: Los Angeles, USA photo 40
+  - img: assets/img/travel/la/la-41.jpg
+    alt: Los Angeles, USA photo 41
+  - img: assets/img/travel/la/la-42.jpg
+    alt: Los Angeles, USA photo 42
+  - img: assets/img/travel/la/la-43.jpg
+    alt: Los Angeles, USA photo 43
+  - img: assets/img/travel/la/la-44.jpg
+    alt: Los Angeles, USA photo 44
+  - img: assets/img/travel/la/la-45.jpg
+    alt: Los Angeles, USA photo 45
+  - img: assets/img/travel/la/la-46.jpg
+    alt: Los Angeles, USA photo 46
+  - img: assets/img/travel/la/la-47.jpg
+    alt: Los Angeles, USA photo 47
+  - img: assets/img/travel/la/la-48.jpg
+    alt: Los Angeles, USA photo 48
 - place: Lyon, France
   tag: lyon
   lat: 45.764
@@ -6792,6 +7098,32 @@ travel_photos:
     alt: Santa Fe, New Mexico photo 53
   - img: assets/img/travel/santafe2026/santafe2026-54.jpg
     alt: Santa Fe, New Mexico photo 54
+- place: Santa Monica, California
+  tag: santamonica
+  lat: 34.0195
+  lng: -118.4912
+  img: assets/img/travel/santamonica/santamonica-09.jpg
+  gallery:
+  - img: assets/img/travel/santamonica/santamonica-01.jpg
+    alt: Santa Monica, California photo 1
+  - img: assets/img/travel/santamonica/santamonica-02.jpg
+    alt: Santa Monica, California photo 2
+  - img: assets/img/travel/santamonica/santamonica-03.jpg
+    alt: Santa Monica, California photo 3
+  - img: assets/img/travel/santamonica/santamonica-04.jpg
+    alt: Santa Monica, California photo 4
+  - img: assets/img/travel/santamonica/santamonica-05.jpg
+    alt: Santa Monica, California photo 5
+  - img: assets/img/travel/santamonica/santamonica-06.jpg
+    alt: Santa Monica, California photo 6
+  - img: assets/img/travel/santamonica/santamonica-07.jpg
+    alt: Santa Monica, California photo 7
+  - img: assets/img/travel/santamonica/santamonica-08.jpg
+    alt: Santa Monica, California photo 8
+  - img: assets/img/travel/santamonica/santamonica-09.jpg
+    alt: Santa Monica, California photo 9
+  - img: assets/img/travel/santamonica/santamonica-10.jpg
+    alt: Santa Monica, California photo 10
 - place: Sao Paulo, Brazil
   tag: saopaulo
   lat: -23.5505
@@ -8536,6 +8868,92 @@ travel_photos:
     alt: Zagreb, Croatia photo 30
   - img: assets/img/travel/zagreb/zagreb-31.jpg
     alt: Zagreb, Croatia photo 31
+- place: Zion National Park, Utah
+  tag: zion
+  lat: 37.2982
+  lng: -113.0263
+  img: assets/img/travel/zion/zion-27.jpg
+  gallery:
+  - img: assets/img/travel/zion/zion-01.jpg
+    alt: Zion National Park, Utah photo 1
+  - img: assets/img/travel/zion/zion-02.jpg
+    alt: Zion National Park, Utah photo 2
+  - img: assets/img/travel/zion/zion-03.jpg
+    alt: Zion National Park, Utah photo 3
+  - img: assets/img/travel/zion/zion-04.jpg
+    alt: Zion National Park, Utah photo 4
+  - img: assets/img/travel/zion/zion-05.jpg
+    alt: Zion National Park, Utah photo 5
+  - img: assets/img/travel/zion/zion-06.jpg
+    alt: Zion National Park, Utah photo 6
+  - img: assets/img/travel/zion/zion-07.jpg
+    alt: Zion National Park, Utah photo 7
+  - img: assets/img/travel/zion/zion-08.jpg
+    alt: Zion National Park, Utah photo 8
+  - img: assets/img/travel/zion/zion-09.jpg
+    alt: Zion National Park, Utah photo 9
+  - img: assets/img/travel/zion/zion-10.jpg
+    alt: Zion National Park, Utah photo 10
+  - img: assets/img/travel/zion/zion-11.jpg
+    alt: Zion National Park, Utah photo 11
+  - img: assets/img/travel/zion/zion-12.jpg
+    alt: Zion National Park, Utah photo 12
+  - img: assets/img/travel/zion/zion-13.jpg
+    alt: Zion National Park, Utah photo 13
+  - img: assets/img/travel/zion/zion-14.jpg
+    alt: Zion National Park, Utah photo 14
+  - img: assets/img/travel/zion/zion-15.jpg
+    alt: Zion National Park, Utah photo 15
+  - img: assets/img/travel/zion/zion-16.jpg
+    alt: Zion National Park, Utah photo 16
+  - img: assets/img/travel/zion/zion-17.jpg
+    alt: Zion National Park, Utah photo 17
+  - img: assets/img/travel/zion/zion-18.jpg
+    alt: Zion National Park, Utah photo 18
+  - img: assets/img/travel/zion/zion-19.jpg
+    alt: Zion National Park, Utah photo 19
+  - img: assets/img/travel/zion/zion-20.jpg
+    alt: Zion National Park, Utah photo 20
+  - img: assets/img/travel/zion/zion-21.jpg
+    alt: Zion National Park, Utah photo 21
+  - img: assets/img/travel/zion/zion-22.jpg
+    alt: Zion National Park, Utah photo 22
+  - img: assets/img/travel/zion/zion-23.jpg
+    alt: Zion National Park, Utah photo 23
+  - img: assets/img/travel/zion/zion-24.jpg
+    alt: Zion National Park, Utah photo 24
+  - img: assets/img/travel/zion/zion-25.jpg
+    alt: Zion National Park, Utah photo 25
+  - img: assets/img/travel/zion/zion-26.jpg
+    alt: Zion National Park, Utah photo 26
+  - img: assets/img/travel/zion/zion-27.jpg
+    alt: Zion National Park, Utah photo 27
+  - img: assets/img/travel/zion/zion-28.jpg
+    alt: Zion National Park, Utah photo 28
+  - img: assets/img/travel/zion/zion-29.jpg
+    alt: Zion National Park, Utah photo 29
+  - img: assets/img/travel/zion/zion-30.jpg
+    alt: Zion National Park, Utah photo 30
+  - img: assets/img/travel/zion/zion-31.jpg
+    alt: Zion National Park, Utah photo 31
+  - img: assets/img/travel/zion/zion-32.jpg
+    alt: Zion National Park, Utah photo 32
+  - img: assets/img/travel/zion/zion-33.jpg
+    alt: Zion National Park, Utah photo 33
+  - img: assets/img/travel/zion/zion-34.jpg
+    alt: Zion National Park, Utah photo 34
+  - img: assets/img/travel/zion/zion-35.jpg
+    alt: Zion National Park, Utah photo 35
+  - img: assets/img/travel/zion/zion-36.jpg
+    alt: Zion National Park, Utah photo 36
+  - img: assets/img/travel/zion/zion-37.jpg
+    alt: Zion National Park, Utah photo 37
+  - img: assets/img/travel/zion/zion-38.jpg
+    alt: Zion National Park, Utah photo 38
+  - img: assets/img/travel/zion/zion-39.jpg
+    alt: Zion National Park, Utah photo 39
+  - img: assets/img/travel/zion/zion-40.jpg
+    alt: Zion National Park, Utah photo 40
 - place: Zurich, Switzerland
   tag: zurich
   lat: 47.3769
@@ -8588,6 +9006,10 @@ globe_points:
   tag: anncey
   lat: 45.8992
   lng: 6.1294
+- place: Antelope Canyon, Arizona
+  tag: antelopecanyon
+  lat: 36.8619
+  lng: -111.3743
 - place: Apeldoorn, Netherlands
   tag: apeldoorn
   lat: 52.2112
@@ -8656,6 +9078,10 @@ globe_points:
   tag: brussels
   lat: 50.8503
   lng: 4.3517
+- place: Bryce Canyon National Park, Utah
+  tag: brycecanyon
+  lat: 37.593
+  lng: -112.1871
 - place: Budapest, Hungary
   tag: budapest
   lat: 47.4979
@@ -8784,6 +9210,10 @@ globe_points:
   tag: glasgow
   lat: 55.8642
   lng: -4.2518
+- place: Grand Canyon National Park, Arizona
+  tag: grandcanyon
+  lat: 36.0544
+  lng: -112.1401
 - place: Greenland
   tag: Greenland
   lat: 65.61
@@ -8824,6 +9254,10 @@ globe_points:
   tag: hongkong
   lat: 22.3193
   lng: 114.1694
+- place: Horseshoe Bend, Arizona
+  tag: horseshoebend
+  lat: 36.8791
+  lng: -111.5104
 - place: Houston, USA
   tag: houston
   lat: 29.7604
@@ -8844,6 +9278,10 @@ globe_points:
   tag: johannesburg
   lat: -26.2041
   lng: 28.0473
+- place: Joshua Tree National Park, California
+  tag: joshuatree
+  lat: 33.8734
+  lng: -115.901
 - place: Kolkata, India
   tag: calcutta
   lat: 22.5726
@@ -8860,6 +9298,10 @@ globe_points:
   tag: delfthaguelarenvolendammuiden
   lat: 52.0116
   lng: 4.3571
+- place: Las Vegas, Nevada
+  tag: lasvegas
+  lat: 36.1699
+  lng: -115.1398
 - place: Limerick, Ireland
   tag: limerick
   lat: 52.6638
@@ -9032,6 +9474,10 @@ globe_points:
   tag: santafe2026
   lat: 35.687
   lng: -105.9378
+- place: Santa Monica, California
+  tag: santamonica
+  lat: 34.0195
+  lng: -118.4912
 - place: Sao Paulo, Brazil
   tag: saopaulo
   lat: -23.5505
@@ -9148,6 +9594,10 @@ globe_points:
   tag: zagreb
   lat: 45.815
   lng: 15.9819
+- place: Zion National Park, Utah
+  tag: zion
+  lat: 37.2982
+  lng: -113.0263
 - place: Zurich, Switzerland
   tag: zurich
   lat: 47.3769
