@@ -606,8 +606,6 @@ travel_photos:
     alt: Auckland, New Zealand photo 17
   - img: assets/img/travel/auckland/auckland-18.jpg
     alt: Auckland, New Zealand photo 18
-  - img: assets/img/travel/auckland/auckland-19.jpg
-    alt: Auckland, New Zealand photo 19
   - img: assets/img/travel/auckland/auckland-20.jpg
     alt: Auckland, New Zealand photo 20
   - img: assets/img/travel/auckland/auckland-21.jpg
