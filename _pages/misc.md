@@ -6908,8 +6908,6 @@ travel_photos:
     alt: Seattle, USA photo 10
   - img: assets/img/travel/seattle/seattle-11.jpg
     alt: Seattle, USA photo 11
-  - img: assets/img/travel/seattle/seattle-12.jpg
-    alt: Seattle, USA photo 12
   - img: assets/img/travel/seattle/seattle-13.jpg
     alt: Seattle, USA photo 13
   - img: assets/img/travel/seattle/seattle-14.jpg
@@ -6924,8 +6922,6 @@ travel_photos:
     alt: Seattle, USA photo 18
   - img: assets/img/travel/seattle/seattle-19.jpg
     alt: Seattle, USA photo 19
-  - img: assets/img/travel/seattle/seattle-20.jpg
-    alt: Seattle, USA photo 20
   - img: assets/img/travel/seattle/seattle-21.jpg
     alt: Seattle, USA photo 21
   - img: assets/img/travel/seattle/seattle-22.jpg
