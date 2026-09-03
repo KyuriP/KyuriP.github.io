@@ -468,10 +468,6 @@ travel_photos:
     alt: Antelope Canyon, Arizona photo 16
   - img: assets/img/travel/antelopecanyon/antelopecanyon-17.jpg
     alt: Antelope Canyon, Arizona photo 17
-  - img: assets/img/travel/antelopecanyon/antelopecanyon-18.jpg
-    alt: Antelope Canyon, Arizona photo 18
-  - img: assets/img/travel/antelopecanyon/antelopecanyon-19.jpg
-    alt: Antelope Canyon, Arizona photo 19
   - img: assets/img/travel/antelopecanyon/antelopecanyon-20.jpg
     alt: Antelope Canyon, Arizona photo 20
   - img: assets/img/travel/antelopecanyon/antelopecanyon-21.jpg
@@ -8874,8 +8870,6 @@ travel_photos:
   lng: -113.0263
   img: assets/img/travel/zion/zion-27.jpg
   gallery:
-  - img: assets/img/travel/zion/zion-01.jpg
-    alt: Zion National Park, Utah photo 1
   - img: assets/img/travel/zion/zion-02.jpg
     alt: Zion National Park, Utah photo 2
   - img: assets/img/travel/zion/zion-03.jpg
@@ -8902,8 +8896,6 @@ travel_photos:
     alt: Zion National Park, Utah photo 13
   - img: assets/img/travel/zion/zion-14.jpg
     alt: Zion National Park, Utah photo 14
-  - img: assets/img/travel/zion/zion-15.jpg
-    alt: Zion National Park, Utah photo 15
   - img: assets/img/travel/zion/zion-16.jpg
     alt: Zion National Park, Utah photo 16
   - img: assets/img/travel/zion/zion-17.jpg
