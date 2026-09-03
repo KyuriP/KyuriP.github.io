@@ -5230,8 +5230,6 @@ travel_photos:
     alt: Los Angeles, USA photo 44
   - img: assets/img/travel/la/la-45.jpg
     alt: Los Angeles, USA photo 45
-  - img: assets/img/travel/la/la-46.jpg
-    alt: Los Angeles, USA photo 46
   - img: assets/img/travel/la/la-47.jpg
     alt: Los Angeles, USA photo 47
   - img: assets/img/travel/la/la-48.jpg
@@ -7104,8 +7102,6 @@ travel_photos:
     alt: Santa Monica, California photo 4
   - img: assets/img/travel/santamonica/santamonica-05.jpg
     alt: Santa Monica, California photo 5
-  - img: assets/img/travel/santamonica/santamonica-06.jpg
-    alt: Santa Monica, California photo 6
   - img: assets/img/travel/santamonica/santamonica-07.jpg
     alt: Santa Monica, California photo 7
   - img: assets/img/travel/santamonica/santamonica-08.jpg
