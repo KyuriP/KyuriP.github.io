@@ -1208,8 +1208,6 @@ travel_photos:
   gallery:
   - img: assets/img/travel/brycecanyon/brycecanyon-01.jpg
     alt: Bryce Canyon National Park, Utah photo 1
-  - img: assets/img/travel/brycecanyon/brycecanyon-02.jpg
-    alt: Bryce Canyon National Park, Utah photo 2
   - img: assets/img/travel/brycecanyon/brycecanyon-03.jpg
     alt: Bryce Canyon National Park, Utah photo 3
   - img: assets/img/travel/brycecanyon/brycecanyon-04.jpg
@@ -2820,52 +2818,52 @@ travel_photos:
   lng: -112.1401
   img: assets/img/travel/grandcanyon/grandcanyon-17.jpg
   gallery:
-  - img: assets/img/travel/grandcanyon/grandcanyon-01.jpg
-    alt: Grand Canyon National Park, Arizona photo 1
-  - img: assets/img/travel/grandcanyon/grandcanyon-02.jpg
-    alt: Grand Canyon National Park, Arizona photo 2
-  - img: assets/img/travel/grandcanyon/grandcanyon-03.jpg
-    alt: Grand Canyon National Park, Arizona photo 3
-  - img: assets/img/travel/grandcanyon/grandcanyon-04.jpg
-    alt: Grand Canyon National Park, Arizona photo 4
-  - img: assets/img/travel/grandcanyon/grandcanyon-05.jpg
-    alt: Grand Canyon National Park, Arizona photo 5
-  - img: assets/img/travel/grandcanyon/grandcanyon-06.jpg
-    alt: Grand Canyon National Park, Arizona photo 6
-  - img: assets/img/travel/grandcanyon/grandcanyon-07.jpg
-    alt: Grand Canyon National Park, Arizona photo 7
-  - img: assets/img/travel/grandcanyon/grandcanyon-08.jpg
-    alt: Grand Canyon National Park, Arizona photo 8
-  - img: assets/img/travel/grandcanyon/grandcanyon-09.jpg
-    alt: Grand Canyon National Park, Arizona photo 9
-  - img: assets/img/travel/grandcanyon/grandcanyon-10.jpg
-    alt: Grand Canyon National Park, Arizona photo 10
-  - img: assets/img/travel/grandcanyon/grandcanyon-11.jpg
-    alt: Grand Canyon National Park, Arizona photo 11
-  - img: assets/img/travel/grandcanyon/grandcanyon-12.jpg
-    alt: Grand Canyon National Park, Arizona photo 12
-  - img: assets/img/travel/grandcanyon/grandcanyon-13.jpg
-    alt: Grand Canyon National Park, Arizona photo 13
-  - img: assets/img/travel/grandcanyon/grandcanyon-14.jpg
-    alt: Grand Canyon National Park, Arizona photo 14
   - img: assets/img/travel/grandcanyon/grandcanyon-15.jpg
     alt: Grand Canyon National Park, Arizona photo 15
-  - img: assets/img/travel/grandcanyon/grandcanyon-16.jpg
-    alt: Grand Canyon National Park, Arizona photo 16
+  - img: assets/img/travel/grandcanyon/grandcanyon-14.jpg
+    alt: Grand Canyon National Park, Arizona photo 14
+  - img: assets/img/travel/grandcanyon/grandcanyon-10.jpg
+    alt: Grand Canyon National Park, Arizona photo 10
+  - img: assets/img/travel/grandcanyon/grandcanyon-13.jpg
+    alt: Grand Canyon National Park, Arizona photo 13
+  - img: assets/img/travel/grandcanyon/grandcanyon-01.jpg
+    alt: Grand Canyon National Park, Arizona photo 1
   - img: assets/img/travel/grandcanyon/grandcanyon-17.jpg
     alt: Grand Canyon National Park, Arizona photo 17
-  - img: assets/img/travel/grandcanyon/grandcanyon-18.jpg
-    alt: Grand Canyon National Park, Arizona photo 18
-  - img: assets/img/travel/grandcanyon/grandcanyon-19.jpg
-    alt: Grand Canyon National Park, Arizona photo 19
-  - img: assets/img/travel/grandcanyon/grandcanyon-20.jpg
-    alt: Grand Canyon National Park, Arizona photo 20
-  - img: assets/img/travel/grandcanyon/grandcanyon-21.jpg
-    alt: Grand Canyon National Park, Arizona photo 21
+  - img: assets/img/travel/grandcanyon/grandcanyon-03.jpg
+    alt: Grand Canyon National Park, Arizona photo 3
+  - img: assets/img/travel/grandcanyon/grandcanyon-05.jpg
+    alt: Grand Canyon National Park, Arizona photo 5
   - img: assets/img/travel/grandcanyon/grandcanyon-22.jpg
     alt: Grand Canyon National Park, Arizona photo 22
+  - img: assets/img/travel/grandcanyon/grandcanyon-04.jpg
+    alt: Grand Canyon National Park, Arizona photo 4
+  - img: assets/img/travel/grandcanyon/grandcanyon-19.jpg
+    alt: Grand Canyon National Park, Arizona photo 19
+  - img: assets/img/travel/grandcanyon/grandcanyon-08.jpg
+    alt: Grand Canyon National Park, Arizona photo 8
+  - img: assets/img/travel/grandcanyon/grandcanyon-21.jpg
+    alt: Grand Canyon National Park, Arizona photo 21
+  - img: assets/img/travel/grandcanyon/grandcanyon-18.jpg
+    alt: Grand Canyon National Park, Arizona photo 18
+  - img: assets/img/travel/grandcanyon/grandcanyon-06.jpg
+    alt: Grand Canyon National Park, Arizona photo 6
+  - img: assets/img/travel/grandcanyon/grandcanyon-16.jpg
+    alt: Grand Canyon National Park, Arizona photo 16
+  - img: assets/img/travel/grandcanyon/grandcanyon-20.jpg
+    alt: Grand Canyon National Park, Arizona photo 20
+  - img: assets/img/travel/grandcanyon/grandcanyon-09.jpg
+    alt: Grand Canyon National Park, Arizona photo 9
+  - img: assets/img/travel/grandcanyon/grandcanyon-11.jpg
+    alt: Grand Canyon National Park, Arizona photo 11
   - img: assets/img/travel/grandcanyon/grandcanyon-23.jpg
     alt: Grand Canyon National Park, Arizona photo 23
+  - img: assets/img/travel/grandcanyon/grandcanyon-02.jpg
+    alt: Grand Canyon National Park, Arizona photo 2
+  - img: assets/img/travel/grandcanyon/grandcanyon-12.jpg
+    alt: Grand Canyon National Park, Arizona photo 12
+  - img: assets/img/travel/grandcanyon/grandcanyon-07.jpg
+    alt: Grand Canyon National Park, Arizona photo 7
 - place: Greenland
   tag: Greenland
   lat: 65.61
