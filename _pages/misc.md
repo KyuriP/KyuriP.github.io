@@ -4840,10 +4840,6 @@ travel_photos:
     alt: Las Vegas, Nevada photo 5
   - img: assets/img/travel/lasvegas/lasvegas-06.jpg
     alt: Las Vegas, Nevada photo 6
-  - img: assets/img/travel/lasvegas/lasvegas-07.jpg
-    alt: Las Vegas, Nevada photo 7
-  - img: assets/img/travel/lasvegas/lasvegas-08.jpg
-    alt: Las Vegas, Nevada photo 8
   - img: assets/img/travel/lasvegas/lasvegas-09.jpg
     alt: Las Vegas, Nevada photo 9
   - img: assets/img/travel/lasvegas/lasvegas-10.jpg
