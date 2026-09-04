@@ -3010,8 +3010,6 @@ travel_photos:
     alt: Greenland photo 72
   - img: assets/img/travel/greenland/greenland-73.jpg
     alt: Greenland photo 73
-  - img: assets/img/travel/greenland/greenland-74.jpg
-    alt: Greenland photo 74
   - img: assets/img/travel/greenland/greenland-75.jpg
     alt: Greenland photo 75
   - img: assets/img/travel/greenland/greenland-76.jpg
