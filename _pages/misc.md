@@ -2918,8 +2918,6 @@ travel_photos:
     alt: Greenland photo 23
   - img: assets/img/travel/greenland/greenland-24.jpg
     alt: Greenland photo 24
-  - img: assets/img/travel/greenland/greenland-27.jpg
-    alt: Greenland photo 27
   - img: assets/img/travel/greenland/greenland-28.jpg
     alt: Greenland photo 28
   - img: assets/img/travel/greenland/greenland-29.jpg
@@ -3160,14 +3158,10 @@ travel_photos:
     alt: Greenland photo 148
   - img: assets/img/travel/greenland/greenland-149.jpg
     alt: Greenland photo 149
-  - img: assets/img/travel/greenland/greenland-150.jpg
-    alt: Greenland photo 150
   - img: assets/img/travel/greenland/greenland-151.jpg
     alt: Greenland photo 151
   - img: assets/img/travel/greenland/greenland-152.jpg
     alt: Greenland photo 152
-  - img: assets/img/travel/greenland/greenland-153.jpg
-    alt: Greenland photo 153
   - img: assets/img/travel/greenland/greenland-154.jpg
     alt: Greenland photo 154
   - img: assets/img/travel/greenland/greenland-155.jpg
@@ -4468,8 +4462,6 @@ travel_photos:
     alt: Iceland photo 387
   - img: assets/img/travel/iceland/iceland-388.jpg
     alt: Iceland photo 388
-  - img: assets/img/travel/iceland/iceland-389.jpg
-    alt: Iceland photo 389
   - img: assets/img/travel/iceland/iceland-390.jpg
     alt: Iceland photo 390
   - img: assets/img/travel/iceland/iceland-391.jpg
@@ -4554,8 +4546,6 @@ travel_photos:
     alt: Iceland photo 435
   - img: assets/img/travel/iceland/iceland-436.jpg
     alt: Iceland photo 436
-  - img: assets/img/travel/iceland/iceland-437.jpg
-    alt: Iceland photo 437
   - img: assets/img/travel/iceland/iceland-438.jpg
     alt: Iceland photo 438
   - img: assets/img/travel/iceland/iceland-439.jpg
