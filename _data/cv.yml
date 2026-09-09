@@ -9,8 +9,8 @@
       value: <a href="mailto:kyurigracepark@gmail.com">kyurigracepark@gmail.com</a>
     - name: ORCID
       value: <a href="https://orcid.org/0000-0001-8502-2134">0000-0001-8502-2134</a>
-    - name: Languages
-      value: Korean (native), English (fluent), Dutch (B1)
+    #- name: Languages
+    # value: Korean (native), English (fluent), Dutch (B1)
 
 - title: Education
   type: time_table
