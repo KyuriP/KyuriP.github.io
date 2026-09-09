@@ -58,7 +58,9 @@ layout: default
 
           <!-- News -->
           {% if page.news -%}
-            {%- include news.html %}
+            <div style="margin-top: 3rem;">
+              {%- include news.html %}
+            </div>
           {%- endif %}
 
           {% if page.selected_papers -%}
