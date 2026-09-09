@@ -152,68 +152,89 @@
 - title: Teaching &amp; Student Mentoring
   type: time_table
   contents:
-    - title: Teaching Assistant, "Complexity - Can It Be Simplified?" (BSc Honors/MSc)
-      institution: "University of Amsterdam &middot; Vítor V. Vasconcelos"
-      year: 2023 - 2025
+    - title: MSc supervision - Henry Zwart
+      institution: "MSc Computational Science (2026). Thesis: Interventions on Asymmetric Belief Networks."
+      year: 2026
+
     - title: Teaching Assistant, "Causality" (MSc Artificial Intelligence)
       institution: University of Amsterdam &middot; Sara Magliacane
       year: 2024 - 2025
+
+    - title: Teaching Assistant, "Complexity - Can It Be Simplified?" (BSc Honors/MSc)
+      institution: "University of Amsterdam &middot; Vítor V. Vasconcelos"
+      year: 2023 - 2025
+
+    - title: MSc supervision - Paraskevas Leivadaros
+      institution: "MSc Data Science (2025). Thesis: Elections and climate attitudes: how do people's views on climate change and related policies change during an election?"
+      year: 2025
+
+    - title: MSc supervision - Gabriela Torres
+      institution: "MSc Data Science (2025). Thesis: The Impact of COVID-19 Interventions and Extreme Weather Harm on Support for Climate Policy."
+      year: 2025
+
     - title: Teaching Assistant, "Modeling System Dynamics" (MSc Information Studies)
       institution: University of Amsterdam &middot; Debraj Roy
       year: 2023 - 2024
-    - title: Teaching Assistant, "AI and Psychology" (BSc Psychology)
-      institution: University of Amsterdam &middot; Han van der Maas
-      year: 2021
+
+    - title: MSc supervision - Xinhai Li
+      institution: "MSc Computational Science (2024). Thesis: Feedback Loops in the Dynamics of Major Depressive Disorder."
+      year: 2024
+
     - title: Course material development &amp; R support
       institution: Utrecht University
       year: 2021 - 2023
       description:
         - Developed practical materials for Python programming, Bayesian networks, relational-event models, missing data, imputation, and text mining courses; provided R programming support to sociology graduate students.
+
+    - title: Teaching Assistant, "AI and Psychology" (BSc Psychology)
+      institution: University of Amsterdam &middot; Han van der Maas
+      year: 2021
+
     - title: Teaching Assistant, Social Economics
       institution: University of Pennsylvania &middot; Femida Handy
       year: Summer 2016
-    - title: MSc supervision - Henry Zwart
-      institution: "MSc Computational Science (2026). Thesis: Interventions on Asymmetric Belief Networks."
-      year: 2026
-    - title: MSc supervision - Paraskevas Leivadaros
-      institution: "MSc Data Science (2025). Thesis: Elections and climate attitudes: how do people's views on climate change and related policies change during an election?"
-      year: 2025
-    - title: MSc supervision - Gabriela Torres
-      institution: "MSc Data Science (2025). Thesis: The Impact of COVID-19 Interventions and Extreme Weather Harm on Support for Climate Policy."
-      year: 2025
-    - title: MSc supervision - Xinhai Li
-      institution: "MSc Computational Science (2024). Thesis: Feedback Loops in the Dynamics of Major Depressive Disorder."
-      year: 2024
+      
 
 - title: Service, Professional &amp; Volunteer Experience
   type: time_table
   contents:
-    - title: International Student Ambassador &amp; Psychological Methods Student Faction
-      institution: University of Amsterdam
-      year: 2018 - 2021
+    - title: Research Coordinator
+      institution: "<a href='https://polder.center/'>POLDER</a>, University of Amsterdam"
+      year: 2026 - present
       description:
-        - Represented students in programme meetings and organized academic, orientation, and outreach events.
+        - Organize interdisciplinary events and coordinate the POLDER research community across complexity science, computational modeling, and policy.
+
     - title: Human Data Science Group
       institution: Utrecht University
       year: 2021 - 2023
       description:
         - Organized research and data-science reading groups, helped coordinate Data Donation Day, and maintained the group website.
+
+    - title: International Student Ambassador &amp; Psychological Methods Student Faction
+      institution: University of Amsterdam
+      year: 2018 - 2021
+      description:
+        - Represented students in programme meetings and organized academic, orientation, and outreach events.
+
     - title: Cabin Crew
       institution: Emirates Airline, Dubai, UAE
       year: 2017 - 2018
-    - title: Accounting Assistant
-      institution: Amerril Energy LLC, Houston, TX, USA
-      year: 2016 - 2017
-    - title: Sponsor &amp; Translator
-      institution: World Vision
-      year: 2011 - present
-      description:
-        - Sponsor since 2011; previously translated sponsor correspondence between Korean and English.
+
     - title: Volunteer
       institution: Stray Dogs Center (SDC), Dubai, UAE
       year: 2017 - 2018
       description:
         - Volunteered at the shelter and supported fundraising for veterinary expenses.
+
+    - title: Accounting Assistant
+      institution: Amerril Energy LLC, Houston, TX, USA
+      year: 2016 - 2017
+
+    - title: Sponsor &amp; Translator
+      institution: World Vision
+      year: 2011 - present
+      description:
+        - Sponsor since 2011; previously translated sponsor correspondence between Korean and English.
 
 - title: Research Interests
   type: nested_list

@@ -23,7 +23,9 @@ social: true  # includes social icons at the bottom of the page
 ---
 
 <p class = bio>
-I am currently a PhD candidate at the <a href = 'https://uva.computationalscience.nl/'>Computational Science Lab</a> within the Informatics Institute at the <a href = 'https://ivi.uva.nl/research/computational-science-lab-csl.html'> University of Amsterdam </a>, where I am supervised by Dr. <a href = 'https://vvvasconcelos.github.io/'>Vítor V. Vasconcelos</a> and Dr. <a href = 'https://mhlees.com/'>Michael Lees</a>. My research focuses on computational modeling of complex dynamical systems, with applications to (mental) health, climate change, and sustainability. I am particularly interested in how people’s perceptions, attitudes, and beliefs interact within broader social systems, and how these dynamics can reveal meaningful leverage points for intervention. I am also very interested in causality, particularly in how causal structure and directionality can be inferred in complex systems and what this means for designing interventions.
+I am currently a PhD candidate at the <a href = 'https://uva.computationalscience.nl/'>Computational Science Lab</a> within the Informatics Institute at the <a href = 'https://ivi.uva.nl/research/computational-science-lab-csl.html'>University of Amsterdam</a>, where I am supervised by Dr. <a href = 'https://vvvasconcelos.github.io/'>Vítor V. Vasconcelos</a> and Dr. <a href = 'https://mhlees.com/'>Michael Lees</a>. I'm also a Research Coordinator for <a href='https://polder.center/'>POLDER</a>, where I help organize interdisciplinary events around complexity science and policy. 
+
+My research focuses on computational modeling of complex dynamical systems, with applications to (mental) health, climate change, and sustainability. I am particularly interested in how people’s perceptions, attitudes, and beliefs interact within broader social systems, and how these dynamics can reveal meaningful leverage points for intervention. I am also very interested in causality, particularly in how causal structure and directionality can be inferred in complex systems and what this means for designing interventions.
 
 <br>
 <br>
