@@ -167,11 +167,11 @@ body, p, li {
 }
 
 // Plain-text year markers in the CV timeline (no more solid badge/pill boxes) —
-// styled in the theme's navy accent color, italic, like thomvolker.github.io/talks
+// styled in the theme's navy accent color, like thomvolker.github.io/talks
 .cv-year {
-  font-weight: 700;
+  font-weight: 400;
   font-size: 0.9rem;
-  font-style: italic;
+  font-style: normal;
   color: var(--global-theme-color);
 }
 
