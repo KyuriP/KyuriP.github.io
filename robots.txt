@@ -1,12 +1,5 @@
----
-permalink: /robots.txt
----
-{%- if site.noindex %}
-User-agent: *
-Disallow: /
-{%- else %}
+
 User-agent: *
 Disallow:
 
-Sitemap: {{ site.baseurl | prepend: site.url }}/sitemap.xml
-{%- endif %}
+Sitemap: https://KyuriP.github.io/sitemap.xml
