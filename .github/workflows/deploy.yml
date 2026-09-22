@@ -15,6 +15,13 @@ permissions:
   pages: write
   id-token: write
 
+# Cancel any in-progress deploy for the same branch when a newer push comes in,
+# so rapid successive commits can't race to force-push gh-pages out of order
+# (the run that finishes last used to win, even if it was for an older commit).
+concurrency:
+  group: deploy-${{ github.ref }}
+  cancel-in-progress: true
+
 jobs:
   deploy:
     runs-on: ubuntu-latest
