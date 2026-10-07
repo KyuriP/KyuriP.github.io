@@ -11,6 +11,8 @@ children:
     permalink: /misc/#elsewhere
   - title: off the clock
     permalink: /misc/#clock
+  - title: project tools
+    permalink: /misc/tools/
 
 # --- Travel photos ---
 # Intro paragraphs shown above the photo grid on the Elsewhere tab (rendered as separate <p> tags).

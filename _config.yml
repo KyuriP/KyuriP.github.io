@@ -201,7 +201,7 @@ defaults:
 # -----------------------------------------------------------------------------
 
 jekyll-minifier:
-  exclude: ["robots.txt"]
+  exclude: ["robots.txt", "misc/tools/**/*"]  # keep the interactive tools un-minified
   uglifier_args:
     harmony: true
 
