@@ -211,7 +211,7 @@ button:focus-visible,input:focus-visible,a:focus-visible{outline:2px solid var(-
 
       <div class="pair">
         <div class="card">
-          <div class="cardhead"><h3 data-i="hoodT">The neighbourhood</h3><span class="hint" data-i="hoodH">One dot per resident, at the time of the playhead. Hover to meet them.</span></div>
+          <div class="cardhead"><h3 data-i="hoodT">The neighbourhood</h3><span class="hint" data-i="hoodH">One dot per simulated resident, at the time of the playhead. Hover to meet them.</span></div>
           <div class="hood"><canvas id="cv-hood" aria-label="Residents coloured by depressive symptoms"></canvas><div class="tip" id="tip" hidden></div></div>
           <div class="bands" id="bands"></div>
         </div>
@@ -236,17 +236,17 @@ button:focus-visible,input:focus-visible,a:focus-visible{outline:2px solid var(-
   <section class="notes">
     <div>
       <h3 data-i="mT">How the model works</h3>
-      <p data-i="m1">Each resident has a level of financial stress (S). Their depressive symptoms (D) and social precarity (P) keep moving toward a target set by S and by each other, at a given recovery speed λ, plus random ups and downs:</p>
-      <div class="formula">dD = λ(α_SD·S + α_PD·P − D − mental health support + tipping) dt + σ_D dW
+      <p data-i="m1">Each resident has a level of financial stress (S), drawn from its distribution in HELIUS. Their depressive symptoms (D) and social precarity (P) keep moving toward a target set by S and by each other, at a given recovery speed λ, plus random ups and downs:</p>
+      <div class="formula">dD = λ(α_SD·S + α_PD·P − D − mental health support) dt + σ_D dW
 dP = λ(α_SP·S + α_DP·D − P − social support) dt + σ_P dW</div>
-      <p data-i="m2">The HELIUS presets reproduce the variances and covariances in the data, including about 15% of people with PHQ-9 ≥ 10. Everything you change in "Tweak the system" goes beyond the data and is meant for thinking through what-ifs. Time is in model units: 1 unit is roughly how long the system takes to adjust.</p>
+      <p data-i="m2">The HELIUS presets reproduce the variances and covariances in the data, including about 14% of people with PHQ-9 ≥ 10. The model works on standardized scores; to show PHQ-9 points, each resident's score is matched to the same percentile of the HELIUS PHQ-9 distribution. Everything you change in "Tweak the system" goes beyond the data and is meant for thinking through what-ifs. Time is in model units: 1 unit is roughly how long the system takes to adjust.</p>
     </div>
     <div>
       <h3 data-i="kT">Keep in mind</h3>
       <ul>
         <li data-i="k1">The residents are simulated, not real people.</li>
         <li data-i="k2">HELIUS is cross-sectional. Directions of influence are hypotheses that fit the data, not proven causal effects.</li>
-        <li data-i="k3">The tipping point, mental health support and social support (marked "extra") were not part of the published simulation.</li>
+        <li data-i="k3">Mental health support and social support (marked "extra") were not part of the published simulation.</li>
         <li data-i="k4">Use the numbers for direction and relative size, not as forecasts.</li>
       </ul>
       <p style="margin-top:10px"><span data-i="src">Sources:</span> <a href="https://www.sciencedirect.com/science/article/pii/S2666560326000526" target="_blank" rel="noopener">Park et al. (2026), SSM – Mental Health</a> · <a href="https://link.springer.com/article/10.3758/s13428-026-03030-z" target="_blank" rel="noopener">causalnet tutorial (2026), Behavior Research Methods</a> · <a href="https://cran.r-project.org/package=causalnet" target="_blank" rel="noopener">causalnet on CRAN</a></p>
@@ -257,7 +257,20 @@ dP = λ(α_SP·S + α_DP·D − P − social support) dt + σ_P dW</div>
 <script>
 // ============ Calibration (Park et al. 2026, appendix) ============
 const MOM={vD:1,vP:0.807,vS:0.743,cDP:0.374,cDS:0.357,cPS:0.256};
-const S_MIN=-0.852, PHQ_MEAN=4.65, PHQ_SD=5.13, THR=(10-PHQ_MEAN)/PHQ_SD;
+const S_MIN=-0.852, PHQ_MEAN=4.65, PHQ_SD=5.13;
+// HELIUS analytic sample (n = 21,628): financial-stress composite levels (standardized) and their frequencies
+const S_LEVELS=[-0.8524,-0.3616,0.1291,0.4147,0.6198,0.9054,1.3961,1.8869], S_COUNTS=[5966,6705,3657,195,1127,536,1470,1972];
+// HELIUS PHQ-9 sum score: cumulative share with score <= k, k = 0..27
+const PHQ_CDF=[0.21787,0.32731,0.43407,0.53722,0.62401,0.69026,0.74639,0.79092,0.82666,0.85579,0.87738,0.89597,0.91247,0.92635,0.93957,0.94923,0.95682,0.9637,0.97055,0.97623,0.98104,0.98446,0.98798,0.9914,0.99468,0.99681,0.99792,1];
+function invNorm(p){const a=[-39.6968302866538,220.946098424521,-275.928510446969,138.357751867269,-30.6647980661472,2.50662827745924],b=[-54.4760987982241,161.585836858041,-155.698979859887,66.8013118877197,-13.2806815528857],c=[-0.00778489400243029,-0.322396458041136,-2.40075827716184,-2.54973253934373,4.37466414146497,2.93816398269878],d=[0.00778469570904146,0.32246712907004,2.445134137143,3.75440866190742],pl=0.02425;
+  let q,r; if(p<pl){q=Math.sqrt(-2*Math.log(p));return(((((c[0]*q+c[1])*q+c[2])*q+c[3])*q+c[4])*q+c[5])/((((d[0]*q+d[1])*q+d[2])*q+d[3])*q+1);}
+  if(p<=1-pl){q=p-0.5;r=q*q;return(((((a[0]*r+a[1])*r+a[2])*r+a[3])*r+a[4])*r+a[5])*q/(((((b[0]*r+b[1])*r+b[2])*r+b[3])*r+b[4])*r+1);}
+  q=Math.sqrt(-2*Math.log(1-p));return-(((((c[0]*q+c[1])*q+c[2])*q+c[3])*q+c[4])*q+c[5])/((((d[0]*q+d[1])*q+d[2])*q+d[3])*q+1);}
+// Model scores are standardized (z). We convert z to PHQ-9 points by percentile: a resident at the
+// 85th percentile of the model gets the PHQ-9 score at the 85th percentile of HELIUS.
+const PHQ_Z=PHQ_CDF.slice(0,27).map(invNorm);            // z cut-offs between PHQ-9 = k and k+1
+function phqOf(D){let k=0;while(k<27&&D>PHQ_Z[k])k++;return k;}
+const THR=PHQ_Z[9];                                      // PHQ-9 >= 10
 const N=300, DT=0.05, TMAX=40, REC=0.1, NF=Math.round(TMAX/REC)+1, LOOPS=[0,0.3,0.65];
 // keys: sd_ = S→D, sp_ = S→P, pd = P→D (α_DP in the paper), dp = D→P (α_PD in the paper)
 function calibrate(a){
@@ -269,13 +282,16 @@ function calibrate(a){
 }
 let RNGs=1; function rnd(){RNGs|=0;RNGs=RNGs+0x6D2B79F5|0;let t=Math.imul(RNGs^RNGs>>>15,1|RNGs);t=t+Math.imul(t^t>>>7,61|t)^t;return((t^t>>>14)>>>0)/4294967296;}
 function gauss(){let u=0,v=0;while(!u)u=rnd();while(!v)v=rnd();return Math.sqrt(-2*Math.log(u))*Math.cos(2*Math.PI*v);}
-const S0=[]; RNGs=11; for(let i=0;i<N;i++) S0.push(Math.max(S_MIN,gauss()*Math.sqrt(MOM.vS)));
+const S0=(()=>{const tot=S_COUNTS.reduce((a,b)=>a+b,0), raw=S_COUNTS.map(c=>c/tot*N), n=raw.map(Math.floor);
+  let left=N-n.reduce((a,b)=>a+b,0); raw.map((r,i)=>[r-n[i],i]).sort((a,b)=>b[0]-a[0]).slice(0,left).forEach(([,i])=>n[i]++);
+  const out=[]; n.forEach((k,i)=>{for(let j=0;j<k;j++)out.push(S_LEVELS[i]);});
+  RNGs=11; for(let i=out.length-1;i>0;i--){const j=Math.floor(rnd()*(i+1));[out[i],out[j]]=[out[j],out[i]];} return out;})();
 // one fixed table of random shocks: every scenario gets the same "luck", so only your changes move the curves (and it is fast)
 const WARM=300, NSTEP=WARM+Math.round(TMAX/DT), NOISE=new Float32Array(NSTEP*N*2); RNGs=12345; for(let i=0;i<NOISE.length;i++) NOISE[i]=gauss();
 
 // ============ State ============
-const M={sd_:0,sp_:0,pd:0,dp:0,lam:1,noise:1,tip:0,sigD:1,sigP:1};
-function applyPreset(i){Object.assign(M,calibrate(LOOPS[i]),{lam:1,noise:1,tip:0});}
+const M={sd_:0,sp_:0,pd:0,dp:0,lam:1,noise:1,sigD:1,sigP:1};
+function applyPreset(i){Object.assign(M,calibrate(LOOPS[i]),{lam:1,noise:1});}
 applyPreset(0);
 const LEV={fin:{on:true,amt:0.6,start:5,len:15},mh:{on:false,amt:0.25,start:5,len:15},soc:{on:false,amt:0.3,start:5,len:15}};
 let SIM=null, PIN=null, ph=0, playing=true, speed=1, lang="en";
@@ -292,21 +308,20 @@ function simulate(){
     const fOn=onAt("fin",t), mh=onAt("mh",t)?LEV.mh.amt:0, soc=onAt("soc",t)?LEV.soc.amt:0, f=LEV.fin.amt;
     for(let i=0;i<N;i++){
       const S=fOn?S0[i]-f*(S0[i]-S_MIN):S0[i];
-      const tipT=M.tip>0?M.tip*0.9*(Math.tanh(2.5*(D[i]-THR))+1)/2:0;
-      const d=D[i]+M.lam*(M.sd_*S+M.pd*P[i]-D[i]-mh+tipT)*DT+sD*sqdt*NOISE[si++];
+      const d=D[i]+M.lam*(M.sd_*S+M.pd*P[i]-D[i]-mh)*DT+sD*sqdt*NOISE[si++];
       const p=P[i]+M.lam*(M.sp_*S+M.dp*D[i]-P[i]-soc)*DT+sP*sqdt*NOISE[si++];
       D[i]=Math.max(-6,Math.min(8,d)); P[i]=Math.max(-6,Math.min(8,p));
     }
   };
   for(let k=0;k<WARM;k++) step(-1);   // settle without support
-  const out={D:new Float32Array(NF*N),meanD:new Float64Array(NF),meanP:new Float64Array(NF),hi:new Float64Array(NF),S:new Float64Array(NF)};
-  const record=fr=>{let sd=0,sp=0,h=0;for(let i=0;i<N;i++){out.D[fr*N+i]=D[i];sd+=D[i];sp+=P[i];if(D[i]>=THR)h++;}
-    out.meanD[fr]=sd/N;out.meanP[fr]=sp/N;out.hi[fr]=h/N*100;out.S[fr]=onAt("fin",fr*REC)?(1-LEV.fin.amt):1;};
+  const out={D:new Float32Array(NF*N),meanD:new Float64Array(NF),meanP:new Float64Array(NF),hi:new Float64Array(NF),phq:new Float64Array(NF),S:new Float64Array(NF)};
+  const record=fr=>{let sd=0,sp=0,h=0,q=0;for(let i=0;i<N;i++){out.D[fr*N+i]=D[i];sd+=D[i];sp+=P[i];q+=phqOf(D[i]);if(D[i]>THR)h++;}
+    out.phq[fr]=q/N;out.meanD[fr]=sd/N;out.meanP[fr]=sp/N;out.hi[fr]=h/N*100;out.S[fr]=onAt("fin",fr*REC)?(1-LEV.fin.amt):1;};
   record(0); const per=Math.round(REC/DT);
   for(let fr=1;fr<NF;fr++){for(let k=0;k<per;k++) step((fr-1)*REC+k*DT); record(fr);}
   const sm=(arr,w=8)=>{const r=new Float64Array(arr.length);for(let i=0;i<arr.length;i++){let s=0,n=0;for(let j=Math.max(0,i-w);j<=Math.min(arr.length-1,i+w);j++){s+=arr[j];n++;}r[i]=s/n;}return r;};
   const avg=(a,n)=>{let s=0;for(let i=0;i<n;i++)s+=a[i];return s/n;};
-  out.hiS=sm(out.hi); const p0=avg(out.meanP,40); out.pS=sm(out.meanP.map(v=>v-p0)); out.d0=avg(out.meanD,40);
+  out.hiS=sm(out.hi); const p0=avg(out.meanP,40); out.pS=sm(out.meanP.map(v=>v-p0)); out.d0=avg(out.meanD,40); out.phqS=sm(out.phq); out.q0=avg(out.phq,40);
   out.runaway=det<=0.05;
   return out;
 }
@@ -324,7 +339,7 @@ const NL={
   tlT:"Wat er in de tijd gebeurt", tlH:"Past zich direct aan als je iets verandert. Pauzeer wanneer je wilt, of sleep over de grafiek om door de tijd te bewegen.",
   lgD:"Bewoners met PHQ-9 ≥ 10 (%)", lgP:"Sociale bestaansonzekerheid (verandering, SD)", lgPin:"Vastgezet scenario",
   tk1:"Bewoners met PHQ-9 ≥ 10", tu1:"matige klachten of erger", tk2:"Gemiddelde PHQ-9-score", tk3:"Sociale bestaansonzekerheid", tu3:"verandering, standaarddeviaties", tk4:"Financiële stress", tu4:"van het gewone niveau",
-  hoodT:"De buurt", hoodH:"Eén stip per bewoner, op het tijdstip van de afspeelkop. Ga erover om kennis te maken.",
+  hoodT:"De buurt", hoodH:"Eén stip per gesimuleerde bewoner, op het tijdstip van de afspeelkop. Ga erover om kennis te maken.",
   mapT:"Wat drijft wat", mapH:"Dikkere, snellere pijlen = sterkere invloed. Klik op een pijl om hem te veranderen.",
   lpT:"Aangrijpingspunten uit het onderzoek",
   lp1n:"Ingang", lp1t:"Financiële stress", lp1:"Bij alle methoden hing recente financiële stress het vaakst samen met depressie. Die verlagen is de meest directe ingang tot het systeem.",
@@ -332,9 +347,9 @@ const NL={
   lp3n:"Duur", lp3t:"Korte steun verdwijnt snel", lp3:"Bij een sterke kringloop komt verbetering langzaam maar houdt ze langer aan. Bij een zwakke komt ze snel en verdwijnt ze snel na het stoppen.",
   lp4n:"Combinatie", lp4t:"Combineer structurele en psychische hulp", lp4:"Omdat de domeinen verbonden zijn, werkt steun in het ene door in het andere. Financiële plus psychische steun werkt goed, hoe sterk de kringloop ook is.",
   mT:"Hoe het model werkt", m1:"Elke bewoner heeft een niveau van financiële stress (S). Depressieve klachten (D) en sociale bestaansonzekerheid (P) bewegen steeds naar een doelwaarde die door S en door elkaar wordt bepaald, met herstelsnelheid λ, plus willekeurige schommelingen:",
-  m2:"De HELIUS-instellingen bootsen de varianties en covarianties in de data na, inclusief ongeveer 15% mensen met PHQ-9 ≥ 10. Alles wat je bij 'Verander het systeem' aanpast gaat verder dan de data en is bedoeld om wat-als-vragen te verkennen. Tijd is in modeleenheden: 1 eenheid is ongeveer de tijd die het systeem nodig heeft om zich aan te passen.",
+  m2:"De HELIUS-instellingen bootsen de varianties en covarianties in de data na, inclusief ongeveer 14% mensen met PHQ-9 ≥ 10. Het model rekent met gestandaardiseerde scores; voor PHQ-9-punten wordt de score van elke bewoner gekoppeld aan hetzelfde percentiel van de PHQ-9-verdeling in HELIUS. Alles wat je bij 'Verander het systeem' aanpast gaat verder dan de data en is bedoeld om wat-als-vragen te verkennen. Tijd is in modeleenheden: 1 eenheid is ongeveer de tijd die het systeem nodig heeft om zich aan te passen.",
   kT:"Houd rekening met", k1:"De bewoners zijn gesimuleerd, geen echte mensen.", k2:"HELIUS is cross-sectioneel. Richtingen van invloed zijn hypothesen die bij de data passen, geen bewezen causale effecten.",
-  k3:"Het kantelpunt, psychische steun en sociale steun (gemarkeerd 'extra') zaten niet in de gepubliceerde simulatie.", k4:"Gebruik de getallen voor richting en relatieve grootte, niet als voorspelling.",
+  k3:"Psychische steun en sociale steun (gemarkeerd 'extra') zaten niet in de gepubliceerde simulatie.", k4:"Gebruik de getallen voor richting en relatieve grootte, niet als voorspelling.",
   src:"Bronnen:"
 };
 const EN={}; document.querySelectorAll("[data-i]").forEach(el=>EN[el.dataset.i]=el.innerHTML); EN.play="Play"; EN.pause="Pause"; EN.replay="Replay";
@@ -355,8 +370,7 @@ const TWDEF=[["sd_","Financial stress → depression","Financiële stress → de
              ["pd","Social precarity → depression","Bestaansonzekerheid → depressie",0,1,0.01],
              ["dp","Depression → social precarity","Depressie → bestaansonzekerheid",0,1,0.01],
              ["lam","Recovery speed","Herstelsnelheid",0.2,2,0.05],
-             ["noise","Day-to-day ups and downs","Dagelijkse schommelingen",0,1.5,0.05],
-             ["tip","Tipping point (extra): above PHQ-9 ≈ 10, symptoms feed themselves","Kantelpunt (extra): boven PHQ-9 ≈ 10 versterken klachten zichzelf",0,1.5,0.05]];
+             ["noise","Day-to-day ups and downs","Dagelijkse schommelingen",0,1.5,0.05]];
 function buildControls(){
   $("levers").innerHTML=LEVDEF.map(([k,en,nl,hen,hnl,extra])=>`
     <div class="lever ${k}" id="lv-${k}">
@@ -410,10 +424,6 @@ const TOUR=[
   x:["Mental health support now runs alongside the financial programme. The drop is much bigger than with financial support alone (dashed).",
      "Psychische steun loopt nu naast het financiële programma. De daling is veel groter dan met alleen financiële steun (stippellijn)."],
   go(){TOUR[0].go();applyPreset(1);SIM=simulate();pinNow();Object.assign(LEV.mh,{on:true,start:5,len:15});}},
- {t:["A tipping point","Een kantelpunt"],
-  x:["Suppose that above PHQ-9 ≈ 10, symptoms start to feed themselves (this goes beyond the data). The dashed line is the same programme without a tipping point. With it, more residents are stuck at a high level, and the programme pulls more of them back over the edge. Try making it shorter.",
-     "Stel dat klachten boven PHQ-9 ≈ 10 zichzelf gaan versterken (dit gaat verder dan de data). De stippellijn is hetzelfde programma zonder kantelpunt. Met kantelpunt zitten meer bewoners vast op een hoog niveau, en trekt het programma er meer terug over de rand. Maak het eens korter."],
-  go(){TOUR[0].go();applyPreset(1);SIM=simulate();pinNow();M.tip=1.0;}},
  {t:["Your turn","Nu jij"],
   x:["Design your own policy mix in step 1, change how the system works in step 2, or click an arrow in the diagram. Pin a scenario to compare it with your next idea.",
      "Ontwerp je eigen beleidsmix bij stap 1, verander hoe het systeem werkt bij stap 2, of klik op een pijl in het schema. Zet een scenario vast om het met je volgende idee te vergelijken."],
@@ -504,25 +514,24 @@ addEventListener("pointerup",()=>{scrubbing=false;});
 
 // ============ Neighbourhood ============
 const hood=$("cv-hood"), hctx=hood.getContext("2d"); let HG=null, hoverIx=-1;
-function layoutHood(){const w=hood.parentElement.clientWidth, cols=25, rows=12, gap=Math.max(10,w*0.03), cell=(w-gap)/cols, h=rows*cell+gap+6, dpr=devicePixelRatio||1;
+function layoutHood(){const w=hood.parentElement.clientWidth, cols=25, rows=12, cell=w/cols, h=rows*cell+4, dpr=devicePixelRatio||1;
   hood.width=w*dpr; hood.height=h*dpr; hood.style.height=h+"px"; hctx.setTransform(dpr,0,0,dpr,0,0);
-  const pos=[]; for(let i=0;i<N;i++){const c=i%cols,r=Math.floor(i/cols);pos.push([c*cell+cell/2+(c>=13?gap:0),r*cell+cell/2+(r>=6?gap:0)+3]);}
-  HG={w,h,cell,gap,pos};}
+  const pos=[]; for(let i=0;i<N;i++){const c=i%cols,r=Math.floor(i/cols);pos.push([c*cell+cell/2,r*cell+cell/2+2]);}
+  HG={w,h,cell,pos};}
 function drawHood(){
   if(!HG||!SIM) return; const g=HG; hctx.clearRect(0,0,g.w,g.h);
-  hctx.fillStyle=C.street; hctx.fillRect(13*g.cell,0,g.gap,g.h); hctx.fillRect(0,6*g.cell+3,g.w,g.gap);
   const fr=Math.min(NF-1,Math.round(ph/REC)), rad=g.cell*0.37;
-  for(let i=0;i<N;i++){const b=bandOf(PHQ_MEAN+SIM.D[fr*N+i]*PHQ_SD), [x,y]=g.pos[i];
+  for(let i=0;i<N;i++){const b=bandOf(phqOf(SIM.D[fr*N+i])), [x,y]=g.pos[i];
     hctx.beginPath(); hctx.arc(x,y,rad*(b>=2?1.12:1),0,Math.PI*2); hctx.fillStyle=C["b"+b]; hctx.fill();
     if(i===hoverIx){hctx.lineWidth=2;hctx.strokeStyle=C.fg;hctx.stroke();}}
 }
 function pick(e){if(!HG)return -1;const r=hood.getBoundingClientRect(),x=e.clientX-r.left,y=e.clientY-r.top;let best=-1,bd=1e9;
   HG.pos.forEach(([px,py],i)=>{const d=(px-x)**2+(py-y)**2;if(d<bd){bd=d;best=i;}});return bd<(HG.cell*0.7)**2?best:-1;}
 function showTip(){const tip=$("tip"); if(hoverIx<0||!SIM){tip.hidden=true;return;}
-  const fr=Math.min(NF-1,Math.round(ph/REC)), phq=Math.max(0,Math.min(27,PHQ_MEAN+SIM.D[fr*N+hoverIx]*PHQ_SD)), s=S0[hoverIx];
-  const fs=s<-0.3?T("low","laag"):s<0.6?T("medium","middel"):T("high","hoog");
+  const fr=Math.min(NF-1,Math.round(ph/REC)), phq=phqOf(SIM.D[fr*N+hoverIx]), s=S0[hoverIx];
+  const fs=s<0?T("low","laag"):s<0.5?T("medium","middel"):T("high","hoog");
   const band=BANDS[bandOf(phq)][lang==="nl"?1:0].replace(/^[\d–+]+\s/,"");
-  tip.textContent=T(`Resident ${hoverIx+1} · financial stress ${fs} · PHQ-9 ≈ ${Math.round(phq)} (${band})`,`Bewoner ${hoverIx+1} · financiële stress ${fs} · PHQ-9 ≈ ${Math.round(phq)} (${band})`);
+  tip.textContent=T(`Resident ${hoverIx+1} · financial stress ${fs} · PHQ-9 ≈ ${phq} (${band})`,`Bewoner ${hoverIx+1} · financiële stress ${fs} · PHQ-9 ≈ ${phq} (${band})`);
   const [x,y]=HG.pos[hoverIx]; tip.style.left=Math.min(Math.max(x,130),HG.w-130)+"px"; tip.style.top=y+"px"; tip.hidden=false;}
 hood.addEventListener("mousemove",e=>{hoverIx=pick(e);showTip();});
 hood.addEventListener("mouseleave",()=>{hoverIx=-1;showTip();});
@@ -570,7 +579,7 @@ function drawMap(dt){
   const fr=Math.min(NF-1,Math.round(ph/REC)), sPct=SIM.S[fr], dC=SIM.meanD[fr]-SIM.d0, pC=SIM.pS[fr];
   ME.S.fill.setAttribute("r",(8+20*sPct).toFixed(1));
   ME.D.fill.setAttribute("r",Math.max(4,Math.min(31,28+dC*25)).toFixed(1)); ME.P.fill.setAttribute("r",Math.max(4,Math.min(31,28+pC*25)).toFixed(1));
-  ME.S.v.textContent=Math.round(sPct*100)+"%"; ME.D.v.textContent=T("avg PHQ-9 ","gem. PHQ-9 ")+dec(PHQ_MEAN+SIM.meanD[fr]*PHQ_SD,1); ME.P.v.textContent=sgn(pC,2)+" SD";
+  ME.S.v.textContent=Math.round(sPct*100)+"%"; ME.D.v.textContent=T("avg PHQ-9 ","gem. PHQ-9 ")+dec(SIM.phqS[fr],1); ME.P.v.textContent=sgn(pC,2)+" SD";
   const t=fr*REC; for(const k in ME.b) ME.b[k].style.display=onAt(k,t)?"":"none";
 }
 
@@ -580,7 +589,7 @@ function readouts(now){
   if(now-lastR<120||!SIM) return; lastR=now;
   const fr=Math.min(NF-1,Math.round(ph/REC));
   $("tv1").textContent=Math.round(SIM.hi[fr]/100*N)+" / "+N;
-  const avg=PHQ_MEAN+SIM.meanD[fr]*PHQ_SD, start=PHQ_MEAN+SIM.d0*PHQ_SD;
+  const avg=SIM.phqS[fr], start=SIM.q0;
   $("tv2").textContent=dec(avg,1); $("tu2").textContent=T("vs start ","t.o.v. start ")+sgn(avg-start,1);
   $("tv3").textContent=sgn(SIM.pS[fr],2); $("tv4").textContent=Math.round(SIM.S[fr]*100)+"%";
   $("clock").textContent=T("time ","tijd ")+dec(ph,1)+" / "+TMAX;
