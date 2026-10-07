@@ -206,7 +206,7 @@ button:focus-visible,input:focus-visible,a:focus-visible{outline:2px solid var(-
         <div class="tile d"><span class="k" data-i="tk1">Residents with PHQ-9 ≥ 10</span><span class="v" id="tv1"></span><span class="u" data-i="tu1">moderate symptoms or worse</span></div>
         <div class="tile d"><span class="k" data-i="tk2">Average PHQ-9 score</span><span class="v" id="tv2"></span><span class="u" id="tu2"></span></div>
         <div class="tile p"><span class="k" data-i="tk3">Social precarity</span><span class="v" id="tv3"></span><span class="u" data-i="tu3">change, standard deviations</span></div>
-        <div class="tile s"><span class="k" data-i="tk4">Financial stress</span><span class="v" id="tv4"></span><span class="u" data-i="tu4">of usual level</span></div>
+        <div class="tile s"><span class="k" data-i="tk4">Financial stress</span><span class="v" id="tv4"></span><span class="u" data-i="tu4">of usual level (above the HELIUS minimum)</span></div>
       </div>
 
       <div class="pair">
@@ -255,9 +255,12 @@ dP = λ(α_SP·S + α_DP·D − P − social support) dt + σ_P dW</div>
 </div>
 
 <script>
-// ============ Calibration (Park et al. 2026, appendix) ============
-const MOM={vD:1,vP:0.807,vS:0.743,cDP:0.374,cDS:0.357,cPS:0.256};
-const S_MIN=-0.852, PHQ_MEAN=4.65, PHQ_SD=5.13;
+// ============ Calibration (closed-form solution from Park et al. 2026, appendix) ============
+// Observed HELIUS variances and covariances of D = PHQ-9 (z), P = social precarity, S = financial stress.
+// (These are covariances, as used by the paper's simulation script; the appendix table lists the correlations.)
+const MOM={vD:1,vP:0.807129,vS:0.742806,cDP:0.335533,cDS:0.308064,cPS:0.197564};
+const SD_P=Math.sqrt(MOM.vP);   // to express social precarity in its own standard deviations
+const S_MIN=-0.852379, PHQ_MEAN=4.65, PHQ_SD=5.13;
 // HELIUS analytic sample (n = 21,628): financial-stress composite levels (standardized) and their frequencies
 const S_LEVELS=[-0.8524,-0.3616,0.1291,0.4147,0.6198,0.9054,1.3961,1.8869], S_COUNTS=[5966,6705,3657,195,1127,536,1470,1972];
 // HELIUS PHQ-9 sum score: cumulative share with score <= k, k = 0..27
@@ -271,7 +274,7 @@ function invNorm(p){const a=[-39.6968302866538,220.946098424521,-275.92851044696
 const PHQ_Z=PHQ_CDF.slice(0,27).map(invNorm);            // z cut-offs between PHQ-9 = k and k+1
 function phqOf(D){let k=0;while(k<27&&D>PHQ_Z[k])k++;return k;}
 const THR=PHQ_Z[9];                                      // PHQ-9 >= 10
-const N=300, DT=0.05, TMAX=40, REC=0.1, NF=Math.round(TMAX/REC)+1, LOOPS=[0,0.3,0.65];
+const N=300, DT=0.025, TMAX=40, REC=0.1, NF=Math.round(TMAX/REC)+1, LOOPS=[0,0.3,0.65];
 // keys: sd_ = S→D, sp_ = S→P, pd = P→D (α_DP in the paper), dp = D→P (α_PD in the paper)
 function calibrate(a){
   const {vD,vP,vS,cDP,cDS,cPS}=MOM, den=cDS*cDS-vD*vS;
@@ -287,7 +290,7 @@ const S0=(()=>{const tot=S_COUNTS.reduce((a,b)=>a+b,0), raw=S_COUNTS.map(c=>c/to
   const out=[]; n.forEach((k,i)=>{for(let j=0;j<k;j++)out.push(S_LEVELS[i]);});
   RNGs=11; for(let i=out.length-1;i>0;i--){const j=Math.floor(rnd()*(i+1));[out[i],out[j]]=[out[j],out[i]];} return out;})();
 // one fixed table of random shocks: every scenario gets the same "luck", so only your changes move the curves (and it is fast)
-const WARM=300, NSTEP=WARM+Math.round(TMAX/DT), NOISE=new Float32Array(NSTEP*N*2); RNGs=12345; for(let i=0;i<NOISE.length;i++) NOISE[i]=gauss();
+const WARM=400, NSTEP=WARM+Math.round(TMAX/DT), NOISE=new Float32Array(NSTEP*N*2); RNGs=12345; for(let i=0;i<NOISE.length;i++) NOISE[i]=gauss();
 
 // ============ State ============
 const M={sd_:0,sp_:0,pd:0,dp:0,lam:1,noise:1,sigD:1,sigP:1};
@@ -302,7 +305,9 @@ const onAt=(k,t)=>LEV[k].on&&t>=LEV[k].start&&t<LEV[k].start+LEV[k].len;
 function simulate(){
   const D=new Float64Array(N),P=new Float64Array(N), det=1-M.pd*M.dp;
   for(let i=0;i<N;i++){ if(det>0.05){D[i]=(M.sd_+M.pd*M.sp_)*S0[i]/det;P[i]=(M.sp_+M.dp*M.sd_)*S0[i]/det;} }
-  const sqdt=Math.sqrt(DT), sD=M.sigD*M.noise*Math.sqrt(M.lam), sP=M.sigP*M.noise*Math.sqrt(M.lam);
+  // noise scaled by sqrt(lam) keeps the spread fixed when recovery speed changes; sqrt(1 - lam*DT/2) removes
+  // the small variance inflation of the Euler–Maruyama step, so stationary variances match the calibration
+  const sqdt=Math.sqrt(DT), eu=Math.sqrt(Math.max(0.5,1-M.lam*DT/2)), sD=M.sigD*M.noise*Math.sqrt(M.lam)*eu, sP=M.sigP*M.noise*Math.sqrt(M.lam)*eu;
   let si=0;
   const step=t=>{
     const fOn=onAt("fin",t), mh=onAt("mh",t)?LEV.mh.amt:0, soc=onAt("soc",t)?LEV.soc.amt:0, f=LEV.fin.amt;
@@ -321,7 +326,7 @@ function simulate(){
   for(let fr=1;fr<NF;fr++){for(let k=0;k<per;k++) step((fr-1)*REC+k*DT); record(fr);}
   const sm=(arr,w=8)=>{const r=new Float64Array(arr.length);for(let i=0;i<arr.length;i++){let s=0,n=0;for(let j=Math.max(0,i-w);j<=Math.min(arr.length-1,i+w);j++){s+=arr[j];n++;}r[i]=s/n;}return r;};
   const avg=(a,n)=>{let s=0;for(let i=0;i<n;i++)s+=a[i];return s/n;};
-  out.hiS=sm(out.hi); const p0=avg(out.meanP,40); out.pS=sm(out.meanP.map(v=>v-p0)); out.d0=avg(out.meanD,40); out.phqS=sm(out.phq); out.q0=avg(out.phq,40);
+  out.hiS=sm(out.hi); const p0=avg(out.meanP,40); out.pS=sm(out.meanP.map(v=>(v-p0)/SD_P)); out.d0=avg(out.meanD,40); out.phqS=sm(out.phq); out.q0=avg(out.phq,40);
   out.runaway=det<=0.05;
   return out;
 }
@@ -338,7 +343,7 @@ const NL={
   pause:"Pauze", play:"Afspelen", replay:"Opnieuw afspelen", restart:"↺ Vanaf het begin", spS:"Langzaam", spN:"Normaal", spF:"Snel", pinB:"Vastzetten ter vergelijking", unpinB:"Vergelijking wissen",
   tlT:"Wat er in de tijd gebeurt", tlH:"Past zich direct aan als je iets verandert. Pauzeer wanneer je wilt, of sleep over de grafiek om door de tijd te bewegen.",
   lgD:"Bewoners met PHQ-9 ≥ 10 (%)", lgP:"Sociale bestaansonzekerheid (verandering, SD)", lgPin:"Vastgezet scenario",
-  tk1:"Bewoners met PHQ-9 ≥ 10", tu1:"matige klachten of erger", tk2:"Gemiddelde PHQ-9-score", tk3:"Sociale bestaansonzekerheid", tu3:"verandering, standaarddeviaties", tk4:"Financiële stress", tu4:"van het gewone niveau",
+  tk1:"Bewoners met PHQ-9 ≥ 10", tu1:"matige klachten of erger", tk2:"Gemiddelde PHQ-9-score", tk3:"Sociale bestaansonzekerheid", tu3:"verandering, standaarddeviaties", tk4:"Financiële stress", tu4:"van het gewone niveau (boven het HELIUS-minimum)",
   hoodT:"De buurt", hoodH:"Eén stip per gesimuleerde bewoner, op het tijdstip van de afspeelkop. Ga erover om kennis te maken.",
   mapT:"Wat drijft wat", mapH:"Dikkere, snellere pijlen = sterkere invloed. Klik op een pijl om hem te veranderen.",
   lpT:"Aangrijpingspunten uit het onderzoek",
