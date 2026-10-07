@@ -44,6 +44,8 @@ h2{font-family:var(--font-display);font-weight:700;font-size:19px;margin:0;text-
 h3{font-family:var(--font-display);font-weight:500;font-size:16px;margin:0}
 p{margin:0}
 .lede{color:var(--muted)}
+.headtools{display:flex;align-items:center;gap:14px;flex-wrap:wrap}
+.guide-link{font-size:14px;font-weight:600;color:var(--pre);text-decoration:underline;text-underline-offset:3px}
 .seg{display:inline-flex;border:1px solid var(--line);border-radius:999px;overflow:hidden;background:var(--surface)}
 .seg button{border:0;background:transparent;color:var(--muted);font:500 13px var(--font-data);padding:6px 12px;cursor:pointer}
 .seg button[aria-pressed="true"]{background:var(--fg);color:var(--bg)}
@@ -141,9 +143,12 @@ button:focus-visible,input:focus-visible,a:focus-visible{outline:2px solid var(-
       <h1 data-i="title">Precarity–Depression Explorer</h1>
       <p class="lede" data-i="lede">A simulated neighbourhood of 300 residents, starting from data on more than 21,000 Amsterdam adults (HELIUS). Plan support, tweak how the system works, and the graph redraws instantly.</p>
     </div>
-    <div class="seg" role="group" aria-label="Language">
-      <button id="lang-en" aria-pressed="true">EN</button>
-      <button id="lang-nl" aria-pressed="false">NL</button>
+    <div class="headtools">
+      <a class="guide-link" href="https://kyuripark.net/misc/tools/precarity-explorer/guide/" target="_blank" rel="noopener" data-i="guide">How to use this tool</a>
+      <div class="seg" role="group" aria-label="Language">
+        <button id="lang-en" aria-pressed="true">EN</button>
+        <button id="lang-nl" aria-pressed="false">NL</button>
+      </div>
     </div>
   </header>
 
@@ -249,7 +254,8 @@ dP = λ(α_SP·S + α_DP·D − P − social support) dt + σ_P dW</div>
         <li data-i="k3">Mental health support and social support (marked "extra") were not part of the published simulation.</li>
         <li data-i="k4">Use the numbers for direction and relative size, not as forecasts.</li>
       </ul>
-      <p style="margin-top:10px"><span data-i="src">Sources:</span> <a href="https://www.sciencedirect.com/science/article/pii/S2666560326000526" target="_blank" rel="noopener">Park et al. (2026), SSM – Mental Health</a> · <a href="https://link.springer.com/article/10.3758/s13428-026-03030-z" target="_blank" rel="noopener">causalnet tutorial (2026), Behavior Research Methods</a> · <a href="https://cran.r-project.org/package=causalnet" target="_blank" rel="noopener">causalnet on CRAN</a></p>
+      <p style="margin-top:10px"><a href="https://kyuripark.net/misc/tools/precarity-explorer/guide/" target="_blank" rel="noopener" data-i="guide2">Full guide (English and Dutch)</a></p>
+      <p style="margin-top:6px"><span data-i="src">Sources:</span> <a href="https://www.sciencedirect.com/science/article/pii/S2666560326000526" target="_blank" rel="noopener">Park et al. (2026), SSM – Mental Health</a> · <a href="https://link.springer.com/article/10.3758/s13428-026-03030-z" target="_blank" rel="noopener">causalnet tutorial (2026), Behavior Research Methods</a> · <a href="https://cran.r-project.org/package=causalnet" target="_blank" rel="noopener">causalnet on CRAN</a></p>
     </div>
   </section>
 </div>
@@ -355,7 +361,7 @@ const NL={
   m2:"De HELIUS-instellingen bootsen de varianties en covarianties in de data na, inclusief ongeveer 14% mensen met PHQ-9 ≥ 10. Het model rekent met gestandaardiseerde scores; voor PHQ-9-punten wordt de score van elke bewoner gekoppeld aan hetzelfde percentiel van de PHQ-9-verdeling in HELIUS. Alles wat je bij 'Verander het systeem' aanpast gaat verder dan de data en is bedoeld om wat-als-vragen te verkennen. Tijd is in modeleenheden: 1 eenheid is ongeveer de tijd die het systeem nodig heeft om zich aan te passen.",
   kT:"Houd rekening met", k1:"De bewoners zijn gesimuleerd, geen echte mensen.", k2:"HELIUS is cross-sectioneel. Richtingen van invloed zijn hypothesen die bij de data passen, geen bewezen causale effecten.",
   k3:"Psychische steun en sociale steun (gemarkeerd 'extra') zaten niet in de gepubliceerde simulatie.", k4:"Gebruik de getallen voor richting en relatieve grootte, niet als voorspelling.",
-  src:"Bronnen:"
+  src:"Bronnen:", guide:"Uitleg bij dit hulpmiddel", guide2:"Volledige uitleg (Engels en Nederlands)"
 };
 const EN={}; document.querySelectorAll("[data-i]").forEach(el=>EN[el.dataset.i]=el.innerHTML); EN.play="Play"; EN.pause="Pause"; EN.replay="Replay";
 const T=(en,nl)=>lang==="nl"?nl:en;
