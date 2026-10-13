@@ -9578,6 +9578,11 @@ globe_points:
 # --- Off the clock ---
 # Reverse-chronological list of dated blurbs shown on the "Off the clock" tab.
 now_entries:
+  - date: Oct 2026
+    text: >
+      Started learning guitar. Lesson one: my fingers do not listen
+      to me. Still, I got the G and C chords down. The journey continues :)
+    img: /assets/img/now/guitar-1.jpg
   - date: August 2026
     text: >
       Been on a bit of a movie kick lately. The Odyssey was really good, and I finally
@@ -9655,6 +9660,9 @@ now_entries:
       <div class="misc-now-entry">
         <div class="misc-now-date">{{ entry.date }}</div>
         <p class="misc-now-text">{{ entry.text }}</p>
+        {%- if entry.img %}
+        <img src="{{ entry.img | relative_url }}" class="misc-now-img rounded z-depth-1" alt="{{ entry.date }}" loading="lazy" decoding="async" />
+        {%- endif %}
       </div>
       {%- endfor %}
     </div>
@@ -9892,6 +9900,7 @@ now_entries:
     margin-bottom: 0.4rem;
   }
   .misc-now-text { font-size: 1rem; line-height: 1.7; margin: 0; color: var(--global-text-color); }
+  .misc-now-img { display: block; width: 100%; max-width: 200px; height: auto; margin-top: 0.9rem; }
 </style>
 
 <script src="https://unpkg.com/globe.gl"></script>
