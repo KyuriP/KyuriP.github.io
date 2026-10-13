@@ -4858,6 +4858,58 @@ travel_photos:
     alt: Las Vegas, Nevada photo 21
   - img: assets/img/travel/lasvegas/lasvegas-22.jpg
     alt: Las Vegas, Nevada photo 22
+- place: Leuven, Belgium
+  tag: leuven
+  lat: 50.8798
+  lng: 4.7005
+  img: assets/img/travel/leuven/leuven-23.jpg
+  gallery:
+  - img: assets/img/travel/leuven/leuven-01.jpg
+    alt: Leuven, Belgium photo 1
+  - img: assets/img/travel/leuven/leuven-02.jpg
+    alt: Leuven, Belgium photo 2
+  - img: assets/img/travel/leuven/leuven-03.jpg
+    alt: Leuven, Belgium photo 3
+  - img: assets/img/travel/leuven/leuven-04.jpg
+    alt: Leuven, Belgium photo 4
+  - img: assets/img/travel/leuven/leuven-05.jpg
+    alt: Leuven, Belgium photo 5
+  - img: assets/img/travel/leuven/leuven-06.jpg
+    alt: Leuven, Belgium photo 6
+  - img: assets/img/travel/leuven/leuven-07.jpg
+    alt: Leuven, Belgium photo 7
+  - img: assets/img/travel/leuven/leuven-08.jpg
+    alt: Leuven, Belgium photo 8
+  - img: assets/img/travel/leuven/leuven-09.jpg
+    alt: Leuven, Belgium photo 9
+  - img: assets/img/travel/leuven/leuven-10.jpg
+    alt: Leuven, Belgium photo 10
+  - img: assets/img/travel/leuven/leuven-11.jpg
+    alt: Leuven, Belgium photo 11
+  - img: assets/img/travel/leuven/leuven-12.jpg
+    alt: Leuven, Belgium photo 12
+  - img: assets/img/travel/leuven/leuven-13.jpg
+    alt: Leuven, Belgium photo 13
+  - img: assets/img/travel/leuven/leuven-14.jpg
+    alt: Leuven, Belgium photo 14
+  - img: assets/img/travel/leuven/leuven-15.jpg
+    alt: Leuven, Belgium photo 15
+  - img: assets/img/travel/leuven/leuven-16.jpg
+    alt: Leuven, Belgium photo 16
+  - img: assets/img/travel/leuven/leuven-17.jpg
+    alt: Leuven, Belgium photo 17
+  - img: assets/img/travel/leuven/leuven-18.jpg
+    alt: Leuven, Belgium photo 18
+  - img: assets/img/travel/leuven/leuven-19.jpg
+    alt: Leuven, Belgium photo 19
+  - img: assets/img/travel/leuven/leuven-20.jpg
+    alt: Leuven, Belgium photo 20
+  - img: assets/img/travel/leuven/leuven-21.jpg
+    alt: Leuven, Belgium photo 21
+  - img: assets/img/travel/leuven/leuven-22.jpg
+    alt: Leuven, Belgium photo 22
+  - img: assets/img/travel/leuven/leuven-23.jpg
+    alt: Leuven, Belgium photo 23
 - place: Limerick, Ireland
   tag: limerick
   lat: 52.6638
@@ -9274,6 +9326,10 @@ globe_points:
   tag: lasvegas
   lat: 36.1699
   lng: -115.1398
+- place: Leuven, Belgium
+  tag: leuven
+  lat: 50.8798
+  lng: 4.7005
 - place: Limerick, Ireland
   tag: limerick
   lat: 52.6638
@@ -9636,7 +9692,7 @@ now_entries:
         <div class="misc-lightbox-grid">
           {%- for gphoto in photo.gallery %}
           <div class="misc-lightbox-photo">
-            <img src="{{ gphoto.img | relative_url }}" class="img-fluid rounded z-depth-1" alt="{{ gphoto.alt }}" loading="lazy" decoding="async" />
+            <img src="{{ gphoto.img | replace_first: 'img/travel/', 'img/travel_thumbs/' | relative_url }}" class="img-fluid rounded z-depth-1" alt="{{ gphoto.alt }}" loading="lazy" decoding="async" width="420" height="420" />
           </div>
           {%- endfor %}
         </div>
