@@ -9636,8 +9636,10 @@ globe_points:
 now_entries:
   - date: Oct 2026
     text: >
-      Started learning guitar. Lesson one: my fingers do not listen
-      to me. Still, I got the G and C chords down. The journey continues :)
+      Finally picked up the guitar today, and honestly, my fingers just aren't listening.
+      Pretty sure my hands just don’t have the range for this. But I stuck with it long
+      enough today to lock down the G and C chords. It’s going to be a process. Let's see
+      how far I can take this. : P
     img: /assets/img/now/guitar-1.jpg
   - date: August 2026
     text: >
