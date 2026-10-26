@@ -45,7 +45,7 @@ Switch between English and Dutch with the EN/NL button at the top right.
 | **How strong is the loop?** | Depression and social precarity can keep each other going. The data cannot tell us exactly how this loop works, so the three *HELIUS* settings show three possibilities that all fit the data equally well. *Weak*: depression mainly drives social precarity. *Strong*: social precarity mainly drives depression. |
 | **Arrow sliders, recovery speed, ups and downs** | Let you explore *what if* the system worked differently. Once you change these, the model no longer matches the HELIUS data exactly. |
 
-Time in the tool is in *model units*, not weeks or months. One unit is roughly the time the system needs to adjust to a change.
+Time in the tool is relative, not weeks or months: it is scaled to how long the system needs to adjust to a change.
 
 ### What the research found
 
@@ -106,7 +106,7 @@ Wissel tussen Engels en Nederlands met de knop EN/NL rechtsboven.
 | **Hoe sterk is de kringloop?** | Depressie en sociale bestaansonzekerheid kunnen elkaar in stand houden. De data laten niet precies zien hoe die kringloop werkt; de drie *HELIUS*-instellingen tonen daarom drie mogelijkheden die allemaal even goed bij de data passen. *Zwak*: vooral depressie drijft bestaansonzekerheid. *Sterk*: vooral bestaansonzekerheid drijft depressie. |
 | **Pijlschuiven, herstelsnelheid, schommelingen** | Hiermee verken je *wat als* het systeem anders werkt. Zodra je deze verandert, past het model niet meer precies bij de HELIUS-data. |
 
-Tijd is in het hulpmiddel uitgedrukt in *modeleenheden*, niet in weken of maanden. Eén eenheid is ongeveer de tijd die het systeem nodig heeft om zich aan te passen.
+Tijd in het hulpmiddel is relatief, geen weken of maanden: hij is geschaald naar hoe lang het systeem nodig heeft om zich aan te passen.
 
 ### Wat het onderzoek liet zien
 

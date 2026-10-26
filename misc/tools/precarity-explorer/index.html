@@ -244,7 +244,7 @@ button:focus-visible,input:focus-visible,a:focus-visible{outline:2px solid var(-
       <p data-i="m1">Each resident has a level of financial stress (S), drawn from its distribution in HELIUS. Their depressive symptoms (D) and social precarity (P) keep moving toward a target set by S and by each other, at a given recovery speed λ, plus random ups and downs:</p>
       <div class="formula">dD = λ(α_SD·S + α_PD·P − D − mental health support) dt + σ_D dW
 dP = λ(α_SP·S + α_DP·D − P − social support) dt + σ_P dW</div>
-      <p data-i="m2">The HELIUS presets reproduce the variances and covariances in the data, including about 14% of people with PHQ-9 ≥ 10. The model works on standardized scores; to show PHQ-9 points, each resident's score is matched to the same percentile of the HELIUS PHQ-9 distribution. Everything you change in "Tweak the system" goes beyond the data and is meant for thinking through what-ifs. Time is in model units: 1 unit is roughly how long the system takes to adjust.</p>
+      <p data-i="m2">The HELIUS presets reproduce the variances and covariances in the data, including about 14% of people with PHQ-9 ≥ 10. The model works on standardized scores; to show PHQ-9 points, each resident's score is matched to the same percentile of the HELIUS PHQ-9 distribution. Everything you change in "Tweak the system" goes beyond the data and is meant for thinking through what-ifs. Time on the graph is relative, not calendar time: it is scaled to how long the system takes to adjust.</p>
     </div>
     <div>
       <h3 data-i="kT">Keep in mind</h3>
@@ -358,7 +358,7 @@ const NL={
   lp3n:"Duur", lp3t:"Korte steun verdwijnt snel", lp3:"Bij een sterke kringloop komt verbetering langzaam maar houdt ze langer aan. Bij een zwakke komt ze snel en verdwijnt ze snel na het stoppen.",
   lp4n:"Combinatie", lp4t:"Combineer structurele en psychische hulp", lp4:"Omdat de domeinen verbonden zijn, werkt steun in het ene door in het andere. Financiële plus psychische steun werkt goed, hoe sterk de kringloop ook is.",
   mT:"Hoe het model werkt", m1:"Elke bewoner heeft een niveau van financiële stress (S). Depressieve klachten (D) en sociale bestaansonzekerheid (P) bewegen steeds naar een doelwaarde die door S en door elkaar wordt bepaald, met herstelsnelheid λ, plus willekeurige schommelingen:",
-  m2:"De HELIUS-instellingen bootsen de varianties en covarianties in de data na, inclusief ongeveer 14% mensen met PHQ-9 ≥ 10. Het model rekent met gestandaardiseerde scores; voor PHQ-9-punten wordt de score van elke bewoner gekoppeld aan hetzelfde percentiel van de PHQ-9-verdeling in HELIUS. Alles wat je bij 'Verander het systeem' aanpast gaat verder dan de data en is bedoeld om wat-als-vragen te verkennen. Tijd is in modeleenheden: 1 eenheid is ongeveer de tijd die het systeem nodig heeft om zich aan te passen.",
+  m2:"De HELIUS-instellingen bootsen de varianties en covarianties in de data na, inclusief ongeveer 14% mensen met PHQ-9 ≥ 10. Het model rekent met gestandaardiseerde scores; voor PHQ-9-punten wordt de score van elke bewoner gekoppeld aan hetzelfde percentiel van de PHQ-9-verdeling in HELIUS. Alles wat je bij 'Verander het systeem' aanpast gaat verder dan de data en is bedoeld om wat-als-vragen te verkennen. De tijd in de grafiek is relatief, geen kalendertijd: hij is geschaald naar hoe lang het systeem nodig heeft om zich aan te passen.",
   kT:"Houd rekening met", k1:"De bewoners zijn gesimuleerd, geen echte mensen.", k2:"HELIUS is cross-sectioneel. Richtingen van invloed zijn hypothesen die bij de data passen, geen bewezen causale effecten.",
   k3:"Psychische steun en sociale steun (gemarkeerd 'extra') zaten niet in de gepubliceerde simulatie.", k4:"Gebruik de getallen voor richting en relatieve grootte, niet als voorspelling.",
   src:"Bronnen:", guide:"Uitleg bij dit hulpmiddel", guide2:"Volledige uitleg (Engels en Nederlands)"
@@ -408,7 +408,7 @@ function syncControls(){
     $("sw-"+k).setAttribute("aria-checked",l.on); $("lv-"+k).classList.toggle("on",l.on);
     $(k+"-amt").value=l.amt; $(k+"-start").value=l.start; $(k+"-len").value=l.len;
     $(k+"-amt-v").textContent=k==="fin"?Math.round(l.amt*100)+"%":dec(l.amt,2);
-    $(k+"-start-v").textContent="t = "+l.start; $(k+"-len-v").textContent=l.len+T(" units"," eenh.");}
+    $(k+"-start-v").textContent="t = "+l.start; $(k+"-len-v").textContent=String(l.len);}
   for(const [k] of TWDEF){$("m-"+k).value=M[k]; $("m-"+k+"-v").textContent=dec(M[k],2);}
 }
 function updateWarn(){const w=$("warn");
@@ -424,12 +424,12 @@ const TOUR=[
      "Deze 300 bewoners zijn gesimuleerd op basis van HELIUS; de kleur toont depressieve klachten (PHQ-9). Van tijdstip 5 tot 20 loopt een financieel steunprogramma. In de grafiek daalt het aandeel bewoners met matige of ernstigere klachten zolang het loopt, en daarna stijgt het weer. Beweeg een schuif links: de grafiek past zich direct aan."],
   go(){applyPreset(0);Object.assign(LEV.fin,{on:true,amt:0.6,start:5,len:15});LEV.mh.on=false;LEV.soc.on=false;PIN=null;}},
  {t:["Make it short","Maak het kort"],
-  x:["The programme now lasts only 3 units. The dashed line is the 15-unit version, pinned for comparison. Short support never reaches its full effect: the system needs time to adjust.",
-     "Het programma duurt nu maar 3 eenheden. De stippellijn is de versie van 15 eenheden, vastgezet ter vergelijking. Korte steun bereikt nooit het volle effect: het systeem heeft tijd nodig."],
+  x:["The programme now runs from time 5 to 8 instead of 5 to 20. The dashed line is the longer version, pinned for comparison. Short support never reaches its full effect: the system needs time to adjust.",
+     "Het programma loopt nu van tijdstip 5 tot 8 in plaats van 5 tot 20. De stippellijn is de langere versie, vastgezet ter vergelijking. Korte steun bereikt nooit het volle effect: het systeem heeft tijd nodig."],
   go(){TOUR[0].go();SIM=simulate();pinNow();LEV.fin.len=3;}},
  {t:["What if the loop is strong?","Wat als de kringloop sterk is?"],
-  x:["Back to 15 units, but now social precarity strongly drives depression (this still fits HELIUS). Compare with the dashed weak-loop line: improvement comes more slowly, and also fades more slowly after the programme ends.",
-     "Weer 15 eenheden, maar nu drijft sociale bestaansonzekerheid depressie sterk aan (dit past nog steeds bij HELIUS). Vergelijk met de stippellijn van de zwakke kringloop: verbetering komt langzamer en verdwijnt ook langzamer na het einde."],
+  x:["Back to time 5 to 20, but now social precarity strongly drives depression (this still fits HELIUS). Compare with the dashed weak-loop line: improvement comes more slowly, and also fades more slowly after the programme ends.",
+     "Weer van tijdstip 5 tot 20, maar nu drijft sociale bestaansonzekerheid depressie sterk aan (dit past nog steeds bij HELIUS). Vergelijk met de stippellijn van de zwakke kringloop: verbetering komt langzamer en verdwijnt ook langzamer na het einde."],
   go(){TOUR[0].go();SIM=simulate();pinNow();applyPreset(2);}},
  {t:["Add mental health support","Voeg psychische steun toe"],
   x:["Mental health support now runs alongside the financial programme. The drop is much bigger than with financial support alone (dashed).",
@@ -516,6 +516,7 @@ function drawTl(){
   const X=xOf(ph); c.strokeStyle=C.fg; c.globalAlpha=0.35; c.lineWidth=1; c.beginPath(); c.moveTo(X,plotTop-4); c.lineTo(X,g.h-bottom); c.stroke(); c.globalAlpha=1;
   c.fillStyle=C.muted; c.textAlign="center"; c.textBaseline="alphabetic";
   for(let t=0;t<=TMAX;t+=5) c.fillText(t,xOf(t),g.h-3);
+  c.textAlign="right"; c.fillText(T("time","tijd"),g.ml-12,g.h-3);
 }
 let scrubbing=false;
 function scrub(e){const r=tl.getBoundingClientRect();ph=Math.max(0,Math.min(TMAX,(e.clientX-r.left-TG.ml)/(TG.w-TG.ml-TG.mr)*TMAX));}
