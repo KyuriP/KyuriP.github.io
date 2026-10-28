@@ -9,8 +9,6 @@
       value: <a href="mailto:kyurigracepark@gmail.com">kyurigracepark@gmail.com</a>
     - name: ORCID
       value: <a href="https://orcid.org/0000-0001-8502-2134">0000-0001-8502-2134</a>
-    #- name: Languages
-    # value: Korean (native), English (fluent), Dutch (B1)
 
 - title: Education
   type: time_table
@@ -26,13 +24,13 @@
       institution: Stanford Doerr School of Sustainability, Stanford University
       year: Spring 2026
       description:
-        - "Hosted by Sara Constantino; research on climate-attitude networks, belief systems, social norms, and exploratory causal discovery."
+        - "Hosted by Sara Constantino; research on climate-attitude networks, belief systems, and exploratory causal discovery."
 
     - title: Complex Systems Summer School
       institution: Santa Fe Institute
       year: Summer 2026
       description:
-        - Selected participant; interdisciplinary training and collaborative modeling projects in complex systems.
+        - Selected participant; interdisciplinary training, collaborative modeling projects, and community outreach.
 
     - title: MSc Methodology and Statistics
       institution: Utrecht University
@@ -55,14 +53,32 @@
         - Summa cum laude, GPA 3.94/4.00; specialization in Finance Management and Accounting.
         - Exchange semester at Mount Royal University, Calgary, Canada.
 
-- title: Selected Publications
+- title: Peer-Reviewed Publications
   type: list
   contents:
-    - "<b>Park, K.</b>, Waldorp, L. J., &amp; Vasconcelos, V. V. (2026). A mechanistic model of symptom dynamics: Implications for statistical network analyses. <i>Multivariate Behavioral Research</i>. Advance online publication. doi:10.1080/00273171.2026.2710730."
-    - "<b>Park, K.</b>, Li, X., Waldorp, L. J., Lees, M., &amp; Vasconcelos, V. V. (2026). The role of feedback loops in dynamical symptom networks. <i>Scientific Reports, 16</i>, 11273."
-    - "<b>Park, K.</b>, Vasconcelos, V. V., &amp; Lees, M. (2026). A tutorial on causal network simulation and exploration using the causalnet R package. <i>Behavior Research Methods, 58</i>, 204."
-    - "<b>Park, K.</b>, Elsenburg, L. K., Nicolaou, M., Stronks, K., &amp; Vasconcelos, V. V. (2026). Connecting precariousness and depression: From causal discovery to intervention simulation. <i>SSM - Mental Health, 9</i>, 100637."
-    - "Full list with links, abstracts, and the preprint: see the <a href='/publications/'>Publications</a> page."
+    - "<b>Park, K.</b>, Waldorp, L. J., &amp; Vasconcelos, V. V. (2026). A mechanistic model of symptom dynamics: Implications for statistical network analyses. <i>Multivariate Behavioral Research</i>. Advance online publication. doi:<a href='https://doi.org/10.1080/00273171.2026.2710730'>10.1080/00273171.2026.2710730</a>."
+    - "<b>Park, K.</b>, Vasconcelos, V. V., &amp; Lees, M. (2026). A tutorial on causal network simulation and exploration using the causalnet R package. <i>Behavior Research Methods, 58</i>, 204. doi:<a href='https://doi.org/10.3758/s13428-026-03030-z'>10.3758/s13428-026-03030-z</a>."
+    - "<b>Park, K.</b>, Li, X., Waldorp, L. J., Lees, M., &amp; Vasconcelos, V. V. (2026). The role of feedback loops in dynamical symptom networks. <i>Scientific Reports, 16</i>, 11273. doi:<a href='https://doi.org/10.1038/s41598-026-38747-6'>10.1038/s41598-026-38747-6</a>."
+    - "<b>Park, K.</b>, Elsenburg, L. K., Nicolaou, M., Stronks, K., &amp; Vasconcelos, V. V. (2026). Connecting precariousness and depression: From causal discovery to intervention simulation. <i>SSM - Mental Health, 9</i>, 100637. doi:<a href='https://doi.org/10.1016/j.ssmmh.2026.100637'>10.1016/j.ssmmh.2026.100637</a>."
+    - "Elsenburg, L. K., Stronks, K., Galenkamp, H., Lakerveld, J., Lok, A., <b>Park, K.</b>, Vasconcelos, V. V., &amp; Nicolaou, M. (2026). Precariousness and depressed mood: A network analysis in the multi-ethnic HELIUS study. <i>Social Psychiatry and Psychiatric Epidemiology</i>. doi:<a href='https://doi.org/10.1007/s00127-026-03072-w'>10.1007/s00127-026-03072-w</a>."
+    - "<b>Park, K.</b>, Waldorp, L. J., &amp; Ryan, O. (2024). Discovering cyclic causal models in psychological research. <i>advances.in/psychology, 2</i>(1), e72425. doi:<a href='https://doi.org/10.56296/aip00012'>10.56296/aip00012</a>."
+    - "Full list with links and abstracts: see the <a href='/publications/'>Publications</a> page."
+
+- title: Preprints
+  type: list
+  contents:
+    - "Lee, S. Y., Hwang, H., Kim, T., Kim, Y., <b>Park, K.</b>, Yoo, J., Borsboom, D., &amp; Shin, K. (2025). Emergence of psychopathological computations in large language models. <i>arXiv</i>. doi:<a href='https://doi.org/10.48550/arXiv.2504.08016'>10.48550/arXiv.2504.08016</a>. Under review at <i>Nature Communications</i>."
+    - "<b>Park, K.</b>, Borsboom, D., Lees, M., Elsenburg, L., Lunansky, G., Stronks, K., … &amp; Vasconcelos, V. (2026). Rethinking group differences in psychopathology networks: A slow–fast perspective on context and symptom activation. <a href='https://osf.io/preprints/psyarxiv/u8wf5_v1'>osf.io/preprints/psyarxiv/u8wf5_v1</a>. Under review at <i>Nature Mental Health</i>."
+    - "<b>Park, K.</b>, Borsboom, D., Lees, M., Waldorp, L. J., Bollen, J., &amp; Vasconcelos, V. V. (2026). Slow context, fast symptoms: Multiscale temporal dynamics and context-induced coupling in psychological systems. <i>arXiv</i>. doi:<a href='https://doi.org/10.48550/arXiv.2609.22935'>10.48550/arXiv.2609.22935</a>. Under review at <i>PNAS Nexus</i>."
+
+- title: Manuscripts in Preparation
+  type: list
+  contents:
+    - "<b>Park, K.</b>, &amp; Munakata, Y. (2026). Individual differences in executive-function engagement can emerge without differences in neurodevelopmental capacity: A developing expected value of control model. Abstract submitted, special issue \"Culture, context, and brain development,\" <i>Developmental Science</i>."
+    - "<b>Park, K.</b>, Landgren, K., Constantino, S. M., &amp; Vasconcelos, V. V. (2026). What moves climate action? Structural uncertainty and intervention in climate attitude networks."
+    - "<b>Park, K.</b>, Sugiyama, M., Mlakar, Ž., Bolderdijk, J. W., Landgren, K., Constantino, S. M., &amp; Vasconcelos, V. V. (2026). Comparative climate-attitude networks and exploratory causal discovery across Japan, Europe, and the United States."
+    - "Institutionalized category convergence in heterogeneous rate-distortion agent-based models."
+    - "Post-disaster population displacement, migration, and urban adaptation."
 
 - title: Grants, Fellowships &amp; Awards
   type: time_table
@@ -94,6 +110,9 @@
 - title: Selected Presentations
   type: time_table
   contents:
+    - year: Oct 2026
+      items:
+        - "Data-driven models of climate attitudes and behaviour across cultures. Aspen Global Change Institute workshop at Helmholtz Centre for Environmental Research, Leipzig, Germany."
     - year: Jul 2026
       items:
         - "A slow-fast perspective on between-group differences in symptom networks. International Meeting of the Psychometric Society, Seoul, South Korea."
@@ -137,7 +156,7 @@
       year: 2021 - 2023
       description:
         - "Enhanced the R package mHMMbayes (Multilevel Hidden Markov Models Using Bayesian Estimation) and developed tutorial materials."
-        - Contributed to the mice R package and developed a synthetic-data approach for evaluating imputation-model validity with Gerko Vink.
+        - Contributed to work on the mice R package and developed a synthetic-data approach for evaluating imputation-model validity with Gerko Vink.
         - "Developed procedures for producing reproducible synthetic-data extracts from Statistics Netherlands data and co-developed the synthpop.extract R package with Erik-Jan van Kesteren."
         - Translated a Bayesian piecewise-linear regression implementation for dynamic network construction from MATLAB to R.
         - Applied and compared cyclic causal-discovery algorithms (CCD, FCI, CCI) for psychological data.
@@ -190,17 +209,17 @@
       institution: University of Amsterdam &middot; Han van der Maas
       year: 2021
 
-    - title: Teaching Assistant, Social Economics
+    - title: "Teaching Assistant, \"Social Economics: An Economic Perspective on Human Behavior\""
       institution: University of Pennsylvania &middot; Femida Handy
       year: Summer 2016
-      
 
-- title: Service, Professional &amp; Volunteer Experience
+
+- title: Service &amp; Professional Experience
   type: time_table
   contents:
     - title: Research Coordinator
       institution: "<a href='https://polder.center/'>POLDER</a>, University of Amsterdam"
-      year: 2026 - present
+      year: Sep 2026 - present
       description:
         - Organize interdisciplinary events and coordinate the POLDER research community across complexity science, computational modeling, and policy.
 
@@ -220,40 +239,29 @@
       institution: Emirates Airline, Dubai, UAE
       year: 2017 - 2018
 
-    - title: Volunteer
-      institution: Stray Dogs Center (SDC), Dubai, UAE
-      year: 2017 - 2018
-      description:
-        - Volunteered at the shelter and supported fundraising for veterinary expenses.
-
     - title: Accounting Assistant
       institution: Amerril Energy LLC, Houston, TX, USA
       year: 2016 - 2017
-
-    - title: Sponsor &amp; Translator
-      institution: World Vision
-      year: 2011 - present
-      description:
-        - Sponsor since 2011; previously translated sponsor correspondence between Korean and English.
 
 - title: Research Interests
   type: nested_list
   contents:
     - title: Complex Systems &amp; Dynamics
       items:
-        - Dynamical systems modeling
-        - Multiscale (slow-fast) dynamics
-        - Agent-based modeling
+        - Dynamical systems
+        - Multiscale modeling
+        - Computational modeling
     - title: Causality &amp; Networks
       items:
         - Causal discovery
-        - Psychometric and symptom network models
+        - Network science
     - title: Applications
       items:
-        - Mental health
-        - Climate beliefs, behavior, and adaptation
+        - Belief and attitude dynamics
+        - Mental health dynamics
+        - Climate beliefs and behavior
 
-- title: Methods &amp; Programming
+- title: Methods, Programming &amp; Languages
   type: nested_list
   contents:
     - title: Methods
@@ -265,3 +273,6 @@
       items:
         - "R, Python, MATLAB"
         - "JavaScript (learning), C++ (learning)"
+    - title: Languages
+      items:
+        - Korean (native), English (fluent), Dutch (B1)
