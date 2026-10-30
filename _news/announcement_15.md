@@ -6,5 +6,5 @@ inline: true
 published: true
 ---
 
-Awarded a Project Grant from the Wilhelm Brandt Fonds and Wilmerink-Van Beeck Vollenhoven Fonds to support my research visit to Princeton University.
+Thrilled to receive a Project Grant from the Wilhelm Brandt Fonds and Wilmerink-Van Beeck Vollenhoven Fonds, which will support my upcoming research visit to Princeton University. Very grateful for the support!
 <!-- :us: -->
