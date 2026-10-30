@@ -83,6 +83,9 @@
 - title: Grants, Fellowships &amp; Awards
   type: time_table
   contents:
+    - year: 2027
+      items:
+        - Wilhelm Brandt Fonds and Wilmerink-Van Beeck Vollenhoven Fonds - Project Grant
     - year: 2026 - 2027
       items:
         - Van der Gaag Grant, Royal Netherlands Academy of Arts and Sciences (KNAW) - PI
