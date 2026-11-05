@@ -1,7 +1,7 @@
 ---
 layout: post
 title:
-date: 2026-11-27 15:59:00-0400
+date: 2026-11-05 16:00:00-0400
 inline: true
 published: true
 ---
